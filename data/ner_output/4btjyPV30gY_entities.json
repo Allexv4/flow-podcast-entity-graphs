@@ -1,0 +1,7509 @@
+{
+  "total_entities": 442,
+  "total_mentions": 734,
+  "total_sentences": 2270,
+  "total_paragraphs": 4,
+  "total_characters": 151318,
+  "entities": [
+    {
+      "text": "Mano",
+      "label": "PER",
+      "count": 40,
+      "occurrences": [
+        {
+          "sentence_id": 53,
+          "paragraph_id": 0,
+          "char_start": 4493,
+          "char_end": 4497
+        },
+        {
+          "sentence_id": 91,
+          "paragraph_id": 0,
+          "char_start": 8031,
+          "char_end": 8035
+        },
+        {
+          "sentence_id": 139,
+          "paragraph_id": 0,
+          "char_start": 11013,
+          "char_end": 11017
+        },
+        {
+          "sentence_id": 189,
+          "paragraph_id": 0,
+          "char_start": 14425,
+          "char_end": 14429
+        },
+        {
+          "sentence_id": 287,
+          "paragraph_id": 0,
+          "char_start": 22025,
+          "char_end": 22029
+        },
+        {
+          "sentence_id": 293,
+          "paragraph_id": 0,
+          "char_start": 22407,
+          "char_end": 22411
+        },
+        {
+          "sentence_id": 301,
+          "paragraph_id": 0,
+          "char_start": 23016,
+          "char_end": 23020
+        },
+        {
+          "sentence_id": 325,
+          "paragraph_id": 0,
+          "char_start": 25240,
+          "char_end": 25244
+        },
+        {
+          "sentence_id": 326,
+          "paragraph_id": 0,
+          "char_start": 25394,
+          "char_end": 25398
+        },
+        {
+          "sentence_id": 330,
+          "paragraph_id": 0,
+          "char_start": 25625,
+          "char_end": 25629
+        },
+        {
+          "sentence_id": 331,
+          "paragraph_id": 0,
+          "char_start": 25845,
+          "char_end": 25849
+        },
+        {
+          "sentence_id": 368,
+          "paragraph_id": 0,
+          "char_start": 28460,
+          "char_end": 28464
+        },
+        {
+          "sentence_id": 374,
+          "paragraph_id": 0,
+          "char_start": 29453,
+          "char_end": 29457
+        },
+        {
+          "sentence_id": 393,
+          "paragraph_id": 0,
+          "char_start": 31146,
+          "char_end": 31150
+        },
+        {
+          "sentence_id": 427,
+          "paragraph_id": 0,
+          "char_start": 33172,
+          "char_end": 33176
+        },
+        {
+          "sentence_id": 631,
+          "paragraph_id": 0,
+          "char_start": 45709,
+          "char_end": 45713
+        },
+        {
+          "sentence_id": 714,
+          "paragraph_id": 0,
+          "char_start": 51420,
+          "char_end": 51424
+        },
+        {
+          "sentence_id": 867,
+          "paragraph_id": 0,
+          "char_start": 61859,
+          "char_end": 61863
+        },
+        {
+          "sentence_id": 877,
+          "paragraph_id": 0,
+          "char_start": 62635,
+          "char_end": 62639
+        },
+        {
+          "sentence_id": 937,
+          "paragraph_id": 1,
+          "char_start": 67001,
+          "char_end": 67005
+        },
+        {
+          "sentence_id": 938,
+          "paragraph_id": 1,
+          "char_start": 67229,
+          "char_end": 67233
+        },
+        {
+          "sentence_id": 1124,
+          "paragraph_id": 1,
+          "char_start": 77889,
+          "char_end": 77893
+        },
+        {
+          "sentence_id": 1159,
+          "paragraph_id": 1,
+          "char_start": 79765,
+          "char_end": 79769
+        },
+        {
+          "sentence_id": 1171,
+          "paragraph_id": 1,
+          "char_start": 80474,
+          "char_end": 80478
+        },
+        {
+          "sentence_id": 1175,
+          "paragraph_id": 1,
+          "char_start": 81544,
+          "char_end": 81548
+        },
+        {
+          "sentence_id": 1176,
+          "paragraph_id": 1,
+          "char_start": 81668,
+          "char_end": 81672
+        },
+        {
+          "sentence_id": 1178,
+          "paragraph_id": 1,
+          "char_start": 81859,
+          "char_end": 81863
+        },
+        {
+          "sentence_id": 1209,
+          "paragraph_id": 1,
+          "char_start": 83930,
+          "char_end": 83934
+        },
+        {
+          "sentence_id": 1237,
+          "paragraph_id": 1,
+          "char_start": 86113,
+          "char_end": 86117
+        },
+        {
+          "sentence_id": 1285,
+          "paragraph_id": 1,
+          "char_start": 89686,
+          "char_end": 89690
+        },
+        {
+          "sentence_id": 1442,
+          "paragraph_id": 1,
+          "char_start": 99120,
+          "char_end": 99124
+        },
+        {
+          "sentence_id": 1451,
+          "paragraph_id": 1,
+          "char_start": 100435,
+          "char_end": 100439
+        },
+        {
+          "sentence_id": 1463,
+          "paragraph_id": 1,
+          "char_start": 101288,
+          "char_end": 101292
+        },
+        {
+          "sentence_id": 1594,
+          "paragraph_id": 2,
+          "char_start": 109923,
+          "char_end": 109927
+        },
+        {
+          "sentence_id": 1715,
+          "paragraph_id": 2,
+          "char_start": 117653,
+          "char_end": 117657
+        },
+        {
+          "sentence_id": 1741,
+          "paragraph_id": 2,
+          "char_start": 119502,
+          "char_end": 119506
+        },
+        {
+          "sentence_id": 1863,
+          "paragraph_id": 3,
+          "char_start": 125517,
+          "char_end": 125521
+        },
+        {
+          "sentence_id": 1937,
+          "paragraph_id": 3,
+          "char_start": 129297,
+          "char_end": 129301
+        },
+        {
+          "sentence_id": 1937,
+          "paragraph_id": 3,
+          "char_start": 129464,
+          "char_end": 129468
+        },
+        {
+          "sentence_id": 2193,
+          "paragraph_id": 3,
+          "char_start": 146371,
+          "char_end": 146375
+        }
+      ]
+    },
+    {
+      "text": "Aham",
+      "label": "MISC",
+      "count": 31,
+      "occurrences": [
+        {
+          "sentence_id": 43,
+          "paragraph_id": 0,
+          "char_start": 3279,
+          "char_end": 3283
+        },
+        {
+          "sentence_id": 46,
+          "paragraph_id": 0,
+          "char_start": 3766,
+          "char_end": 3770
+        },
+        {
+          "sentence_id": 57,
+          "paragraph_id": 0,
+          "char_start": 4924,
+          "char_end": 4928
+        },
+        {
+          "sentence_id": 88,
+          "paragraph_id": 0,
+          "char_start": 7818,
+          "char_end": 7822
+        },
+        {
+          "sentence_id": 101,
+          "paragraph_id": 0,
+          "char_start": 8660,
+          "char_end": 8664
+        },
+        {
+          "sentence_id": 225,
+          "paragraph_id": 0,
+          "char_start": 17134,
+          "char_end": 17138
+        },
+        {
+          "sentence_id": 385,
+          "paragraph_id": 0,
+          "char_start": 30698,
+          "char_end": 30702
+        },
+        {
+          "sentence_id": 428,
+          "paragraph_id": 0,
+          "char_start": 33234,
+          "char_end": 33238
+        },
+        {
+          "sentence_id": 557,
+          "paragraph_id": 0,
+          "char_start": 40552,
+          "char_end": 40556
+        },
+        {
+          "sentence_id": 580,
+          "paragraph_id": 0,
+          "char_start": 42351,
+          "char_end": 42355
+        },
+        {
+          "sentence_id": 601,
+          "paragraph_id": 0,
+          "char_start": 43851,
+          "char_end": 43855
+        },
+        {
+          "sentence_id": 634,
+          "paragraph_id": 0,
+          "char_start": 45993,
+          "char_end": 45997
+        },
+        {
+          "sentence_id": 687,
+          "paragraph_id": 0,
+          "char_start": 49218,
+          "char_end": 49222
+        },
+        {
+          "sentence_id": 739,
+          "paragraph_id": 0,
+          "char_start": 52879,
+          "char_end": 52883
+        },
+        {
+          "sentence_id": 769,
+          "paragraph_id": 0,
+          "char_start": 55325,
+          "char_end": 55329
+        },
+        {
+          "sentence_id": 838,
+          "paragraph_id": 0,
+          "char_start": 60565,
+          "char_end": 60569
+        },
+        {
+          "sentence_id": 937,
+          "paragraph_id": 1,
+          "char_start": 67169,
+          "char_end": 67173
+        },
+        {
+          "sentence_id": 1106,
+          "paragraph_id": 1,
+          "char_start": 77022,
+          "char_end": 77026
+        },
+        {
+          "sentence_id": 1192,
+          "paragraph_id": 1,
+          "char_start": 82984,
+          "char_end": 82988
+        },
+        {
+          "sentence_id": 1414,
+          "paragraph_id": 1,
+          "char_start": 96939,
+          "char_end": 96943
+        },
+        {
+          "sentence_id": 1465,
+          "paragraph_id": 1,
+          "char_start": 101368,
+          "char_end": 101372
+        },
+        {
+          "sentence_id": 1486,
+          "paragraph_id": 1,
+          "char_start": 102900,
+          "char_end": 102904
+        },
+        {
+          "sentence_id": 1493,
+          "paragraph_id": 1,
+          "char_start": 103374,
+          "char_end": 103378
+        },
+        {
+          "sentence_id": 1513,
+          "paragraph_id": 1,
+          "char_start": 104336,
+          "char_end": 104340
+        },
+        {
+          "sentence_id": 1576,
+          "paragraph_id": 2,
+          "char_start": 108507,
+          "char_end": 108511
+        },
+        {
+          "sentence_id": 1898,
+          "paragraph_id": 3,
+          "char_start": 127150,
+          "char_end": 127154
+        },
+        {
+          "sentence_id": 1900,
+          "paragraph_id": 3,
+          "char_start": 127193,
+          "char_end": 127197
+        },
+        {
+          "sentence_id": 1954,
+          "paragraph_id": 3,
+          "char_start": 130887,
+          "char_end": 130891
+        },
+        {
+          "sentence_id": 2148,
+          "paragraph_id": 3,
+          "char_start": 142843,
+          "char_end": 142847
+        },
+        {
+          "sentence_id": 2179,
+          "paragraph_id": 3,
+          "char_start": 145206,
+          "char_end": 145210
+        },
+        {
+          "sentence_id": 2208,
+          "paragraph_id": 3,
+          "char_start": 147360,
+          "char_end": 147364
+        }
+      ]
+    },
+    {
+      "text": "Uhum",
+      "label": "LOC",
+      "count": 17,
+      "occurrences": [
+        {
+          "sentence_id": 191,
+          "paragraph_id": 0,
+          "char_start": 14809,
+          "char_end": 14813
+        },
+        {
+          "sentence_id": 199,
+          "paragraph_id": 0,
+          "char_start": 15251,
+          "char_end": 15255
+        },
+        {
+          "sentence_id": 262,
+          "paragraph_id": 0,
+          "char_start": 20066,
+          "char_end": 20070
+        },
+        {
+          "sentence_id": 303,
+          "paragraph_id": 0,
+          "char_start": 23142,
+          "char_end": 23146
+        },
+        {
+          "sentence_id": 592,
+          "paragraph_id": 0,
+          "char_start": 43291,
+          "char_end": 43295
+        },
+        {
+          "sentence_id": 697,
+          "paragraph_id": 0,
+          "char_start": 49796,
+          "char_end": 49800
+        },
+        {
+          "sentence_id": 755,
+          "paragraph_id": 0,
+          "char_start": 53986,
+          "char_end": 53990
+        },
+        {
+          "sentence_id": 760,
+          "paragraph_id": 0,
+          "char_start": 54538,
+          "char_end": 54542
+        },
+        {
+          "sentence_id": 891,
+          "paragraph_id": 1,
+          "char_start": 63364,
+          "char_end": 63368
+        },
+        {
+          "sentence_id": 1123,
+          "paragraph_id": 1,
+          "char_start": 77880,
+          "char_end": 77884
+        },
+        {
+          "sentence_id": 1148,
+          "paragraph_id": 1,
+          "char_start": 79144,
+          "char_end": 79148
+        },
+        {
+          "sentence_id": 1170,
+          "paragraph_id": 1,
+          "char_start": 80441,
+          "char_end": 80445
+        },
+        {
+          "sentence_id": 1557,
+          "paragraph_id": 2,
+          "char_start": 107267,
+          "char_end": 107271
+        },
+        {
+          "sentence_id": 1573,
+          "paragraph_id": 2,
+          "char_start": 108427,
+          "char_end": 108431
+        },
+        {
+          "sentence_id": 1580,
+          "paragraph_id": 2,
+          "char_start": 108634,
+          "char_end": 108638
+        },
+        {
+          "sentence_id": 1635,
+          "paragraph_id": 2,
+          "char_start": 112940,
+          "char_end": 112944
+        },
+        {
+          "sentence_id": 1876,
+          "paragraph_id": 3,
+          "char_start": 126194,
+          "char_end": 126198
+        }
+      ]
+    },
+    {
+      "text": "Entendi",
+      "label": "ORG",
+      "count": 14,
+      "occurrences": [
+        {
+          "sentence_id": 36,
+          "paragraph_id": 0,
+          "char_start": 2804,
+          "char_end": 2811
+        },
+        {
+          "sentence_id": 448,
+          "paragraph_id": 0,
+          "char_start": 34136,
+          "char_end": 34143
+        },
+        {
+          "sentence_id": 550,
+          "paragraph_id": 0,
+          "char_start": 40180,
+          "char_end": 40187
+        },
+        {
+          "sentence_id": 593,
+          "paragraph_id": 0,
+          "char_start": 43300,
+          "char_end": 43307
+        },
+        {
+          "sentence_id": 656,
+          "paragraph_id": 0,
+          "char_start": 47953,
+          "char_end": 47960
+        },
+        {
+          "sentence_id": 716,
+          "paragraph_id": 0,
+          "char_start": 51519,
+          "char_end": 51526
+        },
+        {
+          "sentence_id": 741,
+          "paragraph_id": 0,
+          "char_start": 52928,
+          "char_end": 52935
+        },
+        {
+          "sentence_id": 752,
+          "paragraph_id": 0,
+          "char_start": 53883,
+          "char_end": 53890
+        },
+        {
+          "sentence_id": 788,
+          "paragraph_id": 0,
+          "char_start": 56841,
+          "char_end": 56848
+        },
+        {
+          "sentence_id": 813,
+          "paragraph_id": 0,
+          "char_start": 58537,
+          "char_end": 58544
+        },
+        {
+          "sentence_id": 1062,
+          "paragraph_id": 1,
+          "char_start": 74715,
+          "char_end": 74722
+        },
+        {
+          "sentence_id": 1101,
+          "paragraph_id": 1,
+          "char_start": 76768,
+          "char_end": 76775
+        },
+        {
+          "sentence_id": 1545,
+          "paragraph_id": 2,
+          "char_start": 105983,
+          "char_end": 105990
+        },
+        {
+          "sentence_id": 1758,
+          "paragraph_id": 2,
+          "char_start": 120093,
+          "char_end": 120100
+        }
+      ]
+    },
+    {
+      "text": "Racionais",
+      "label": "PER",
+      "count": 12,
+      "occurrences": [
+        {
+          "sentence_id": 27,
+          "paragraph_id": 0,
+          "char_start": 1726,
+          "char_end": 1735
+        },
+        {
+          "sentence_id": 29,
+          "paragraph_id": 0,
+          "char_start": 1771,
+          "char_end": 1780
+        },
+        {
+          "sentence_id": 46,
+          "paragraph_id": 0,
+          "char_start": 3625,
+          "char_end": 3634
+        },
+        {
+          "sentence_id": 87,
+          "paragraph_id": 0,
+          "char_start": 7804,
+          "char_end": 7813
+        },
+        {
+          "sentence_id": 98,
+          "paragraph_id": 0,
+          "char_start": 8435,
+          "char_end": 8444
+        },
+        {
+          "sentence_id": 176,
+          "paragraph_id": 0,
+          "char_start": 13227,
+          "char_end": 13236
+        },
+        {
+          "sentence_id": 219,
+          "paragraph_id": 0,
+          "char_start": 16671,
+          "char_end": 16680
+        },
+        {
+          "sentence_id": 229,
+          "paragraph_id": 0,
+          "char_start": 17724,
+          "char_end": 17733
+        },
+        {
+          "sentence_id": 251,
+          "paragraph_id": 0,
+          "char_start": 19305,
+          "char_end": 19314
+        },
+        {
+          "sentence_id": 321,
+          "paragraph_id": 0,
+          "char_start": 24467,
+          "char_end": 24476
+        },
+        {
+          "sentence_id": 422,
+          "paragraph_id": 0,
+          "char_start": 32629,
+          "char_end": 32638
+        },
+        {
+          "sentence_id": 771,
+          "paragraph_id": 0,
+          "char_start": 55623,
+          "char_end": 55632
+        }
+      ]
+    },
+    {
+      "text": "Jonga",
+      "label": "PER",
+      "count": 12,
+      "occurrences": [
+        {
+          "sentence_id": 807,
+          "paragraph_id": 0,
+          "char_start": 57913,
+          "char_end": 57918
+        },
+        {
+          "sentence_id": 1005,
+          "paragraph_id": 1,
+          "char_start": 71308,
+          "char_end": 71313
+        },
+        {
+          "sentence_id": 1173,
+          "paragraph_id": 1,
+          "char_start": 81202,
+          "char_end": 81207
+        },
+        {
+          "sentence_id": 1181,
+          "paragraph_id": 1,
+          "char_start": 82151,
+          "char_end": 82156
+        },
+        {
+          "sentence_id": 1181,
+          "paragraph_id": 1,
+          "char_start": 82282,
+          "char_end": 82287
+        },
+        {
+          "sentence_id": 1185,
+          "paragraph_id": 1,
+          "char_start": 82613,
+          "char_end": 82618
+        },
+        {
+          "sentence_id": 1245,
+          "paragraph_id": 1,
+          "char_start": 86768,
+          "char_end": 86773
+        },
+        {
+          "sentence_id": 1248,
+          "paragraph_id": 1,
+          "char_start": 86951,
+          "char_end": 86956
+        },
+        {
+          "sentence_id": 1365,
+          "paragraph_id": 1,
+          "char_start": 93676,
+          "char_end": 93681
+        },
+        {
+          "sentence_id": 1388,
+          "paragraph_id": 1,
+          "char_start": 94831,
+          "char_end": 94836
+        },
+        {
+          "sentence_id": 1498,
+          "paragraph_id": 1,
+          "char_start": 103546,
+          "char_end": 103551
+        },
+        {
+          "sentence_id": 1505,
+          "paragraph_id": 1,
+          "char_start": 103888,
+          "char_end": 103893
+        }
+      ]
+    },
+    {
+      "text": "Brasil",
+      "label": "LOC",
+      "count": 11,
+      "occurrences": [
+        {
+          "sentence_id": 21,
+          "paragraph_id": 0,
+          "char_start": 1017,
+          "char_end": 1023
+        },
+        {
+          "sentence_id": 166,
+          "paragraph_id": 0,
+          "char_start": 12646,
+          "char_end": 12652
+        },
+        {
+          "sentence_id": 509,
+          "paragraph_id": 0,
+          "char_start": 37511,
+          "char_end": 37517
+        },
+        {
+          "sentence_id": 621,
+          "paragraph_id": 0,
+          "char_start": 45228,
+          "char_end": 45234
+        },
+        {
+          "sentence_id": 632,
+          "paragraph_id": 0,
+          "char_start": 45879,
+          "char_end": 45885
+        },
+        {
+          "sentence_id": 834,
+          "paragraph_id": 0,
+          "char_start": 60200,
+          "char_end": 60206
+        },
+        {
+          "sentence_id": 1554,
+          "paragraph_id": 2,
+          "char_start": 106952,
+          "char_end": 106958
+        },
+        {
+          "sentence_id": 2157,
+          "paragraph_id": 3,
+          "char_start": 143252,
+          "char_end": 143258
+        },
+        {
+          "sentence_id": 2159,
+          "paragraph_id": 3,
+          "char_start": 143377,
+          "char_end": 143383
+        },
+        {
+          "sentence_id": 2180,
+          "paragraph_id": 3,
+          "char_start": 145288,
+          "char_end": 145294
+        },
+        {
+          "sentence_id": 2192,
+          "paragraph_id": 3,
+          "char_start": 146337,
+          "char_end": 146343
+        }
+      ]
+    },
+    {
+      "text": "Dom Cesão",
+      "label": "PER",
+      "count": 10,
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "paragraph_id": 0,
+          "char_start": 99,
+          "char_end": 108
+        },
+        {
+          "sentence_id": 318,
+          "paragraph_id": 0,
+          "char_start": 24066,
+          "char_end": 24075
+        },
+        {
+          "sentence_id": 786,
+          "paragraph_id": 0,
+          "char_start": 56798,
+          "char_end": 56807
+        },
+        {
+          "sentence_id": 815,
+          "paragraph_id": 0,
+          "char_start": 58759,
+          "char_end": 58768
+        },
+        {
+          "sentence_id": 1030,
+          "paragraph_id": 1,
+          "char_start": 72838,
+          "char_end": 72847
+        },
+        {
+          "sentence_id": 1442,
+          "paragraph_id": 1,
+          "char_start": 99054,
+          "char_end": 99063
+        },
+        {
+          "sentence_id": 1781,
+          "paragraph_id": 2,
+          "char_start": 121672,
+          "char_end": 121681
+        },
+        {
+          "sentence_id": 1784,
+          "paragraph_id": 2,
+          "char_start": 121780,
+          "char_end": 121789
+        },
+        {
+          "sentence_id": 1861,
+          "paragraph_id": 2,
+          "char_start": 125450,
+          "char_end": 125459
+        },
+        {
+          "sentence_id": 2263,
+          "paragraph_id": 3,
+          "char_start": 150939,
+          "char_end": 150948
+        }
+      ]
+    },
+    {
+      "text": "Ciro",
+      "label": "PER",
+      "count": 10,
+      "occurrences": [
+        {
+          "sentence_id": 1713,
+          "paragraph_id": 2,
+          "char_start": 117411,
+          "char_end": 117415
+        },
+        {
+          "sentence_id": 1717,
+          "paragraph_id": 2,
+          "char_start": 117820,
+          "char_end": 117824
+        },
+        {
+          "sentence_id": 1784,
+          "paragraph_id": 2,
+          "char_start": 121818,
+          "char_end": 121822
+        },
+        {
+          "sentence_id": 1787,
+          "paragraph_id": 2,
+          "char_start": 121965,
+          "char_end": 121969
+        },
+        {
+          "sentence_id": 1788,
+          "paragraph_id": 2,
+          "char_start": 121982,
+          "char_end": 121986
+        },
+        {
+          "sentence_id": 1791,
+          "paragraph_id": 2,
+          "char_start": 122187,
+          "char_end": 122191
+        },
+        {
+          "sentence_id": 1791,
+          "paragraph_id": 2,
+          "char_start": 122255,
+          "char_end": 122259
+        },
+        {
+          "sentence_id": 1804,
+          "paragraph_id": 2,
+          "char_start": 123043,
+          "char_end": 123047
+        },
+        {
+          "sentence_id": 1805,
+          "paragraph_id": 2,
+          "char_start": 123104,
+          "char_end": 123108
+        },
+        {
+          "sentence_id": 1830,
+          "paragraph_id": 2,
+          "char_start": 124108,
+          "char_end": 124112
+        }
+      ]
+    },
+    {
+      "text": "Vou",
+      "label": "MISC",
+      "count": 8,
+      "occurrences": [
+        {
+          "sentence_id": 605,
+          "paragraph_id": 0,
+          "char_start": 44143,
+          "char_end": 44146
+        },
+        {
+          "sentence_id": 801,
+          "paragraph_id": 0,
+          "char_start": 57449,
+          "char_end": 57452
+        },
+        {
+          "sentence_id": 965,
+          "paragraph_id": 1,
+          "char_start": 68816,
+          "char_end": 68819
+        },
+        {
+          "sentence_id": 1166,
+          "paragraph_id": 1,
+          "char_start": 80258,
+          "char_end": 80261
+        },
+        {
+          "sentence_id": 1177,
+          "paragraph_id": 1,
+          "char_start": 81801,
+          "char_end": 81804
+        },
+        {
+          "sentence_id": 1453,
+          "paragraph_id": 1,
+          "char_start": 100531,
+          "char_end": 100534
+        },
+        {
+          "sentence_id": 1520,
+          "paragraph_id": 1,
+          "char_start": 104616,
+          "char_end": 104619
+        },
+        {
+          "sentence_id": 1931,
+          "paragraph_id": 3,
+          "char_start": 128844,
+          "char_end": 128847
+        }
+      ]
+    },
+    {
+      "text": "Massacan",
+      "label": "MISC",
+      "count": 7,
+      "occurrences": [
+        {
+          "sentence_id": 330,
+          "paragraph_id": 0,
+          "char_start": 25757,
+          "char_end": 25765
+        },
+        {
+          "sentence_id": 350,
+          "paragraph_id": 0,
+          "char_start": 26984,
+          "char_end": 26992
+        },
+        {
+          "sentence_id": 1554,
+          "paragraph_id": 2,
+          "char_start": 106971,
+          "char_end": 106979
+        },
+        {
+          "sentence_id": 1812,
+          "paragraph_id": 2,
+          "char_start": 123394,
+          "char_end": 123402
+        },
+        {
+          "sentence_id": 1867,
+          "paragraph_id": 3,
+          "char_start": 125707,
+          "char_end": 125715
+        },
+        {
+          "sentence_id": 1869,
+          "paragraph_id": 3,
+          "char_start": 125868,
+          "char_end": 125876
+        },
+        {
+          "sentence_id": 1873,
+          "paragraph_id": 3,
+          "char_start": 126045,
+          "char_end": 126053
+        }
+      ]
+    },
+    {
+      "text": "Cesão",
+      "label": "MISC",
+      "count": 7,
+      "occurrences": [
+        {
+          "sentence_id": 834,
+          "paragraph_id": 0,
+          "char_start": 60067,
+          "char_end": 60072
+        },
+        {
+          "sentence_id": 878,
+          "paragraph_id": 0,
+          "char_start": 62755,
+          "char_end": 62760
+        },
+        {
+          "sentence_id": 936,
+          "paragraph_id": 1,
+          "char_start": 66965,
+          "char_end": 66970
+        },
+        {
+          "sentence_id": 1233,
+          "paragraph_id": 1,
+          "char_start": 85596,
+          "char_end": 85601
+        },
+        {
+          "sentence_id": 1255,
+          "paragraph_id": 1,
+          "char_start": 87343,
+          "char_end": 87348
+        },
+        {
+          "sentence_id": 1800,
+          "paragraph_id": 2,
+          "char_start": 122690,
+          "char_end": 122695
+        },
+        {
+          "sentence_id": 1800,
+          "paragraph_id": 2,
+          "char_start": 122749,
+          "char_end": 122754
+        }
+      ]
+    },
+    {
+      "text": "Alexis Texas",
+      "label": "PER",
+      "count": 7,
+      "occurrences": [
+        {
+          "sentence_id": 1912,
+          "paragraph_id": 3,
+          "char_start": 127709,
+          "char_end": 127721
+        },
+        {
+          "sentence_id": 1914,
+          "paragraph_id": 3,
+          "char_start": 127829,
+          "char_end": 127841
+        },
+        {
+          "sentence_id": 1917,
+          "paragraph_id": 3,
+          "char_start": 127876,
+          "char_end": 127888
+        },
+        {
+          "sentence_id": 1923,
+          "paragraph_id": 3,
+          "char_start": 128202,
+          "char_end": 128214
+        },
+        {
+          "sentence_id": 1924,
+          "paragraph_id": 3,
+          "char_start": 128221,
+          "char_end": 128233
+        },
+        {
+          "sentence_id": 1937,
+          "paragraph_id": 3,
+          "char_start": 129350,
+          "char_end": 129362
+        },
+        {
+          "sentence_id": 1943,
+          "paragraph_id": 3,
+          "char_start": 129865,
+          "char_end": 129877
+        }
+      ]
+    },
+    {
+      "text": "Big",
+      "label": "MISC",
+      "count": 6,
+      "occurrences": [
+        {
+          "sentence_id": 502,
+          "paragraph_id": 0,
+          "char_start": 37194,
+          "char_end": 37197
+        },
+        {
+          "sentence_id": 521,
+          "paragraph_id": 0,
+          "char_start": 38116,
+          "char_end": 38119
+        },
+        {
+          "sentence_id": 533,
+          "paragraph_id": 0,
+          "char_start": 39023,
+          "char_end": 39026
+        },
+        {
+          "sentence_id": 533,
+          "paragraph_id": 0,
+          "char_start": 39114,
+          "char_end": 39117
+        },
+        {
+          "sentence_id": 771,
+          "paragraph_id": 0,
+          "char_start": 55560,
+          "char_end": 55563
+        },
+        {
+          "sentence_id": 772,
+          "paragraph_id": 0,
+          "char_start": 55748,
+          "char_end": 55751
+        }
+      ]
+    },
+    {
+      "text": "Nominho",
+      "label": "PER",
+      "count": 5,
+      "occurrences": [
+        {
+          "sentence_id": 65,
+          "paragraph_id": 0,
+          "char_start": 5664,
+          "char_end": 5671
+        },
+        {
+          "sentence_id": 65,
+          "paragraph_id": 0,
+          "char_start": 5673,
+          "char_end": 5680
+        },
+        {
+          "sentence_id": 65,
+          "paragraph_id": 0,
+          "char_start": 5682,
+          "char_end": 5689
+        },
+        {
+          "sentence_id": 65,
+          "paragraph_id": 0,
+          "char_start": 5691,
+          "char_end": 5698
+        },
+        {
+          "sentence_id": 65,
+          "paragraph_id": 0,
+          "char_start": 5703,
+          "char_end": 5710
+        }
+      ]
+    },
+    {
+      "text": "Matu",
+      "label": "PER",
+      "count": 5,
+      "occurrences": [
+        {
+          "sentence_id": 2062,
+          "paragraph_id": 3,
+          "char_start": 137195,
+          "char_end": 137199
+        },
+        {
+          "sentence_id": 2064,
+          "paragraph_id": 3,
+          "char_start": 137246,
+          "char_end": 137250
+        },
+        {
+          "sentence_id": 2065,
+          "paragraph_id": 3,
+          "char_start": 137322,
+          "char_end": 137326
+        },
+        {
+          "sentence_id": 2066,
+          "paragraph_id": 3,
+          "char_start": 137387,
+          "char_end": 137391
+        },
+        {
+          "sentence_id": 2116,
+          "paragraph_id": 3,
+          "char_start": 140693,
+          "char_end": 140697
+        }
+      ]
+    },
+    {
+      "text": "Deus",
+      "label": "PER",
+      "count": 4,
+      "occurrences": [
+        {
+          "sentence_id": 186,
+          "paragraph_id": 0,
+          "char_start": 14254,
+          "char_end": 14258
+        },
+        {
+          "sentence_id": 770,
+          "paragraph_id": 0,
+          "char_start": 55459,
+          "char_end": 55463
+        },
+        {
+          "sentence_id": 2158,
+          "paragraph_id": 3,
+          "char_start": 143319,
+          "char_end": 143323
+        },
+        {
+          "sentence_id": 2252,
+          "paragraph_id": 3,
+          "char_start": 150429,
+          "char_end": 150433
+        }
+      ]
+    },
+    {
+      "text": "Kendrick",
+      "label": "PER",
+      "count": 4,
+      "occurrences": [
+        {
+          "sentence_id": 713,
+          "paragraph_id": 0,
+          "char_start": 51334,
+          "char_end": 51342
+        },
+        {
+          "sentence_id": 1133,
+          "paragraph_id": 1,
+          "char_start": 78572,
+          "char_end": 78580
+        },
+        {
+          "sentence_id": 1547,
+          "paragraph_id": 2,
+          "char_start": 106168,
+          "char_end": 106176
+        },
+        {
+          "sentence_id": 1655,
+          "paragraph_id": 2,
+          "char_start": 113711,
+          "char_end": 113719
+        }
+      ]
+    },
+    {
+      "text": "Judas",
+      "label": "PER",
+      "count": 4,
+      "occurrences": [
+        {
+          "sentence_id": 815,
+          "paragraph_id": 0,
+          "char_start": 58653,
+          "char_end": 58658
+        },
+        {
+          "sentence_id": 1172,
+          "paragraph_id": 1,
+          "char_start": 80685,
+          "char_end": 80690
+        },
+        {
+          "sentence_id": 1728,
+          "paragraph_id": 2,
+          "char_start": 118368,
+          "char_end": 118373
+        },
+        {
+          "sentence_id": 1954,
+          "paragraph_id": 3,
+          "char_start": 130798,
+          "char_end": 130803
+        }
+      ]
+    },
+    {
+      "text": "Cesão",
+      "label": "PER",
+      "count": 4,
+      "occurrences": [
+        {
+          "sentence_id": 958,
+          "paragraph_id": 1,
+          "char_start": 68530,
+          "char_end": 68535
+        },
+        {
+          "sentence_id": 1706,
+          "paragraph_id": 2,
+          "char_start": 116869,
+          "char_end": 116874
+        },
+        {
+          "sentence_id": 1721,
+          "paragraph_id": 2,
+          "char_start": 118039,
+          "char_end": 118044
+        },
+        {
+          "sentence_id": 1912,
+          "paragraph_id": 3,
+          "char_start": 127685,
+          "char_end": 127690
+        }
+      ]
+    },
+    {
+      "text": "Iphone",
+      "label": "MISC",
+      "count": 4,
+      "occurrences": [
+        {
+          "sentence_id": 1049,
+          "paragraph_id": 1,
+          "char_start": 74126,
+          "char_end": 74132
+        },
+        {
+          "sentence_id": 1050,
+          "paragraph_id": 1,
+          "char_start": 74198,
+          "char_end": 74204
+        },
+        {
+          "sentence_id": 1050,
+          "paragraph_id": 1,
+          "char_start": 74226,
+          "char_end": 74232
+        },
+        {
+          "sentence_id": 1057,
+          "paragraph_id": 1,
+          "char_start": 74497,
+          "char_end": 74503
+        }
+      ]
+    },
+    {
+      "text": "Youtube",
+      "label": "MISC",
+      "count": 4,
+      "occurrences": [
+        {
+          "sentence_id": 1095,
+          "paragraph_id": 1,
+          "char_start": 76601,
+          "char_end": 76608
+        },
+        {
+          "sentence_id": 1912,
+          "paragraph_id": 3,
+          "char_start": 127730,
+          "char_end": 127737
+        },
+        {
+          "sentence_id": 1937,
+          "paragraph_id": 3,
+          "char_start": 129566,
+          "char_end": 129573
+        },
+        {
+          "sentence_id": 2264,
+          "paragraph_id": 3,
+          "char_start": 151055,
+          "char_end": 151062
+        }
+      ]
+    },
+    {
+      "text": "Pix",
+      "label": "MISC",
+      "count": 4,
+      "occurrences": [
+        {
+          "sentence_id": 1783,
+          "paragraph_id": 2,
+          "char_start": 121775,
+          "char_end": 121778
+        },
+        {
+          "sentence_id": 1859,
+          "paragraph_id": 2,
+          "char_start": 125361,
+          "char_end": 125364
+        },
+        {
+          "sentence_id": 1911,
+          "paragraph_id": 3,
+          "char_start": 127680,
+          "char_end": 127683
+        },
+        {
+          "sentence_id": 2154,
+          "paragraph_id": 3,
+          "char_start": 143094,
+          "char_end": 143097
+        }
+      ]
+    },
+    {
+      "text": "Igor",
+      "label": "PER",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "paragraph_id": 0,
+          "char_start": 66,
+          "char_end": 70
+        },
+        {
+          "sentence_id": 916,
+          "paragraph_id": 1,
+          "char_start": 65199,
+          "char_end": 65203
+        },
+        {
+          "sentence_id": 919,
+          "paragraph_id": 1,
+          "char_start": 65483,
+          "char_end": 65487
+        }
+      ]
+    },
+    {
+      "text": "Mano Brown",
+      "label": "PER",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 44,
+          "paragraph_id": 0,
+          "char_start": 3371,
+          "char_end": 3381
+        },
+        {
+          "sentence_id": 764,
+          "paragraph_id": 0,
+          "char_start": 54857,
+          "char_end": 54867
+        },
+        {
+          "sentence_id": 1392,
+          "paragraph_id": 1,
+          "char_start": 95070,
+          "char_end": 95080
+        }
+      ]
+    },
+    {
+      "text": "Charlie Brown",
+      "label": "PER",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 51,
+          "paragraph_id": 0,
+          "char_start": 4406,
+          "char_end": 4419
+        },
+        {
+          "sentence_id": 52,
+          "paragraph_id": 0,
+          "char_start": 4477,
+          "char_end": 4490
+        },
+        {
+          "sentence_id": 53,
+          "paragraph_id": 0,
+          "char_start": 4510,
+          "char_end": 4523
+        }
+      ]
+    },
+    {
+      "text": "Felipe",
+      "label": "PER",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 65,
+          "paragraph_id": 0,
+          "char_start": 5749,
+          "char_end": 5755
+        },
+        {
+          "sentence_id": 65,
+          "paragraph_id": 0,
+          "char_start": 5771,
+          "char_end": 5777
+        },
+        {
+          "sentence_id": 65,
+          "paragraph_id": 0,
+          "char_start": 5779,
+          "char_end": 5785
+        }
+      ]
+    },
+    {
+      "text": "CD",
+      "label": "MISC",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 65,
+          "paragraph_id": 0,
+          "char_start": 5797,
+          "char_end": 5799
+        },
+        {
+          "sentence_id": 66,
+          "paragraph_id": 0,
+          "char_start": 5856,
+          "char_end": 5858
+        },
+        {
+          "sentence_id": 521,
+          "paragraph_id": 0,
+          "char_start": 38070,
+          "char_end": 38072
+        }
+      ]
+    },
+    {
+      "text": "Casa Verde",
+      "label": "LOC",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 74,
+          "paragraph_id": 0,
+          "char_start": 6844,
+          "char_end": 6854
+        },
+        {
+          "sentence_id": 86,
+          "paragraph_id": 0,
+          "char_start": 7742,
+          "char_end": 7752
+        },
+        {
+          "sentence_id": 1220,
+          "paragraph_id": 1,
+          "char_start": 84501,
+          "char_end": 84511
+        }
+      ]
+    },
+    {
+      "text": "Cezão",
+      "label": "MISC",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 185,
+          "paragraph_id": 0,
+          "char_start": 13951,
+          "char_end": 13956
+        },
+        {
+          "sentence_id": 1570,
+          "paragraph_id": 2,
+          "char_start": 108117,
+          "char_end": 108122
+        },
+        {
+          "sentence_id": 1685,
+          "paragraph_id": 2,
+          "char_start": 115796,
+          "char_end": 115801
+        }
+      ]
+    },
+    {
+      "text": "Freud",
+      "label": "PER",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 234,
+          "paragraph_id": 0,
+          "char_start": 18168,
+          "char_end": 18173
+        },
+        {
+          "sentence_id": 235,
+          "paragraph_id": 0,
+          "char_start": 18230,
+          "char_end": 18235
+        },
+        {
+          "sentence_id": 1393,
+          "paragraph_id": 1,
+          "char_start": 95161,
+          "char_end": 95166
+        }
+      ]
+    },
+    {
+      "text": "Rikis",
+      "label": "LOC",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 366,
+          "paragraph_id": 0,
+          "char_start": 28389,
+          "char_end": 28394
+        },
+        {
+          "sentence_id": 1818,
+          "paragraph_id": 2,
+          "char_start": 123631,
+          "char_end": 123636
+        },
+        {
+          "sentence_id": 1820,
+          "paragraph_id": 2,
+          "char_start": 123650,
+          "char_end": 123655
+        }
+      ]
+    },
+    {
+      "text": "Costa Gold",
+      "label": "PER",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 367,
+          "paragraph_id": 0,
+          "char_start": 28410,
+          "char_end": 28420
+        },
+        {
+          "sentence_id": 1821,
+          "paragraph_id": 2,
+          "char_start": 123657,
+          "char_end": 123667
+        },
+        {
+          "sentence_id": 1830,
+          "paragraph_id": 2,
+          "char_start": 124171,
+          "char_end": 124181
+        }
+      ]
+    },
+    {
+      "text": "Rael",
+      "label": "PER",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 426,
+          "paragraph_id": 0,
+          "char_start": 33121,
+          "char_end": 33125
+        },
+        {
+          "sentence_id": 1526,
+          "paragraph_id": 1,
+          "char_start": 105007,
+          "char_end": 105011
+        },
+        {
+          "sentence_id": 1527,
+          "paragraph_id": 1,
+          "char_start": 105107,
+          "char_end": 105111
+        }
+      ]
+    },
+    {
+      "text": "Dom Sezão",
+      "label": "PER",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 685,
+          "paragraph_id": 0,
+          "char_start": 49158,
+          "char_end": 49167
+        },
+        {
+          "sentence_id": 1807,
+          "paragraph_id": 2,
+          "char_start": 123191,
+          "char_end": 123200
+        },
+        {
+          "sentence_id": 1953,
+          "paragraph_id": 3,
+          "char_start": 130575,
+          "char_end": 130584
+        }
+      ]
+    },
+    {
+      "text": "São Paulo",
+      "label": "LOC",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 695,
+          "paragraph_id": 0,
+          "char_start": 49775,
+          "char_end": 49784
+        },
+        {
+          "sentence_id": 1529,
+          "paragraph_id": 1,
+          "char_start": 105265,
+          "char_end": 105274
+        },
+        {
+          "sentence_id": 1531,
+          "paragraph_id": 1,
+          "char_start": 105429,
+          "char_end": 105438
+        }
+      ]
+    },
+    {
+      "text": "Beijo",
+      "label": "PER",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 700,
+          "paragraph_id": 0,
+          "char_start": 49885,
+          "char_end": 49890
+        },
+        {
+          "sentence_id": 1064,
+          "paragraph_id": 1,
+          "char_start": 74761,
+          "char_end": 74766
+        },
+        {
+          "sentence_id": 2268,
+          "paragraph_id": 3,
+          "char_start": 151305,
+          "char_end": 151310
+        }
+      ]
+    },
+    {
+      "text": "Trop Killas",
+      "label": "MISC",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 767,
+          "paragraph_id": 0,
+          "char_start": 55163,
+          "char_end": 55174
+        },
+        {
+          "sentence_id": 767,
+          "paragraph_id": 0,
+          "char_start": 55213,
+          "char_end": 55224
+        },
+        {
+          "sentence_id": 773,
+          "paragraph_id": 0,
+          "char_start": 55794,
+          "char_end": 55805
+        }
+      ]
+    },
+    {
+      "text": "Vick",
+      "label": "PER",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 815,
+          "paragraph_id": 0,
+          "char_start": 58807,
+          "char_end": 58811
+        },
+        {
+          "sentence_id": 1845,
+          "paragraph_id": 2,
+          "char_start": 125015,
+          "char_end": 125019
+        },
+        {
+          "sentence_id": 1996,
+          "paragraph_id": 3,
+          "char_start": 133298,
+          "char_end": 133302
+        }
+      ]
+    },
+    {
+      "text": "MK",
+      "label": "ORG",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 912,
+          "paragraph_id": 1,
+          "char_start": 64691,
+          "char_end": 64693
+        },
+        {
+          "sentence_id": 912,
+          "paragraph_id": 1,
+          "char_start": 64747,
+          "char_end": 64749
+        },
+        {
+          "sentence_id": 1525,
+          "paragraph_id": 1,
+          "char_start": 104977,
+          "char_end": 104979
+        }
+      ]
+    },
+    {
+      "text": "Irmão",
+      "label": "PER",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 1031,
+          "paragraph_id": 1,
+          "char_start": 72933,
+          "char_end": 72938
+        },
+        {
+          "sentence_id": 1233,
+          "paragraph_id": 1,
+          "char_start": 85547,
+          "char_end": 85552
+        },
+        {
+          "sentence_id": 1595,
+          "paragraph_id": 2,
+          "char_start": 110094,
+          "char_end": 110099
+        }
+      ]
+    },
+    {
+      "text": "TR",
+      "label": "ORG",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 1181,
+          "paragraph_id": 1,
+          "char_start": 82194,
+          "char_end": 82196
+        },
+        {
+          "sentence_id": 1428,
+          "paragraph_id": 1,
+          "char_start": 98496,
+          "char_end": 98498
+        },
+        {
+          "sentence_id": 1610,
+          "paragraph_id": 2,
+          "char_start": 111141,
+          "char_end": 111143
+        }
+      ]
+    },
+    {
+      "text": "Cravinhos",
+      "label": "LOC",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 1681,
+          "paragraph_id": 2,
+          "char_start": 115383,
+          "char_end": 115392
+        },
+        {
+          "sentence_id": 1683,
+          "paragraph_id": 2,
+          "char_start": 115566,
+          "char_end": 115575
+        },
+        {
+          "sentence_id": 1684,
+          "paragraph_id": 2,
+          "char_start": 115634,
+          "char_end": 115643
+        }
+      ]
+    },
+    {
+      "text": "Flow",
+      "label": "MISC",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 1719,
+          "paragraph_id": 2,
+          "char_start": 117887,
+          "char_end": 117891
+        },
+        {
+          "sentence_id": 1793,
+          "paragraph_id": 2,
+          "char_start": 122372,
+          "char_end": 122376
+        },
+        {
+          "sentence_id": 1861,
+          "paragraph_id": 2,
+          "char_start": 125437,
+          "char_end": 125441
+        }
+      ]
+    },
+    {
+      "text": "Need For Speed",
+      "label": "MISC",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 1822,
+          "paragraph_id": 2,
+          "char_start": 123705,
+          "char_end": 123719
+        },
+        {
+          "sentence_id": 1824,
+          "paragraph_id": 2,
+          "char_start": 123750,
+          "char_end": 123764
+        },
+        {
+          "sentence_id": 1825,
+          "paragraph_id": 2,
+          "char_start": 123844,
+          "char_end": 123858
+        }
+      ]
+    },
+    {
+      "text": "Rio De Janeiro",
+      "label": "LOC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 47,
+          "paragraph_id": 0,
+          "char_start": 3809,
+          "char_end": 3823
+        },
+        {
+          "sentence_id": 984,
+          "paragraph_id": 1,
+          "char_start": 70215,
+          "char_end": 70229
+        }
+      ]
+    },
+    {
+      "text": "Uhum",
+      "label": "MISC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 55,
+          "paragraph_id": 0,
+          "char_start": 4610,
+          "char_end": 4614
+        },
+        {
+          "sentence_id": 893,
+          "paragraph_id": 1,
+          "char_start": 63447,
+          "char_end": 63451
+        }
+      ]
+    },
+    {
+      "text": "Nova York",
+      "label": "LOC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 63,
+          "paragraph_id": 0,
+          "char_start": 5534,
+          "char_end": 5543
+        },
+        {
+          "sentence_id": 1954,
+          "paragraph_id": 3,
+          "char_start": 130760,
+          "char_end": 130769
+        }
+      ]
+    },
+    {
+      "text": "Tenclen",
+      "label": "LOC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 122,
+          "paragraph_id": 0,
+          "char_start": 9931,
+          "char_end": 9938
+        },
+        {
+          "sentence_id": 126,
+          "paragraph_id": 0,
+          "char_start": 10295,
+          "char_end": 10302
+        }
+      ]
+    },
+    {
+      "text": "Romário",
+      "label": "PER",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 127,
+          "paragraph_id": 0,
+          "char_start": 10470,
+          "char_end": 10477
+        },
+        {
+          "sentence_id": 132,
+          "paragraph_id": 0,
+          "char_start": 10678,
+          "char_end": 10685
+        }
+      ]
+    },
+    {
+      "text": "Taí",
+      "label": "PER",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 182,
+          "paragraph_id": 0,
+          "char_start": 13425,
+          "char_end": 13428
+        },
+        {
+          "sentence_id": 185,
+          "paragraph_id": 0,
+          "char_start": 13907,
+          "char_end": 13910
+        }
+      ]
+    },
+    {
+      "text": "Caik",
+      "label": "PER",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 282,
+          "paragraph_id": 0,
+          "char_start": 21825,
+          "char_end": 21829
+        },
+        {
+          "sentence_id": 292,
+          "paragraph_id": 0,
+          "char_start": 22381,
+          "char_end": 22385
+        }
+      ]
+    },
+    {
+      "text": "Micida",
+      "label": "PER",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 323,
+          "paragraph_id": 0,
+          "char_start": 24674,
+          "char_end": 24680
+        },
+        {
+          "sentence_id": 1188,
+          "paragraph_id": 1,
+          "char_start": 82787,
+          "char_end": 82793
+        }
+      ]
+    },
+    {
+      "text": "Sesc",
+      "label": "LOC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 343,
+          "paragraph_id": 0,
+          "char_start": 26508,
+          "char_end": 26512
+        },
+        {
+          "sentence_id": 354,
+          "paragraph_id": 0,
+          "char_start": 27380,
+          "char_end": 27384
+        }
+      ]
+    },
+    {
+      "text": "Mike",
+      "label": "ORG",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 344,
+          "paragraph_id": 0,
+          "char_start": 26628,
+          "char_end": 26632
+        },
+        {
+          "sentence_id": 560,
+          "paragraph_id": 0,
+          "char_start": 40683,
+          "char_end": 40687
+        }
+      ]
+    },
+    {
+      "text": "Cher",
+      "label": "PER",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 350,
+          "paragraph_id": 0,
+          "char_start": 27004,
+          "char_end": 27008
+        },
+        {
+          "sentence_id": 1914,
+          "paragraph_id": 3,
+          "char_start": 127822,
+          "char_end": 127826
+        }
+      ]
+    },
+    {
+      "text": "Drica",
+      "label": "LOC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 426,
+          "paragraph_id": 0,
+          "char_start": 33105,
+          "char_end": 33110
+        },
+        {
+          "sentence_id": 1193,
+          "paragraph_id": 1,
+          "char_start": 83040,
+          "char_end": 83045
+        }
+      ]
+    },
+    {
+      "text": "Perfeito",
+      "label": "MISC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 464,
+          "paragraph_id": 0,
+          "char_start": 34854,
+          "char_end": 34862
+        },
+        {
+          "sentence_id": 847,
+          "paragraph_id": 0,
+          "char_start": 60929,
+          "char_end": 60937
+        }
+      ]
+    },
+    {
+      "text": "Seia",
+      "label": "LOC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 469,
+          "paragraph_id": 0,
+          "char_start": 34985,
+          "char_end": 34989
+        },
+        {
+          "sentence_id": 1055,
+          "paragraph_id": 1,
+          "char_start": 74417,
+          "char_end": 74421
+        }
+      ]
+    },
+    {
+      "text": "Tipo",
+      "label": "MISC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 581,
+          "paragraph_id": 0,
+          "char_start": 42360,
+          "char_end": 42364
+        },
+        {
+          "sentence_id": 1770,
+          "paragraph_id": 2,
+          "char_start": 121016,
+          "char_end": 121020
+        }
+      ]
+    },
+    {
+      "text": "Mcs",
+      "label": "MISC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 602,
+          "paragraph_id": 0,
+          "char_start": 43986,
+          "char_end": 43989
+        },
+        {
+          "sentence_id": 1206,
+          "paragraph_id": 1,
+          "char_start": 83649,
+          "char_end": 83652
+        }
+      ]
+    },
+    {
+      "text": "Ol",
+      "label": "MISC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 688,
+          "paragraph_id": 0,
+          "char_start": 49227,
+          "char_end": 49229
+        },
+        {
+          "sentence_id": 2146,
+          "paragraph_id": 3,
+          "char_start": 142762,
+          "char_end": 142764
+        }
+      ]
+    },
+    {
+      "text": "Atletas Do Ano",
+      "label": "MISC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 792,
+          "paragraph_id": 0,
+          "char_start": 57009,
+          "char_end": 57025
+        },
+        {
+          "sentence_id": 794,
+          "paragraph_id": 0,
+          "char_start": 57059,
+          "char_end": 57073
+        }
+      ]
+    },
+    {
+      "text": "Jong",
+      "label": "ORG",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 795,
+          "paragraph_id": 0,
+          "char_start": 57114,
+          "char_end": 57118
+        },
+        {
+          "sentence_id": 1393,
+          "paragraph_id": 1,
+          "char_start": 95153,
+          "char_end": 95157
+        }
+      ]
+    },
+    {
+      "text": "Don Cesão",
+      "label": "MISC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 817,
+          "paragraph_id": 0,
+          "char_start": 59084,
+          "char_end": 59093
+        },
+        {
+          "sentence_id": 2227,
+          "paragraph_id": 3,
+          "char_start": 148261,
+          "char_end": 148270
+        }
+      ]
+    },
+    {
+      "text": "Vi",
+      "label": "MISC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 822,
+          "paragraph_id": 0,
+          "char_start": 59239,
+          "char_end": 59241
+        },
+        {
+          "sentence_id": 1785,
+          "paragraph_id": 2,
+          "char_start": 121913,
+          "char_end": 121915
+        }
+      ]
+    },
+    {
+      "text": "Me",
+      "label": "MISC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 859,
+          "paragraph_id": 0,
+          "char_start": 61399,
+          "char_end": 61401
+        },
+        {
+          "sentence_id": 862,
+          "paragraph_id": 0,
+          "char_start": 61477,
+          "char_end": 61479
+        }
+      ]
+    },
+    {
+      "text": "Me",
+      "label": "PER",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 890,
+          "paragraph_id": 1,
+          "char_start": 63280,
+          "char_end": 63282
+        },
+        {
+          "sentence_id": 1276,
+          "paragraph_id": 1,
+          "char_start": 88844,
+          "char_end": 88846
+        }
+      ]
+    },
+    {
+      "text": "Somos",
+      "label": "LOC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 918,
+          "paragraph_id": 1,
+          "char_start": 65351,
+          "char_end": 65356
+        },
+        {
+          "sentence_id": 1443,
+          "paragraph_id": 1,
+          "char_start": 99330,
+          "char_end": 99335
+        }
+      ]
+    },
+    {
+      "text": "César",
+      "label": "PER",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 1182,
+          "paragraph_id": 1,
+          "char_start": 82370,
+          "char_end": 82375
+        },
+        {
+          "sentence_id": 1182,
+          "paragraph_id": 1,
+          "char_start": 82388,
+          "char_end": 82393
+        }
+      ]
+    },
+    {
+      "text": "Júlia Costa",
+      "label": "PER",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 1206,
+          "paragraph_id": 1,
+          "char_start": 83507,
+          "char_end": 83518
+        },
+        {
+          "sentence_id": 1411,
+          "paragraph_id": 1,
+          "char_start": 96739,
+          "char_end": 96750
+        }
+      ]
+    },
+    {
+      "text": "Nicole",
+      "label": "PER",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 1263,
+          "paragraph_id": 1,
+          "char_start": 87955,
+          "char_end": 87961
+        },
+        {
+          "sentence_id": 1428,
+          "paragraph_id": 1,
+          "char_start": 98514,
+          "char_end": 98520
+        }
+      ]
+    },
+    {
+      "text": "BK",
+      "label": "ORG",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 1388,
+          "paragraph_id": 1,
+          "char_start": 94844,
+          "char_end": 94846
+        },
+        {
+          "sentence_id": 1393,
+          "paragraph_id": 1,
+          "char_start": 95147,
+          "char_end": 95149
+        }
+      ]
+    },
+    {
+      "text": "Estados Unidos",
+      "label": "LOC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 1403,
+          "paragraph_id": 1,
+          "char_start": 95732,
+          "char_end": 95746
+        },
+        {
+          "sentence_id": 2067,
+          "paragraph_id": 3,
+          "char_start": 137430,
+          "char_end": 137444
+        }
+      ]
+    },
+    {
+      "text": "Globo",
+      "label": "ORG",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 1425,
+          "paragraph_id": 1,
+          "char_start": 98088,
+          "char_end": 98093
+        },
+        {
+          "sentence_id": 1425,
+          "paragraph_id": 1,
+          "char_start": 98167,
+          "char_end": 98172
+        }
+      ]
+    },
+    {
+      "text": "Thiaguinho",
+      "label": "PER",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 1449,
+          "paragraph_id": 1,
+          "char_start": 99870,
+          "char_end": 99880
+        },
+        {
+          "sentence_id": 2246,
+          "paragraph_id": 3,
+          "char_start": 149998,
+          "char_end": 150008
+        }
+      ]
+    },
+    {
+      "text": "Drake",
+      "label": "PER",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 1547,
+          "paragraph_id": 2,
+          "char_start": 106158,
+          "char_end": 106163
+        },
+        {
+          "sentence_id": 1658,
+          "paragraph_id": 2,
+          "char_start": 113932,
+          "char_end": 113937
+        }
+      ]
+    },
+    {
+      "text": "Interlagos",
+      "label": "LOC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 1604,
+          "paragraph_id": 2,
+          "char_start": 110734,
+          "char_end": 110744
+        },
+        {
+          "sentence_id": 1605,
+          "paragraph_id": 2,
+          "char_start": 110760,
+          "char_end": 110770
+        }
+      ]
+    },
+    {
+      "text": "Vic",
+      "label": "LOC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 1713,
+          "paragraph_id": 2,
+          "char_start": 117455,
+          "char_end": 117458
+        },
+        {
+          "sentence_id": 1922,
+          "paragraph_id": 3,
+          "char_start": 128104,
+          "char_end": 128107
+        }
+      ]
+    },
+    {
+      "text": "Total",
+      "label": "MISC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 1733,
+          "paragraph_id": 2,
+          "char_start": 118863,
+          "char_end": 118868
+        },
+        {
+          "sentence_id": 1963,
+          "paragraph_id": 3,
+          "char_start": 131837,
+          "char_end": 131842
+        }
+      ]
+    },
+    {
+      "text": "Lucas Da Base",
+      "label": "MISC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 1783,
+          "paragraph_id": 2,
+          "char_start": 121736,
+          "char_end": 121749
+        },
+        {
+          "sentence_id": 1795,
+          "paragraph_id": 2,
+          "char_start": 122426,
+          "char_end": 122439
+        }
+      ]
+    },
+    {
+      "text": "Beatles",
+      "label": "ORG",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 2006,
+          "paragraph_id": 3,
+          "char_start": 133948,
+          "char_end": 133955
+        },
+        {
+          "sentence_id": 2006,
+          "paragraph_id": 3,
+          "char_start": 133968,
+          "char_end": 133975
+        }
+      ]
+    },
+    {
+      "text": "Matuê",
+      "label": "MISC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 2031,
+          "paragraph_id": 3,
+          "char_start": 135490,
+          "char_end": 135495
+        },
+        {
+          "sentence_id": 2062,
+          "paragraph_id": 3,
+          "char_start": 137070,
+          "char_end": 137075
+        }
+      ]
+    },
+    {
+      "text": "Picasso",
+      "label": "PER",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 2043,
+          "paragraph_id": 3,
+          "char_start": 136194,
+          "char_end": 136201
+        },
+        {
+          "sentence_id": 2043,
+          "paragraph_id": 3,
+          "char_start": 136208,
+          "char_end": 136215
+        }
+      ]
+    },
+    {
+      "text": "Estranho",
+      "label": "PER",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 2074,
+          "paragraph_id": 3,
+          "char_start": 137853,
+          "char_end": 137861
+        },
+        {
+          "sentence_id": 2074,
+          "paragraph_id": 3,
+          "char_start": 137887,
+          "char_end": 137895
+        }
+      ]
+    },
+    {
+      "text": "Boa",
+      "label": "LOC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 2225,
+          "paragraph_id": 3,
+          "char_start": 148223,
+          "char_end": 148226
+        },
+        {
+          "sentence_id": 2231,
+          "paragraph_id": 3,
+          "char_start": 148629,
+          "char_end": 148632
+        }
+      ]
+    },
+    {
+      "text": "Salve Salve Família",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "paragraph_id": 0,
+          "char_start": 9,
+          "char_end": 28
+        }
+      ]
+    },
+    {
+      "text": "Camal",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 40,
+          "paragraph_id": 0,
+          "char_start": 2942,
+          "char_end": 2947
+        }
+      ]
+    },
+    {
+      "text": "Emicida",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 41,
+          "paragraph_id": 0,
+          "char_start": 3068,
+          "char_end": 3075
+        }
+      ]
+    },
+    {
+      "text": "Batalha Do Santa Cruz",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 44,
+          "paragraph_id": 0,
+          "char_start": 3423,
+          "char_end": 3444
+        }
+      ]
+    },
+    {
+      "text": "Aproxi",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 50,
+          "paragraph_id": 0,
+          "char_start": 4275,
+          "char_end": 4281
+        }
+      ]
+    },
+    {
+      "text": "Los Angeles",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 63,
+          "paragraph_id": 0,
+          "char_start": 5548,
+          "char_end": 5559
+        }
+      ]
+    },
+    {
+      "text": "Cdzinho",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 66,
+          "paragraph_id": 0,
+          "char_start": 5822,
+          "char_end": 5829
+        }
+      ]
+    },
+    {
+      "text": "Immão",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 66,
+          "paragraph_id": 0,
+          "char_start": 5840,
+          "char_end": 5845
+        }
+      ]
+    },
+    {
+      "text": "IO MTV",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 67,
+          "paragraph_id": 0,
+          "char_start": 6002,
+          "char_end": 6008
+        }
+      ]
+    },
+    {
+      "text": "Paulista",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 71,
+          "paragraph_id": 0,
+          "char_start": 6408,
+          "char_end": 6416
+        }
+      ]
+    },
+    {
+      "text": "Largo Do Pai Sandu",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 71,
+          "paragraph_id": 0,
+          "char_start": 6435,
+          "char_end": 6453
+        }
+      ]
+    },
+    {
+      "text": "CCE XXL",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 71,
+          "paragraph_id": 0,
+          "char_start": 6486,
+          "char_end": 6493
+        }
+      ]
+    },
+    {
+      "text": "MC",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 77,
+          "paragraph_id": 0,
+          "char_start": 7112,
+          "char_end": 7114
+        }
+      ]
+    },
+    {
+      "text": "Tartaruga Ninja",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 82,
+          "paragraph_id": 0,
+          "char_start": 7497,
+          "char_end": 7512
+        }
+      ]
+    },
+    {
+      "text": "Vanil",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 82,
+          "paragraph_id": 0,
+          "char_start": 7517,
+          "char_end": 7522
+        }
+      ]
+    },
+    {
+      "text": "Santana",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 86,
+          "paragraph_id": 0,
+          "char_start": 7664,
+          "char_end": 7671
+        }
+      ]
+    },
+    {
+      "text": "Maria",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 92,
+          "paragraph_id": 0,
+          "char_start": 8097,
+          "char_end": 8102
+        }
+      ]
+    },
+    {
+      "text": "VHS",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 112,
+          "paragraph_id": 0,
+          "char_start": 9193,
+          "char_end": 9196
+        }
+      ]
+    },
+    {
+      "text": "Gêmeos",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 115,
+          "paragraph_id": 0,
+          "char_start": 9373,
+          "char_end": 9379
+        }
+      ]
+    },
+    {
+      "text": "Marconi",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 115,
+          "paragraph_id": 0,
+          "char_start": 9381,
+          "char_end": 9388
+        }
+      ]
+    },
+    {
+      "text": "Copa Do Mundo De 94",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 118,
+          "paragraph_id": 0,
+          "char_start": 9635,
+          "char_end": 9654
+        }
+      ]
+    },
+    {
+      "text": "Tenklin.",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 118,
+          "paragraph_id": 0,
+          "char_start": 9699,
+          "char_end": 9707
+        }
+      ]
+    },
+    {
+      "text": "Tenclan",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 120,
+          "paragraph_id": 0,
+          "char_start": 9799,
+          "char_end": 9806
+        }
+      ]
+    },
+    {
+      "text": "Glória",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 120,
+          "paragraph_id": 0,
+          "char_start": 9856,
+          "char_end": 9862
+        }
+      ]
+    },
+    {
+      "text": "Glória",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 120,
+          "paragraph_id": 0,
+          "char_start": 9873,
+          "char_end": 9879
+        }
+      ]
+    },
+    {
+      "text": "Ten",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 123,
+          "paragraph_id": 0,
+          "char_start": 10030,
+          "char_end": 10033
+        }
+      ]
+    },
+    {
+      "text": "Metal Man",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 127,
+          "paragraph_id": 0,
+          "char_start": 10496,
+          "char_end": 10505
+        }
+      ]
+    },
+    {
+      "text": "Mimand",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 134,
+          "paragraph_id": 0,
+          "char_start": 10766,
+          "char_end": 10772
+        }
+      ]
+    },
+    {
+      "text": "Copa De 94",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 138,
+          "paragraph_id": 0,
+          "char_start": 10889,
+          "char_end": 10899
+        }
+      ]
+    },
+    {
+      "text": "Copa",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 140,
+          "paragraph_id": 0,
+          "char_start": 11105,
+          "char_end": 11109
+        }
+      ]
+    },
+    {
+      "text": "Santos",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 141,
+          "paragraph_id": 0,
+          "char_start": 11169,
+          "char_end": 11175
+        }
+      ]
+    },
+    {
+      "text": "Sobrevivendo No Inferno",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 170,
+          "paragraph_id": 0,
+          "char_start": 12934,
+          "char_end": 12957
+        }
+      ]
+    },
+    {
+      "text": "Pump Killer",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 185,
+          "paragraph_id": 0,
+          "char_start": 13988,
+          "char_end": 13999
+        }
+      ]
+    },
+    {
+      "text": "Pump",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 185,
+          "paragraph_id": 0,
+          "char_start": 14030,
+          "char_end": 14034
+        }
+      ]
+    },
+    {
+      "text": "Vé",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 188,
+          "paragraph_id": 0,
+          "char_start": 14303,
+          "char_end": 14305
+        }
+      ]
+    },
+    {
+      "text": "Taí",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 189,
+          "paragraph_id": 0,
+          "char_start": 14442,
+          "char_end": 14445
+        }
+      ]
+    },
+    {
+      "text": "D2",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 189,
+          "paragraph_id": 0,
+          "char_start": 14481,
+          "char_end": 14483
+        }
+      ]
+    },
+    {
+      "text": "Black Alen",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 189,
+          "paragraph_id": 0,
+          "char_start": 14485,
+          "char_end": 14495
+        }
+      ]
+    },
+    {
+      "text": "Inconsapiência",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 189,
+          "paragraph_id": 0,
+          "char_start": 14497,
+          "char_end": 14511
+        }
+      ]
+    },
+    {
+      "text": "Ninaldinho",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 189,
+          "paragraph_id": 0,
+          "char_start": 14513,
+          "char_end": 14523
+        }
+      ]
+    },
+    {
+      "text": "Rapadura",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 189,
+          "paragraph_id": 0,
+          "char_start": 14559,
+          "char_end": 14567
+        }
+      ]
+    },
+    {
+      "text": "Círio",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 202,
+          "paragraph_id": 0,
+          "char_start": 15600,
+          "char_end": 15605
+        }
+      ]
+    },
+    {
+      "text": "Viic",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 202,
+          "paragraph_id": 0,
+          "char_start": 15607,
+          "char_end": 15611
+        }
+      ]
+    },
+    {
+      "text": "Círio",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 202,
+          "paragraph_id": 0,
+          "char_start": 15662,
+          "char_end": 15667
+        }
+      ]
+    },
+    {
+      "text": "Spike Lee",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 222,
+          "paragraph_id": 0,
+          "char_start": 17057,
+          "char_end": 17066
+        }
+      ]
+    },
+    {
+      "text": "Jean",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 234,
+          "paragraph_id": 0,
+          "char_start": 18149,
+          "char_end": 18153
+        }
+      ]
+    },
+    {
+      "text": "Hoje Eu Tava",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 237,
+          "paragraph_id": 0,
+          "char_start": 18266,
+          "char_end": 18278
+        }
+      ]
+    },
+    {
+      "text": "Fica Bem",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 239,
+          "paragraph_id": 0,
+          "char_start": 18438,
+          "char_end": 18446
+        }
+      ]
+    },
+    {
+      "text": "Santizu",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 239,
+          "paragraph_id": 0,
+          "char_start": 18462,
+          "char_end": 18469
+        }
+      ]
+    },
+    {
+      "text": "Chamã",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 239,
+          "paragraph_id": 0,
+          "char_start": 18484,
+          "char_end": 18489
+        }
+      ]
+    },
+    {
+      "text": "Major RD",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 239,
+          "paragraph_id": 0,
+          "char_start": 18504,
+          "char_end": 18512
+        }
+      ]
+    },
+    {
+      "text": "Metal",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 244,
+          "paragraph_id": 0,
+          "char_start": 18842,
+          "char_end": 18847
+        }
+      ]
+    },
+    {
+      "text": "Primeira",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 257,
+          "paragraph_id": 0,
+          "char_start": 19777,
+          "char_end": 19785
+        }
+      ]
+    },
+    {
+      "text": "Arrumei",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 263,
+          "paragraph_id": 0,
+          "char_start": 20075,
+          "char_end": 20082
+        }
+      ]
+    },
+    {
+      "text": "Luzíadas",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 272,
+          "paragraph_id": 0,
+          "char_start": 20956,
+          "char_end": 20964
+        }
+      ]
+    },
+    {
+      "text": "Sório",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 280,
+          "paragraph_id": 0,
+          "char_start": 21446,
+          "char_end": 21451
+        }
+      ]
+    },
+    {
+      "text": "Caí",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 293,
+          "paragraph_id": 0,
+          "char_start": 22395,
+          "char_end": 22398
+        }
+      ]
+    },
+    {
+      "text": "Dra",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 321,
+          "paragraph_id": 0,
+          "char_start": 24508,
+          "char_end": 24511
+        }
+      ]
+    },
+    {
+      "text": "Eliana",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 322,
+          "paragraph_id": 0,
+          "char_start": 24513,
+          "char_end": 24519
+        }
+      ]
+    },
+    {
+      "text": "Rikai",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 325,
+          "paragraph_id": 0,
+          "char_start": 25045,
+          "char_end": 25050
+        }
+      ]
+    },
+    {
+      "text": "Costa Gold",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 325,
+          "paragraph_id": 0,
+          "char_start": 25093,
+          "char_end": 25103
+        }
+      ]
+    },
+    {
+      "text": "Trop Killers",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 325,
+          "paragraph_id": 0,
+          "char_start": 25179,
+          "char_end": 25191
+        }
+      ]
+    },
+    {
+      "text": "Mike",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 343,
+          "paragraph_id": 0,
+          "char_start": 26583,
+          "char_end": 26587
+        }
+      ]
+    },
+    {
+      "text": "Precário Para",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 346,
+          "paragraph_id": 0,
+          "char_start": 26836,
+          "char_end": 26849
+        }
+      ]
+    },
+    {
+      "text": "Bertioga",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 352,
+          "paragraph_id": 0,
+          "char_start": 27102,
+          "char_end": 27110
+        }
+      ]
+    },
+    {
+      "text": "Massacã",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 356,
+          "paragraph_id": 0,
+          "char_start": 27658,
+          "char_end": 27665
+        }
+      ]
+    },
+    {
+      "text": "Artes Plásticas",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 373,
+          "paragraph_id": 0,
+          "char_start": 29208,
+          "char_end": 29223
+        }
+      ]
+    },
+    {
+      "text": "Air",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 390,
+          "paragraph_id": 0,
+          "char_start": 30968,
+          "char_end": 30971
+        }
+      ]
+    },
+    {
+      "text": "AR",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 392,
+          "paragraph_id": 0,
+          "char_start": 31046,
+          "char_end": 31048
+        }
+      ]
+    },
+    {
+      "text": "Nti",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 419,
+          "paragraph_id": 0,
+          "char_start": 32254,
+          "char_end": 32257
+        }
+      ]
+    },
+    {
+      "text": "Racionais Mcs",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 422,
+          "paragraph_id": 0,
+          "char_start": 32597,
+          "char_end": 32610
+        }
+      ]
+    },
+    {
+      "text": "Cosa Nostra",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 422,
+          "paragraph_id": 0,
+          "char_start": 32702,
+          "char_end": 32713
+        }
+      ]
+    },
+    {
+      "text": "Rapp Nacional",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 423,
+          "paragraph_id": 0,
+          "char_start": 32939,
+          "char_end": 32952
+        }
+      ]
+    },
+    {
+      "text": "Mcida",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 425,
+          "paragraph_id": 0,
+          "char_start": 33053,
+          "char_end": 33058
+        }
+      ]
+    },
+    {
+      "text": "Rock Nation",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 432,
+          "paragraph_id": 0,
+          "char_start": 33431,
+          "char_end": 33442
+        }
+      ]
+    },
+    {
+      "text": "Rocafela",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 432,
+          "paragraph_id": 0,
+          "char_start": 33447,
+          "char_end": 33455
+        }
+      ]
+    },
+    {
+      "text": "Rocafela Júni",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 433,
+          "paragraph_id": 0,
+          "char_start": 33470,
+          "char_end": 33483
+        }
+      ]
+    },
+    {
+      "text": "Bateu",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 461,
+          "paragraph_id": 0,
+          "char_start": 34764,
+          "char_end": 34769
+        }
+      ]
+    },
+    {
+      "text": "Certo",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 468,
+          "paragraph_id": 0,
+          "char_start": 34955,
+          "char_end": 34960
+        }
+      ]
+    },
+    {
+      "text": "Zidani",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 481,
+          "paragraph_id": 0,
+          "char_start": 35956,
+          "char_end": 35962
+        }
+      ]
+    },
+    {
+      "text": "Materaz",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 481,
+          "paragraph_id": 0,
+          "char_start": 35969,
+          "char_end": 35976
+        }
+      ]
+    },
+    {
+      "text": "Rivaldo",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 483,
+          "paragraph_id": 0,
+          "char_start": 36050,
+          "char_end": 36057
+        }
+      ]
+    },
+    {
+      "text": "VMA MTV",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 485,
+          "paragraph_id": 0,
+          "char_start": 36109,
+          "char_end": 36116
+        }
+      ]
+    },
+    {
+      "text": "Notorrius",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 485,
+          "paragraph_id": 0,
+          "char_start": 36137,
+          "char_end": 36146
+        }
+      ]
+    },
+    {
+      "text": "Versátil",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 485,
+          "paragraph_id": 0,
+          "char_start": 36174,
+          "char_end": 36182
+        }
+      ]
+    },
+    {
+      "text": "Car",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 490,
+          "paragraph_id": 0,
+          "char_start": 36401,
+          "char_end": 36404
+        }
+      ]
+    },
+    {
+      "text": "Césarão",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 494,
+          "paragraph_id": 0,
+          "char_start": 36709,
+          "char_end": 36716
+        }
+      ]
+    },
+    {
+      "text": "Racionais Do Nada",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 498,
+          "paragraph_id": 0,
+          "char_start": 36918,
+          "char_end": 36935
+        }
+      ]
+    },
+    {
+      "text": "Tremembé",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 502,
+          "paragraph_id": 0,
+          "char_start": 37160,
+          "char_end": 37168
+        }
+      ]
+    },
+    {
+      "text": "Lojas Americanas",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 521,
+          "paragraph_id": 0,
+          "char_start": 38076,
+          "char_end": 38092
+        }
+      ]
+    },
+    {
+      "text": "Ai",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 527,
+          "paragraph_id": 0,
+          "char_start": 38358,
+          "char_end": 38360
+        }
+      ]
+    },
+    {
+      "text": "Taí Do You",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 529,
+          "paragraph_id": 0,
+          "char_start": 38561,
+          "char_end": 38571
+        }
+      ]
+    },
+    {
+      "text": "Low Hider",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 529,
+          "paragraph_id": 0,
+          "char_start": 38598,
+          "char_end": 38607
+        }
+      ]
+    },
+    {
+      "text": "Tipac",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 532,
+          "paragraph_id": 0,
+          "char_start": 38854,
+          "char_end": 38859
+        }
+      ]
+    },
+    {
+      "text": "Tupac",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 532,
+          "paragraph_id": 0,
+          "char_start": 38875,
+          "char_end": 38880
+        }
+      ]
+    },
+    {
+      "text": "Big Eu Fui",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 533,
+          "paragraph_id": 0,
+          "char_start": 39043,
+          "char_end": 39053
+        }
+      ]
+    },
+    {
+      "text": "Ti Pax",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 533,
+          "paragraph_id": 0,
+          "char_start": 39141,
+          "char_end": 39147
+        }
+      ]
+    },
+    {
+      "text": "Madona",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 538,
+          "paragraph_id": 0,
+          "char_start": 39435,
+          "char_end": 39441
+        }
+      ]
+    },
+    {
+      "text": "Black Panther",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 542,
+          "paragraph_id": 0,
+          "char_start": 39651,
+          "char_end": 39664
+        }
+      ]
+    },
+    {
+      "text": "Fif Cent",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 544,
+          "paragraph_id": 0,
+          "char_start": 39891,
+          "char_end": 39899
+        }
+      ]
+    },
+    {
+      "text": "Ifood",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 577,
+          "paragraph_id": 0,
+          "char_start": 42249,
+          "char_end": 42254
+        }
+      ]
+    },
+    {
+      "text": "Gen",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 603,
+          "paragraph_id": 0,
+          "char_start": 44040,
+          "char_end": 44043
+        }
+      ]
+    },
+    {
+      "text": "Gan",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 604,
+          "paragraph_id": 0,
+          "char_start": 44111,
+          "char_end": 44114
+        }
+      ]
+    },
+    {
+      "text": "Cezão",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 608,
+          "paragraph_id": 0,
+          "char_start": 44198,
+          "char_end": 44203
+        }
+      ]
+    },
+    {
+      "text": "Galera",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 640,
+          "paragraph_id": 0,
+          "char_start": 46531,
+          "char_end": 46537
+        }
+      ]
+    },
+    {
+      "text": "Difícil",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 642,
+          "paragraph_id": 0,
+          "char_start": 46629,
+          "char_end": 46636
+        }
+      ]
+    },
+    {
+      "text": "MCA",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 646,
+          "paragraph_id": 0,
+          "char_start": 47065,
+          "char_end": 47068
+        }
+      ]
+    },
+    {
+      "text": "Intel",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 646,
+          "paragraph_id": 0,
+          "char_start": 47143,
+          "char_end": 47148
+        }
+      ]
+    },
+    {
+      "text": "Fico",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 662,
+          "paragraph_id": 0,
+          "char_start": 48153,
+          "char_end": 48157
+        }
+      ]
+    },
+    {
+      "text": "Paulo Mendes Da Rocha",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 663,
+          "paragraph_id": 0,
+          "char_start": 48175,
+          "char_end": 48196
+        }
+      ]
+    },
+    {
+      "text": "Depende",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 672,
+          "paragraph_id": 0,
+          "char_start": 48572,
+          "char_end": 48579
+        }
+      ]
+    },
+    {
+      "text": "Valência",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 686,
+          "paragraph_id": 0,
+          "char_start": 49193,
+          "char_end": 49201
+        }
+      ]
+    },
+    {
+      "text": "Bagulho",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 698,
+          "paragraph_id": 0,
+          "char_start": 49805,
+          "char_end": 49812
+        }
+      ]
+    },
+    {
+      "text": "Ana Castela",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 698,
+          "paragraph_id": 0,
+          "char_start": 49818,
+          "char_end": 49829
+        }
+      ]
+    },
+    {
+      "text": "Nuno",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 700,
+          "paragraph_id": 0,
+          "char_start": 49892,
+          "char_end": 49896
+        }
+      ]
+    },
+    {
+      "text": "Dom",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 700,
+          "paragraph_id": 0,
+          "char_start": 49906,
+          "char_end": 49909
+        }
+      ]
+    },
+    {
+      "text": "Adidas",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 746,
+          "paragraph_id": 0,
+          "char_start": 53274,
+          "char_end": 53280
+        }
+      ]
+    },
+    {
+      "text": "Marco",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 747,
+          "paragraph_id": 0,
+          "char_start": 53332,
+          "char_end": 53337
+        }
+      ]
+    },
+    {
+      "text": "Alguém",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 754,
+          "paragraph_id": 0,
+          "char_start": 53914,
+          "char_end": 53920
+        }
+      ]
+    },
+    {
+      "text": "Brown",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 766,
+          "paragraph_id": 0,
+          "char_start": 54923,
+          "char_end": 54928
+        }
+      ]
+    },
+    {
+      "text": "Brown",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 767,
+          "paragraph_id": 0,
+          "char_start": 55021,
+          "char_end": 55026
+        }
+      ]
+    },
+    {
+      "text": "Diplo",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 767,
+          "paragraph_id": 0,
+          "char_start": 55183,
+          "char_end": 55188
+        }
+      ]
+    },
+    {
+      "text": "MCB",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 767,
+          "paragraph_id": 0,
+          "char_start": 55192,
+          "char_end": 55195
+        }
+      ]
+    },
+    {
+      "text": "Bug Nipe",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 768,
+          "paragraph_id": 0,
+          "char_start": 55312,
+          "char_end": 55320
+        }
+      ]
+    },
+    {
+      "text": "Black Blue",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 770,
+          "paragraph_id": 0,
+          "char_start": 55374,
+          "char_end": 55384
+        }
+      ]
+    },
+    {
+      "text": "Putz",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 774,
+          "paragraph_id": 0,
+          "char_start": 55841,
+          "char_end": 55845
+        }
+      ]
+    },
+    {
+      "text": "Remix",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 795,
+          "paragraph_id": 0,
+          "char_start": 57075,
+          "char_end": 57080
+        }
+      ]
+    },
+    {
+      "text": "Heresia",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 795,
+          "paragraph_id": 0,
+          "char_start": 57135,
+          "char_end": 57142
+        }
+      ]
+    },
+    {
+      "text": "Chacalhou Nacional",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 795,
+          "paragraph_id": 0,
+          "char_start": 57151,
+          "char_end": 57169
+        }
+      ]
+    },
+    {
+      "text": "Instagram",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 815,
+          "paragraph_id": 0,
+          "char_start": 58830,
+          "char_end": 58839
+        }
+      ]
+    },
+    {
+      "text": "De São Paulo",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 834,
+          "paragraph_id": 0,
+          "char_start": 60183,
+          "char_end": 60195
+        }
+      ]
+    },
+    {
+      "text": "Bã",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 839,
+          "paragraph_id": 0,
+          "char_start": 60574,
+          "char_end": 60576
+        }
+      ]
+    },
+    {
+      "text": "Corinthians",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 845,
+          "paragraph_id": 0,
+          "char_start": 60736,
+          "char_end": 60747
+        }
+      ]
+    },
+    {
+      "text": "Palmeiras",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 845,
+          "paragraph_id": 0,
+          "char_start": 60750,
+          "char_end": 60759
+        }
+      ]
+    },
+    {
+      "text": "Vasco",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 846,
+          "paragraph_id": 0,
+          "char_start": 60802,
+          "char_end": 60807
+        }
+      ]
+    },
+    {
+      "text": "Espir",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 846,
+          "paragraph_id": 0,
+          "char_start": 60816,
+          "char_end": 60821
+        }
+      ]
+    },
+    {
+      "text": "Dart Vader",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 850,
+          "paragraph_id": 0,
+          "char_start": 61102,
+          "char_end": 61112
+        }
+      ]
+    },
+    {
+      "text": "Fiquei",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 855,
+          "paragraph_id": 0,
+          "char_start": 61262,
+          "char_end": 61268
+        }
+      ]
+    },
+    {
+      "text": "Conde",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 889,
+          "paragraph_id": 1,
+          "char_start": 63246,
+          "char_end": 63251
+        }
+      ]
+    },
+    {
+      "text": "Sensí",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 906,
+          "paragraph_id": 1,
+          "char_start": 64265,
+          "char_end": 64270
+        }
+      ]
+    },
+    {
+      "text": "Gramy",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 912,
+          "paragraph_id": 1,
+          "char_start": 64633,
+          "char_end": 64638
+        }
+      ]
+    },
+    {
+      "text": "Leão De Cânico",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 912,
+          "paragraph_id": 1,
+          "char_start": 64656,
+          "char_end": 64670
+        }
+      ]
+    },
+    {
+      "text": "Queria",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 915,
+          "paragraph_id": 1,
+          "char_start": 65020,
+          "char_end": 65026
+        }
+      ]
+    },
+    {
+      "text": "Viton O Igor",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 915,
+          "paragraph_id": 1,
+          "char_start": 65055,
+          "char_end": 65067
+        }
+      ]
+    },
+    {
+      "text": "Thiaguinho Rap Salva",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 918,
+          "paragraph_id": 1,
+          "char_start": 65291,
+          "char_end": 65311
+        }
+      ]
+    },
+    {
+      "text": "Vitones",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 919,
+          "paragraph_id": 1,
+          "char_start": 65492,
+          "char_end": 65499
+        }
+      ]
+    },
+    {
+      "text": "Depressão",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 929,
+          "paragraph_id": 1,
+          "char_start": 65982,
+          "char_end": 65991
+        }
+      ]
+    },
+    {
+      "text": "Conzila",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 964,
+          "paragraph_id": 1,
+          "char_start": 68807,
+          "char_end": 68814
+        }
+      ]
+    },
+    {
+      "text": "Ciao",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 978,
+          "paragraph_id": 1,
+          "char_start": 69890,
+          "char_end": 69894
+        }
+      ]
+    },
+    {
+      "text": "Uber",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 983,
+          "paragraph_id": 1,
+          "char_start": 70126,
+          "char_end": 70130
+        }
+      ]
+    },
+    {
+      "text": "Carol",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1003,
+          "paragraph_id": 1,
+          "char_start": 71177,
+          "char_end": 71182
+        }
+      ]
+    },
+    {
+      "text": "Sai",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1033,
+          "paragraph_id": 1,
+          "char_start": 73135,
+          "char_end": 73138
+        }
+      ]
+    },
+    {
+      "text": "Fonograma",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1045,
+          "paragraph_id": 1,
+          "char_start": 73794,
+          "char_end": 73803
+        }
+      ]
+    },
+    {
+      "text": "Steve Jobs",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1049,
+          "paragraph_id": 1,
+          "char_start": 74054,
+          "char_end": 74064
+        }
+      ]
+    },
+    {
+      "text": "Lindo",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1056,
+          "paragraph_id": 1,
+          "char_start": 74444,
+          "char_end": 74449
+        }
+      ]
+    },
+    {
+      "text": "Apple",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1057,
+          "paragraph_id": 1,
+          "char_start": 74474,
+          "char_end": 74479
+        }
+      ]
+    },
+    {
+      "text": "Tranquilo",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1092,
+          "paragraph_id": 1,
+          "char_start": 76503,
+          "char_end": 76512
+        }
+      ]
+    },
+    {
+      "text": "Comecei",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1096,
+          "paragraph_id": 1,
+          "char_start": 76639,
+          "char_end": 76646
+        }
+      ]
+    },
+    {
+      "text": "Notórius",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1133,
+          "paragraph_id": 1,
+          "char_start": 78605,
+          "char_end": 78613
+        }
+      ]
+    },
+    {
+      "text": "Eufria",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1133,
+          "paragraph_id": 1,
+          "char_start": 78668,
+          "char_end": 78674
+        }
+      ]
+    },
+    {
+      "text": "Kendrick Lamar",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1133,
+          "paragraph_id": 1,
+          "char_start": 78685,
+          "char_end": 78699
+        }
+      ]
+    },
+    {
+      "text": "Dom Cesão",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1166,
+          "paragraph_id": 1,
+          "char_start": 80235,
+          "char_end": 80244
+        }
+      ]
+    },
+    {
+      "text": "JZ",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1169,
+          "paragraph_id": 1,
+          "char_start": 80434,
+          "char_end": 80436
+        }
+      ]
+    },
+    {
+      "text": "Ladrão",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1174,
+          "paragraph_id": 1,
+          "char_start": 81391,
+          "char_end": 81397
+        }
+      ]
+    },
+    {
+      "text": "Tash",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1181,
+          "paragraph_id": 1,
+          "char_start": 82183,
+          "char_end": 82187
+        }
+      ]
+    },
+    {
+      "text": "Léo Gordo",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1181,
+          "paragraph_id": 1,
+          "char_start": 82212,
+          "char_end": 82221
+        }
+      ]
+    },
+    {
+      "text": "Miliana",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1181,
+          "paragraph_id": 1,
+          "char_start": 82320,
+          "char_end": 82327
+        }
+      ]
+    },
+    {
+      "text": "Digo",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1189,
+          "paragraph_id": 1,
+          "char_start": 82878,
+          "char_end": 82882
+        }
+      ]
+    },
+    {
+      "text": "Nanda Tsunami",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1206,
+          "paragraph_id": 1,
+          "char_start": 83710,
+          "char_end": 83723
+        }
+      ]
+    },
+    {
+      "text": "Amei",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1214,
+          "paragraph_id": 1,
+          "char_start": 84159,
+          "char_end": 84163
+        }
+      ]
+    },
+    {
+      "text": "Andrezinho",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1219,
+          "paragraph_id": 1,
+          "char_start": 84436,
+          "char_end": 84446
+        }
+      ]
+    },
+    {
+      "text": "Strike",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1219,
+          "paragraph_id": 1,
+          "char_start": 84450,
+          "char_end": 84456
+        }
+      ]
+    },
+    {
+      "text": "Strike",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1219,
+          "paragraph_id": 1,
+          "char_start": 84472,
+          "char_end": 84478
+        }
+      ]
+    },
+    {
+      "text": "Decaps",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1221,
+          "paragraph_id": 1,
+          "char_start": 84617,
+          "char_end": 84623
+        }
+      ]
+    },
+    {
+      "text": "Cap",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1221,
+          "paragraph_id": 1,
+          "char_start": 84651,
+          "char_end": 84654
+        }
+      ]
+    },
+    {
+      "text": "Sezinha",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1221,
+          "paragraph_id": 1,
+          "char_start": 84656,
+          "char_end": 84663
+        }
+      ]
+    },
+    {
+      "text": "Cezinha",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1221,
+          "paragraph_id": 1,
+          "char_start": 84665,
+          "char_end": 84672
+        }
+      ]
+    },
+    {
+      "text": "Nati",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1239,
+          "paragraph_id": 1,
+          "char_start": 86242,
+          "char_end": 86246
+        }
+      ]
+    },
+    {
+      "text": "Fio",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1239,
+          "paragraph_id": 1,
+          "char_start": 86266,
+          "char_end": 86269
+        }
+      ]
+    },
+    {
+      "text": "Sezão",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1245,
+          "paragraph_id": 1,
+          "char_start": 86702,
+          "char_end": 86707
+        }
+      ]
+    },
+    {
+      "text": "Playboy",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1245,
+          "paragraph_id": 1,
+          "char_start": 86709,
+          "char_end": 86716
+        }
+      ]
+    },
+    {
+      "text": "Kanan",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1250,
+          "paragraph_id": 1,
+          "char_start": 87010,
+          "char_end": 87015
+        }
+      ]
+    },
+    {
+      "text": "Sport Life",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1253,
+          "paragraph_id": 1,
+          "char_start": 87140,
+          "char_end": 87150
+        }
+      ]
+    },
+    {
+      "text": "Pensei",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1279,
+          "paragraph_id": 1,
+          "char_start": 89041,
+          "char_end": 89047
+        }
+      ]
+    },
+    {
+      "text": "Orixi",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1280,
+          "paragraph_id": 1,
+          "char_start": 89095,
+          "char_end": 89100
+        }
+      ]
+    },
+    {
+      "text": "Comigo",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1296,
+          "paragraph_id": 1,
+          "char_start": 90193,
+          "char_end": 90199
+        }
+      ]
+    },
+    {
+      "text": "Éí",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1305,
+          "paragraph_id": 1,
+          "char_start": 90540,
+          "char_end": 90542
+        }
+      ]
+    },
+    {
+      "text": "Inferno",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1333,
+          "paragraph_id": 1,
+          "char_start": 92092,
+          "char_end": 92099
+        }
+      ]
+    },
+    {
+      "text": "Natal",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1336,
+          "paragraph_id": 1,
+          "char_start": 92335,
+          "char_end": 92340
+        }
+      ]
+    },
+    {
+      "text": "Podia P",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1341,
+          "paragraph_id": 1,
+          "char_start": 92588,
+          "char_end": 92595
+        }
+      ]
+    },
+    {
+      "text": "Mesa Redonda",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1345,
+          "paragraph_id": 1,
+          "char_start": 92760,
+          "char_end": 92772
+        }
+      ]
+    },
+    {
+      "text": "Lógico",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1368,
+          "paragraph_id": 1,
+          "char_start": 93862,
+          "char_end": 93868
+        }
+      ]
+    },
+    {
+      "text": "Dexter",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1392,
+          "paragraph_id": 1,
+          "char_start": 95062,
+          "char_end": 95068
+        }
+      ]
+    },
+    {
+      "text": "Don L",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1393,
+          "paragraph_id": 1,
+          "char_start": 95138,
+          "char_end": 95143
+        }
+      ]
+    },
+    {
+      "text": "Tm",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1407,
+          "paragraph_id": 1,
+          "char_start": 96314,
+          "char_end": 96316
+        }
+      ]
+    },
+    {
+      "text": "Sena",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1410,
+          "paragraph_id": 1,
+          "char_start": 96472,
+          "char_end": 96476
+        }
+      ]
+    },
+    {
+      "text": "Arena Do Corinthians",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1410,
+          "paragraph_id": 1,
+          "char_start": 96589,
+          "char_end": 96609
+        }
+      ]
+    },
+    {
+      "text": "Duqueza",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1411,
+          "paragraph_id": 1,
+          "char_start": 96714,
+          "char_end": 96721
+        }
+      ]
+    },
+    {
+      "text": "Nanda De Tsunami",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1425,
+          "paragraph_id": 1,
+          "char_start": 98130,
+          "char_end": 98146
+        }
+      ]
+    },
+    {
+      "text": "Ebon",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1425,
+          "paragraph_id": 1,
+          "char_start": 98180,
+          "char_end": 98184
+        }
+      ]
+    },
+    {
+      "text": "Lula",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1425,
+          "paragraph_id": 1,
+          "char_start": 98220,
+          "char_end": 98224
+        }
+      ]
+    },
+    {
+      "text": "Clara Lima",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1428,
+          "paragraph_id": 1,
+          "char_start": 98464,
+          "char_end": 98474
+        }
+      ]
+    },
+    {
+      "text": "Tasco",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1428,
+          "paragraph_id": 1,
+          "char_start": 98488,
+          "char_end": 98493
+        }
+      ]
+    },
+    {
+      "text": "Nati",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1454,
+          "paragraph_id": 1,
+          "char_start": 100567,
+          "char_end": 100571
+        }
+      ]
+    },
+    {
+      "text": "Conzila",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1455,
+          "paragraph_id": 1,
+          "char_start": 100660,
+          "char_end": 100667
+        }
+      ]
+    },
+    {
+      "text": "Descrente Do Rap",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1457,
+          "paragraph_id": 1,
+          "char_start": 100869,
+          "char_end": 100885
+        }
+      ]
+    },
+    {
+      "text": "Total De De Da",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1458,
+          "paragraph_id": 1,
+          "char_start": 100946,
+          "char_end": 100960
+        }
+      ]
+    },
+    {
+      "text": "Imagina",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1468,
+          "paragraph_id": 1,
+          "char_start": 101436,
+          "char_end": 101443
+        }
+      ]
+    },
+    {
+      "text": "IR",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1476,
+          "paragraph_id": 1,
+          "char_start": 102215,
+          "char_end": 102217
+        }
+      ]
+    },
+    {
+      "text": "Meio",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1478,
+          "paragraph_id": 1,
+          "char_start": 102362,
+          "char_end": 102366
+        }
+      ]
+    },
+    {
+      "text": "Verdade",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1481,
+          "paragraph_id": 1,
+          "char_start": 102487,
+          "char_end": 102494
+        }
+      ]
+    },
+    {
+      "text": "Copa Do Mundo",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1492,
+          "paragraph_id": 1,
+          "char_start": 103359,
+          "char_end": 103372
+        }
+      ]
+    },
+    {
+      "text": "Kan",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1499,
+          "paragraph_id": 1,
+          "char_start": 103575,
+          "char_end": 103578
+        }
+      ]
+    },
+    {
+      "text": "Podia",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1504,
+          "paragraph_id": 1,
+          "char_start": 103841,
+          "char_end": 103846
+        }
+      ]
+    },
+    {
+      "text": "Itach",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1505,
+          "paragraph_id": 1,
+          "char_start": 103921,
+          "char_end": 103926
+        }
+      ]
+    },
+    {
+      "text": "Kan E O Feben",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1506,
+          "paragraph_id": 1,
+          "char_start": 103955,
+          "char_end": 103968
+        }
+      ]
+    },
+    {
+      "text": "Brime",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1507,
+          "paragraph_id": 1,
+          "char_start": 103983,
+          "char_end": 103988
+        }
+      ]
+    },
+    {
+      "text": "Spotify",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1525,
+          "paragraph_id": 1,
+          "char_start": 104844,
+          "char_end": 104851
+        }
+      ]
+    },
+    {
+      "text": "Pessoa",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1559,
+          "paragraph_id": 2,
+          "char_start": 107435,
+          "char_end": 107441
+        }
+      ]
+    },
+    {
+      "text": "Fogem",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1582,
+          "paragraph_id": 2,
+          "char_start": 108685,
+          "char_end": 108690
+        }
+      ]
+    },
+    {
+      "text": "Paris Saint-Germain",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1591,
+          "paragraph_id": 2,
+          "char_start": 109348,
+          "char_end": 109367
+        }
+      ]
+    },
+    {
+      "text": "Dan",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1591,
+          "paragraph_id": 2,
+          "char_start": 109600,
+          "char_end": 109603
+        }
+      ]
+    },
+    {
+      "text": "Lola Palusa",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1603,
+          "paragraph_id": 2,
+          "char_start": 110611,
+          "char_end": 110622
+        }
+      ]
+    },
+    {
+      "text": "Diretoria",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1610,
+          "paragraph_id": 2,
+          "char_start": 111353,
+          "char_end": 111362
+        }
+      ]
+    },
+    {
+      "text": "MC Da Lança De Fit Do Borges",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1613,
+          "paragraph_id": 2,
+          "char_start": 111640,
+          "char_end": 111668
+        }
+      ]
+    },
+    {
+      "text": "Posso",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1652,
+          "paragraph_id": 2,
+          "char_start": 113606,
+          "char_end": 113611
+        }
+      ]
+    },
+    {
+      "text": "TDI",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1655,
+          "paragraph_id": 2,
+          "char_start": 113763,
+          "char_end": 113766
+        }
+      ]
+    },
+    {
+      "text": "PJ Leng",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1656,
+          "paragraph_id": 2,
+          "char_start": 113864,
+          "char_end": 113871
+        }
+      ]
+    },
+    {
+      "text": "Puxati",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1659,
+          "paragraph_id": 2,
+          "char_start": 114101,
+          "char_end": 114107
+        }
+      ]
+    },
+    {
+      "text": "Puxati",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1660,
+          "paragraph_id": 2,
+          "char_start": 114109,
+          "char_end": 114115
+        }
+      ]
+    },
+    {
+      "text": "Finalzinho",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1674,
+          "paragraph_id": 2,
+          "char_start": 114857,
+          "char_end": 114867
+        }
+      ]
+    },
+    {
+      "text": "Vai Passar",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1681,
+          "paragraph_id": 2,
+          "char_start": 115453,
+          "char_end": 115463
+        }
+      ]
+    },
+    {
+      "text": "Bit",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1681,
+          "paragraph_id": 2,
+          "char_start": 115483,
+          "char_end": 115486
+        }
+      ]
+    },
+    {
+      "text": "Paulinho Do Decaps",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1682,
+          "paragraph_id": 2,
+          "char_start": 115506,
+          "char_end": 115524
+        }
+      ]
+    },
+    {
+      "text": "Paulinho",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1683,
+          "paragraph_id": 2,
+          "char_start": 115598,
+          "char_end": 115606
+        }
+      ]
+    },
+    {
+      "text": "12 Judas",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1684,
+          "paragraph_id": 2,
+          "char_start": 115708,
+          "char_end": 115716
+        }
+      ]
+    },
+    {
+      "text": "Bumbé",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1692,
+          "paragraph_id": 2,
+          "char_start": 116401,
+          "char_end": 116406
+        }
+      ]
+    },
+    {
+      "text": "Fi",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1694,
+          "paragraph_id": 2,
+          "char_start": 116499,
+          "char_end": 116501
+        }
+      ]
+    },
+    {
+      "text": "Tipo",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1713,
+          "paragraph_id": 2,
+          "char_start": 117356,
+          "char_end": 117360
+        }
+      ]
+    },
+    {
+      "text": "Malcoto",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1713,
+          "paragraph_id": 2,
+          "char_start": 117430,
+          "char_end": 117437
+        }
+      ]
+    },
+    {
+      "text": "Vic",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1721,
+          "paragraph_id": 2,
+          "char_start": 117995,
+          "char_end": 117998
+        }
+      ]
+    },
+    {
+      "text": "Podia",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1723,
+          "paragraph_id": 2,
+          "char_start": 118086,
+          "char_end": 118091
+        }
+      ]
+    },
+    {
+      "text": "Bad Boy",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1736,
+          "paragraph_id": 2,
+          "char_start": 119114,
+          "char_end": 119121
+        }
+      ]
+    },
+    {
+      "text": "Puff Fideri",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1737,
+          "paragraph_id": 2,
+          "char_start": 119186,
+          "char_end": 119197
+        }
+      ]
+    },
+    {
+      "text": "Associações",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1738,
+          "paragraph_id": 2,
+          "char_start": 119249,
+          "char_end": 119260
+        }
+      ]
+    },
+    {
+      "text": "Deus",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1739,
+          "paragraph_id": 2,
+          "char_start": 119295,
+          "char_end": 119299
+        }
+      ]
+    },
+    {
+      "text": "Bá",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1749,
+          "paragraph_id": 2,
+          "char_start": 119771,
+          "char_end": 119773
+        }
+      ]
+    },
+    {
+      "text": "Tamo",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1749,
+          "paragraph_id": 2,
+          "char_start": 119805,
+          "char_end": 119809
+        }
+      ]
+    },
+    {
+      "text": "Mata",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1750,
+          "paragraph_id": 2,
+          "char_start": 119824,
+          "char_end": 119828
+        }
+      ]
+    },
+    {
+      "text": "Calma",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1772,
+          "paragraph_id": 2,
+          "char_start": 121117,
+          "char_end": 121122
+        }
+      ]
+    },
+    {
+      "text": "Alguém",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1778,
+          "paragraph_id": 2,
+          "char_start": 121570,
+          "char_end": 121576
+        }
+      ]
+    },
+    {
+      "text": "Abraço",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1785,
+          "paragraph_id": 2,
+          "char_start": 121887,
+          "char_end": 121893
+        }
+      ]
+    },
+    {
+      "text": "Vick",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1786,
+          "paragraph_id": 2,
+          "char_start": 121949,
+          "char_end": 121953
+        }
+      ]
+    },
+    {
+      "text": "Legendário",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1790,
+          "paragraph_id": 2,
+          "char_start": 122085,
+          "char_end": 122095
+        }
+      ]
+    },
+    {
+      "text": "MC Ciro",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1791,
+          "paragraph_id": 2,
+          "char_start": 122219,
+          "char_end": 122226
+        }
+      ]
+    },
+    {
+      "text": "Família",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1792,
+          "paragraph_id": 2,
+          "char_start": 122264,
+          "char_end": 122271
+        }
+      ]
+    },
+    {
+      "text": "Sea",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1795,
+          "paragraph_id": 2,
+          "char_start": 122473,
+          "char_end": 122476
+        }
+      ]
+    },
+    {
+      "text": "Lucas",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1795,
+          "paragraph_id": 2,
+          "char_start": 122489,
+          "char_end": 122494
+        }
+      ]
+    },
+    {
+      "text": "Alzheimer",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1799,
+          "paragraph_id": 2,
+          "char_start": 122639,
+          "char_end": 122648
+        }
+      ]
+    },
+    {
+      "text": "São Vicente",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1801,
+          "paragraph_id": 2,
+          "char_start": 122898,
+          "char_end": 122909
+        }
+      ]
+    },
+    {
+      "text": "Círio SPV",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1807,
+          "paragraph_id": 2,
+          "char_start": 123202,
+          "char_end": 123211
+        }
+      ]
+    },
+    {
+      "text": "Naina",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1807,
+          "paragraph_id": 2,
+          "char_start": 123226,
+          "char_end": 123231
+        }
+      ]
+    },
+    {
+      "text": "Batisteia",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1807,
+          "paragraph_id": 2,
+          "char_start": 123237,
+          "char_end": 123246
+        }
+      ]
+    },
+    {
+      "text": "Valeu",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1809,
+          "paragraph_id": 2,
+          "char_start": 123286,
+          "char_end": 123291
+        }
+      ]
+    },
+    {
+      "text": "Massa Clan",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1811,
+          "paragraph_id": 2,
+          "char_start": 123323,
+          "char_end": 123333
+        }
+      ]
+    },
+    {
+      "text": "Salve Aí",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1812,
+          "paragraph_id": 2,
+          "char_start": 123355,
+          "char_end": 123363
+        }
+      ]
+    },
+    {
+      "text": "Ali",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1817,
+          "paragraph_id": 2,
+          "char_start": 123621,
+          "char_end": 123624
+        }
+      ]
+    },
+    {
+      "text": "Cand",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1821,
+          "paragraph_id": 2,
+          "char_start": 123671,
+          "char_end": 123675
+        }
+      ]
+    },
+    {
+      "text": "Bravo",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1827,
+          "paragraph_id": 2,
+          "char_start": 123885,
+          "char_end": 123890
+        }
+      ]
+    },
+    {
+      "text": "Raikais",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1830,
+          "paragraph_id": 2,
+          "char_start": 124144,
+          "char_end": 124151
+        }
+      ]
+    },
+    {
+      "text": "Madará",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1830,
+          "paragraph_id": 2,
+          "char_start": 124191,
+          "char_end": 124197
+        }
+      ]
+    },
+    {
+      "text": "Vi?",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1833,
+          "paragraph_id": 2,
+          "char_start": 124374,
+          "char_end": 124377
+        }
+      ]
+    },
+    {
+      "text": "Clash",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1834,
+          "paragraph_id": 2,
+          "char_start": 124396,
+          "char_end": 124401
+        }
+      ]
+    },
+    {
+      "text": "Territoriozinho",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1838,
+          "paragraph_id": 2,
+          "char_start": 124604,
+          "char_end": 124619
+        }
+      ]
+    },
+    {
+      "text": "Saf",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1839,
+          "paragraph_id": 2,
+          "char_start": 124743,
+          "char_end": 124746
+        }
+      ]
+    },
+    {
+      "text": "Dom Cezão",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1839,
+          "paragraph_id": 2,
+          "char_start": 124781,
+          "char_end": 124790
+        }
+      ]
+    },
+    {
+      "text": "Vod",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1841,
+          "paragraph_id": 2,
+          "char_start": 124853,
+          "char_end": 124856
+        }
+      ]
+    },
+    {
+      "text": "Merda",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1850,
+          "paragraph_id": 2,
+          "char_start": 125109,
+          "char_end": 125114
+        }
+      ]
+    },
+    {
+      "text": "Ha Sesão",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1862,
+          "paragraph_id": 2,
+          "char_start": 125461,
+          "char_end": 125469
+        }
+      ]
+    },
+    {
+      "text": "Damassa Clan",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1862,
+          "paragraph_id": 2,
+          "char_start": 125502,
+          "char_end": 125514
+        }
+      ]
+    },
+    {
+      "text": "Massac",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1873,
+          "paragraph_id": 3,
+          "char_start": 126074,
+          "char_end": 126080
+        }
+      ]
+    },
+    {
+      "text": "Taroba",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1911,
+          "paragraph_id": 3,
+          "char_start": 127648,
+          "char_end": 127654
+        }
+      ]
+    },
+    {
+      "text": "Cher De",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1913,
+          "paragraph_id": 3,
+          "char_start": 127779,
+          "char_end": 127786
+        }
+      ]
+    },
+    {
+      "text": "Defect",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1913,
+          "paragraph_id": 3,
+          "char_start": 127787,
+          "char_end": 127793
+        }
+      ]
+    },
+    {
+      "text": "Ai",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1918,
+          "paragraph_id": 3,
+          "char_start": 127893,
+          "char_end": 127895
+        }
+      ]
+    },
+    {
+      "text": "Millennial",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1919,
+          "paragraph_id": 3,
+          "char_start": 127925,
+          "char_end": 127935
+        }
+      ]
+    },
+    {
+      "text": "Lex Texas",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1921,
+          "paragraph_id": 3,
+          "char_start": 127977,
+          "char_end": 127986
+        }
+      ]
+    },
+    {
+      "text": "Crio",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1922,
+          "paragraph_id": 3,
+          "char_start": 128118,
+          "char_end": 128122
+        }
+      ]
+    },
+    {
+      "text": "Massacrante",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1922,
+          "paragraph_id": 3,
+          "char_start": 128141,
+          "char_end": 128152
+        }
+      ]
+    },
+    {
+      "text": "Zap",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1923,
+          "paragraph_id": 3,
+          "char_start": 128196,
+          "char_end": 128199
+        }
+      ]
+    },
+    {
+      "text": "Stereo Dubs De LX",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1929,
+          "paragraph_id": 3,
+          "char_start": 128736,
+          "char_end": 128753
+        }
+      ]
+    },
+    {
+      "text": "Léo Grijó",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1929,
+          "paragraph_id": 3,
+          "char_start": 128755,
+          "char_end": 128764
+        }
+      ]
+    },
+    {
+      "text": "MC Tarapi",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1930,
+          "paragraph_id": 3,
+          "char_start": 128820,
+          "char_end": 128829
+        }
+      ]
+    },
+    {
+      "text": "Rio",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1930,
+          "paragraph_id": 3,
+          "char_start": 128836,
+          "char_end": 128839
+        }
+      ]
+    },
+    {
+      "text": "Fí",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1932,
+          "paragraph_id": 3,
+          "char_start": 128886,
+          "char_end": 128888
+        }
+      ]
+    },
+    {
+      "text": "Har Brx",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1935,
+          "paragraph_id": 3,
+          "char_start": 129085,
+          "char_end": 129092
+        }
+      ]
+    },
+    {
+      "text": "Mari",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1936,
+          "paragraph_id": 3,
+          "char_start": 129181,
+          "char_end": 129185
+        }
+      ]
+    },
+    {
+      "text": "Explashic",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1936,
+          "paragraph_id": 3,
+          "char_start": 129189,
+          "char_end": 129198
+        }
+      ]
+    },
+    {
+      "text": "X Vídeos",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1938,
+          "paragraph_id": 3,
+          "char_start": 129666,
+          "char_end": 129674
+        }
+      ]
+    },
+    {
+      "text": "XB",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1941,
+          "paragraph_id": 3,
+          "char_start": 129804,
+          "char_end": 129806
+        }
+      ]
+    },
+    {
+      "text": "XV",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1942,
+          "paragraph_id": 3,
+          "char_start": 129838,
+          "char_end": 129840
+        }
+      ]
+    },
+    {
+      "text": "Gostei",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1947,
+          "paragraph_id": 3,
+          "char_start": 130135,
+          "char_end": 130141
+        }
+      ]
+    },
+    {
+      "text": "Nova Yorkina",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1953,
+          "paragraph_id": 3,
+          "char_start": 130624,
+          "char_end": 130636
+        }
+      ]
+    },
+    {
+      "text": "Shan Price",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1953,
+          "paragraph_id": 3,
+          "char_start": 130657,
+          "char_end": 130667
+        }
+      ]
+    },
+    {
+      "text": "I'M Shan Price",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1954,
+          "paragraph_id": 3,
+          "char_start": 130857,
+          "char_end": 130871
+        }
+      ]
+    },
+    {
+      "text": "Ma",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1954,
+          "paragraph_id": 3,
+          "char_start": 130961,
+          "char_end": 130963
+        }
+      ]
+    },
+    {
+      "text": "Ciferzinho",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1955,
+          "paragraph_id": 3,
+          "char_start": 131113,
+          "char_end": 131123
+        }
+      ]
+    },
+    {
+      "text": "Don Cesão",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1955,
+          "paragraph_id": 3,
+          "char_start": 131261,
+          "char_end": 131270
+        }
+      ]
+    },
+    {
+      "text": "World Wide",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1966,
+          "paragraph_id": 3,
+          "char_start": 131904,
+          "char_end": 131914
+        }
+      ]
+    },
+    {
+      "text": "Vitão",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1976,
+          "paragraph_id": 3,
+          "char_start": 132170,
+          "char_end": 132175
+        }
+      ]
+    },
+    {
+      "text": "Dáa",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1984,
+          "paragraph_id": 3,
+          "char_start": 132563,
+          "char_end": 132566
+        }
+      ]
+    },
+    {
+      "text": "Bora",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1991,
+          "paragraph_id": 3,
+          "char_start": 133091,
+          "char_end": 133095
+        }
+      ]
+    },
+    {
+      "text": "Tem",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2010,
+          "paragraph_id": 3,
+          "char_start": 134089,
+          "char_end": 134092
+        }
+      ]
+    },
+    {
+      "text": "Fake It",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2015,
+          "paragraph_id": 3,
+          "char_start": 134613,
+          "char_end": 134620
+        }
+      ]
+    },
+    {
+      "text": "Encaixa",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2024,
+          "paragraph_id": 3,
+          "char_start": 135199,
+          "char_end": 135206
+        }
+      ]
+    },
+    {
+      "text": "Fábio Goden",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2031,
+          "paragraph_id": 3,
+          "char_start": 135454,
+          "char_end": 135465
+        }
+      ]
+    },
+    {
+      "text": "Moleque",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2032,
+          "paragraph_id": 3,
+          "char_start": 135497,
+          "char_end": 135504
+        }
+      ]
+    },
+    {
+      "text": "Moné",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2044,
+          "paragraph_id": 3,
+          "char_start": 136231,
+          "char_end": 136235
+        }
+      ]
+    },
+    {
+      "text": "Mon?",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2044,
+          "paragraph_id": 3,
+          "char_start": 136242,
+          "char_end": 136246
+        }
+      ]
+    },
+    {
+      "text": "Sim",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2057,
+          "paragraph_id": 3,
+          "char_start": 136868,
+          "char_end": 136871
+        }
+      ]
+    },
+    {
+      "text": "Matué",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2061,
+          "paragraph_id": 3,
+          "char_start": 137060,
+          "char_end": 137065
+        }
+      ]
+    },
+    {
+      "text": "Borges",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2062,
+          "paragraph_id": 3,
+          "char_start": 137125,
+          "char_end": 137131
+        }
+      ]
+    },
+    {
+      "text": "Alemanha",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2065,
+          "paragraph_id": 3,
+          "char_start": 137333,
+          "char_end": 137341
+        }
+      ]
+    },
+    {
+      "text": "Rússia",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2066,
+          "paragraph_id": 3,
+          "char_start": 137404,
+          "char_end": 137410
+        }
+      ]
+    },
+    {
+      "text": "Mate",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2071,
+          "paragraph_id": 3,
+          "char_start": 137611,
+          "char_end": 137615
+        }
+      ]
+    },
+    {
+      "text": "Rocking R",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2076,
+          "paragraph_id": 3,
+          "char_start": 138034,
+          "char_end": 138043
+        }
+      ]
+    },
+    {
+      "text": "Hã",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2078,
+          "paragraph_id": 3,
+          "char_start": 138115,
+          "char_end": 138117
+        }
+      ]
+    },
+    {
+      "text": "Qual Foi O",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2085,
+          "paragraph_id": 3,
+          "char_start": 138518,
+          "char_end": 138528
+        }
+      ]
+    },
+    {
+      "text": "Rock Rick",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2085,
+          "paragraph_id": 3,
+          "char_start": 138529,
+          "char_end": 138538
+        }
+      ]
+    },
+    {
+      "text": "Mário",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2089,
+          "paragraph_id": 3,
+          "char_start": 139110,
+          "char_end": 139115
+        }
+      ]
+    },
+    {
+      "text": "Matue",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2110,
+          "paragraph_id": 3,
+          "char_start": 140476,
+          "char_end": 140481
+        }
+      ]
+    },
+    {
+      "text": "Fab",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2116,
+          "paragraph_id": 3,
+          "char_start": 140816,
+          "char_end": 140819
+        }
+      ]
+    },
+    {
+      "text": "Zlatan",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2116,
+          "paragraph_id": 3,
+          "char_start": 140823,
+          "char_end": 140829
+        }
+      ]
+    },
+    {
+      "text": "Mão",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2120,
+          "paragraph_id": 3,
+          "char_start": 141091,
+          "char_end": 141094
+        }
+      ]
+    },
+    {
+      "text": "Ensaiou",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2127,
+          "paragraph_id": 3,
+          "char_start": 141645,
+          "char_end": 141652
+        }
+      ]
+    },
+    {
+      "text": "Nox",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2128,
+          "paragraph_id": 3,
+          "char_start": 141723,
+          "char_end": 141726
+        }
+      ]
+    },
+    {
+      "text": "Rock And Hill",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2132,
+          "paragraph_id": 3,
+          "char_start": 141855,
+          "char_end": 141868
+        }
+      ]
+    },
+    {
+      "text": "Quis",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2133,
+          "paragraph_id": 3,
+          "char_start": 141913,
+          "char_end": 141917
+        }
+      ]
+    },
+    {
+      "text": "Bob Marley",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2135,
+          "paragraph_id": 3,
+          "char_start": 142023,
+          "char_end": 142033
+        }
+      ]
+    },
+    {
+      "text": "Lennon",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2136,
+          "paragraph_id": 3,
+          "char_start": 142102,
+          "char_end": 142108
+        }
+      ]
+    },
+    {
+      "text": "Ros",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2136,
+          "paragraph_id": 3,
+          "char_start": 142122,
+          "char_end": 142125
+        }
+      ]
+    },
+    {
+      "text": "Vitor",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2152,
+          "paragraph_id": 3,
+          "char_start": 143028,
+          "char_end": 143033
+        }
+      ]
+    },
+    {
+      "text": "Rica Monteiro",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2154,
+          "paragraph_id": 3,
+          "char_start": 143055,
+          "char_end": 143068
+        }
+      ]
+    },
+    {
+      "text": "Don",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2155,
+          "paragraph_id": 3,
+          "char_start": 143106,
+          "char_end": 143109
+        }
+      ]
+    },
+    {
+      "text": "Rap BR",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2156,
+          "paragraph_id": 3,
+          "char_start": 143162,
+          "char_end": 143168
+        }
+      ]
+    },
+    {
+      "text": "Zé?",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2156,
+          "paragraph_id": 3,
+          "char_start": 143244,
+          "char_end": 143247
+        }
+      ]
+    },
+    {
+      "text": "Brasa",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2192,
+          "paragraph_id": 3,
+          "char_start": 146325,
+          "char_end": 146330
+        }
+      ]
+    },
+    {
+      "text": "DI",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2236,
+          "paragraph_id": 3,
+          "char_start": 149202,
+          "char_end": 149204
+        }
+      ]
+    },
+    {
+      "text": "Thiaguin",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2248,
+          "paragraph_id": 3,
+          "char_start": 150100,
+          "char_end": 150108
+        }
+      ]
+    },
+    {
+      "text": "Kilabi",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2250,
+          "paragraph_id": 3,
+          "char_start": 150235,
+          "char_end": 150241
+        }
+      ]
+    },
+    {
+      "text": "Yangiti",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2250,
+          "paragraph_id": 3,
+          "char_start": 150246,
+          "char_end": 150253
+        }
+      ]
+    },
+    {
+      "text": "Cesta",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2250,
+          "paragraph_id": 3,
+          "char_start": 150261,
+          "char_end": 150266
+        }
+      ]
+    },
+    {
+      "text": "Recife",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2250,
+          "paragraph_id": 3,
+          "char_start": 150288,
+          "char_end": 150294
+        }
+      ]
+    },
+    {
+      "text": "Flow",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2253,
+          "paragraph_id": 3,
+          "char_start": 150630,
+          "char_end": 150634
+        }
+      ]
+    },
+    {
+      "text": "Obrigado Igor",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2254,
+          "paragraph_id": 3,
+          "char_start": 150715,
+          "char_end": 150728
+        }
+      ]
+    },
+    {
+      "text": "Tchau",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2269,
+          "paragraph_id": 3,
+          "char_start": 151312,
+          "char_end": 151317
+        }
+      ]
+    }
+  ],
+  "video_id": "4btjyPV30gY",
+  "video_title": "DONCESÃO - Flow #580"
+}

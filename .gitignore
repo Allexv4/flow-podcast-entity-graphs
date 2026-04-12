@@ -1,0 +1,37 @@
+# Dados brutos (pesados, reproduzíveis via script)
+data/raw/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Temporários
+.tmp/
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specifics
+U1T1.pdf
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log

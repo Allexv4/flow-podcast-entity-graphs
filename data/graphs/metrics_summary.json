@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Sentença",
+    "nodes": 1464,
+    "edges": 2369,
+    "density": 0.002212,
+    "avg_degree": 3.24,
+    "avg_clustering": 0.4287,
+    "connected_components": 210,
+    "giant_component_nodes": 912,
+    "giant_component_edges": 1912,
+    "diameter": 13
+  },
+  {
+    "name": "Parágrafo",
+    "nodes": 2425,
+    "edges": 385093,
+    "density": 0.131024,
+    "avg_degree": 317.6,
+    "avg_clustering": 0.929,
+    "connected_components": 1,
+    "giant_component_nodes": 2425,
+    "giant_component_edges": 385093,
+    "diameter": 2
+  },
+  {
+    "name": "K-Caracteres (K=500)",
+    "nodes": 2409,
+    "edges": 14430,
+    "density": 0.004975,
+    "avg_degree": 11.98,
+    "avg_clustering": 0.7378,
+    "connected_components": 10,
+    "giant_component_nodes": 2381,
+    "giant_component_edges": 14391,
+    "diameter": 8
+  }
+]

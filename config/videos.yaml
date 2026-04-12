@@ -1,0 +1,50 @@
+# =============================================================================
+# Configuração do Projeto — Grafos de Co-ocorrência com NER
+# Canal: Flow Podcast (YouTube)
+# =============================================================================
+
+project:
+  name: "Grafos de Co-ocorrência — Flow Podcast (YouTube)"
+  author: "José Alex Araújo de Santana"
+  matricula: "20220011457"
+  k_chars: 500          # Janela para co-ocorrência por k-caracteres
+  language: "pt"         # Idioma preferencial das legendas
+  min_entity_length: 2   # Tamanho mínimo de entidade (caracteres)
+  ner_labels:            # Labels NER a considerar
+    - PER
+    - ORG
+    - LOC
+    - MISC
+
+videos:
+  - id: "5zMI2Wfcvdo"
+    title: "DANIEL LOPEZ - Flow #586"
+    channel: "Flow Podcast"
+
+  - id: "wfwePI_EEG0"
+    title: "ANDREAS KISSER - Flow #585"
+    channel: "Flow Podcast"
+
+  - id: "GeEMaC2Xzwk"
+    title: "SIDNEI BARRETO NOGUEIRA - Flow #584"
+    channel: "Flow Podcast"
+
+  - id: "HUdTabCyFgE"
+    title: "SGT NANTES + JORGE LORDELLO - Flow #584"
+    channel: "Flow Podcast"
+
+  - id: "p51H-cxRIAY"
+    title: "GUI AVANTGARDE + JULIANO BARATA - Flow #583"
+    channel: "Flow Podcast"
+
+  - id: "Y8qLz56az98"
+    title: "OLIVER STUENKEL - Flow #582"
+    channel: "Flow Podcast"
+
+  - id: "we9abjZyjo8"
+    title: "ROBINSON FARINAZZO [ARTE DA GUERRA] - Flow #581"
+    channel: "Flow Podcast"
+
+  - id: "4btjyPV30gY"
+    title: "DONCESÃO - Flow #580"
+    channel: "Flow Podcast"
