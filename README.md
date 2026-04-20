@@ -105,7 +105,7 @@ Notou-se pelas plotagens da Distribuição de Grau ($log\text{-}log$) que ela se
 ---
 
 ## 🎥 Apresentação
-> 🔗 [Link do Vídeo da Apresentação no Loom](#) *(Aguardando upload e submissão p/ a respectiva Demo)*
+> 🔗 [Link do Vídeo da Apresentação no Loom](#) *(https://www.loom.com/share/dd06c1ac95a24edb93080ce63d1f4603)*
 
 ---
 
