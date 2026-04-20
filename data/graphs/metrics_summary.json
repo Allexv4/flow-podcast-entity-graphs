@@ -1,38 +1,38 @@
 [
   {
     "name": "Sentença",
-    "nodes": 1464,
-    "edges": 2369,
-    "density": 0.002212,
-    "avg_degree": 3.24,
-    "avg_clustering": 0.4287,
-    "connected_components": 210,
-    "giant_component_nodes": 912,
-    "giant_component_edges": 1912,
-    "diameter": 13
+    "nodes": 49,
+    "edges": 57,
+    "density": 0.048469,
+    "avg_degree": 2.33,
+    "avg_clustering": 0.3333,
+    "connected_components": 10,
+    "giant_component_nodes": 27,
+    "giant_component_edges": 42,
+    "diameter": 4
   },
   {
     "name": "Parágrafo",
-    "nodes": 2425,
-    "edges": 385093,
-    "density": 0.131024,
-    "avg_degree": 317.6,
-    "avg_clustering": 0.929,
+    "nodes": 95,
+    "edges": 1002,
+    "density": 0.224412,
+    "avg_degree": 21.09,
+    "avg_clustering": 0.9057,
     "connected_components": 1,
-    "giant_component_nodes": 2425,
-    "giant_component_edges": 385093,
-    "diameter": 2
+    "giant_component_nodes": 95,
+    "giant_component_edges": 1002,
+    "diameter": 4
   },
   {
-    "name": "K-Caracteres (K=500)",
-    "nodes": 2409,
-    "edges": 14430,
-    "density": 0.004975,
-    "avg_degree": 11.98,
-    "avg_clustering": 0.7378,
-    "connected_components": 10,
-    "giant_component_nodes": 2381,
-    "giant_component_edges": 14391,
-    "diameter": 8
+    "name": "K-Caracteres (K=4000)",
+    "nodes": 95,
+    "edges": 771,
+    "density": 0.172676,
+    "avg_degree": 16.23,
+    "avg_clustering": 0.8,
+    "connected_components": 1,
+    "giant_component_nodes": 95,
+    "giant_component_edges": 771,
+    "diameter": 3
   }
 ]

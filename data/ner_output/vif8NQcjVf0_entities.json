@@ -1,0 +1,2752 @@
+{
+  "total_entities": 101,
+  "total_mentions": 339,
+  "total_sentences": 2029,
+  "total_paragraphs": 27,
+  "total_characters": 128947,
+  "entities": [
+    {
+      "text": "AI",
+      "label": "ORG",
+      "count": 56,
+      "occurrences": [
+        {
+          "sentence_id": 96,
+          "paragraph_id": 1,
+          "char_start": 7266,
+          "char_end": 7268
+        },
+        {
+          "sentence_id": 98,
+          "paragraph_id": 1,
+          "char_start": 7311,
+          "char_end": 7313
+        },
+        {
+          "sentence_id": 98,
+          "paragraph_id": 1,
+          "char_start": 7348,
+          "char_end": 7350
+        },
+        {
+          "sentence_id": 304,
+          "paragraph_id": 2,
+          "char_start": 21899,
+          "char_end": 21901
+        },
+        {
+          "sentence_id": 321,
+          "paragraph_id": 2,
+          "char_start": 22741,
+          "char_end": 22743
+        },
+        {
+          "sentence_id": 386,
+          "paragraph_id": 2,
+          "char_start": 26878,
+          "char_end": 26880
+        },
+        {
+          "sentence_id": 396,
+          "paragraph_id": 2,
+          "char_start": 27478,
+          "char_end": 27480
+        },
+        {
+          "sentence_id": 396,
+          "paragraph_id": 2,
+          "char_start": 27534,
+          "char_end": 27536
+        },
+        {
+          "sentence_id": 398,
+          "paragraph_id": 2,
+          "char_start": 27735,
+          "char_end": 27737
+        },
+        {
+          "sentence_id": 525,
+          "paragraph_id": 2,
+          "char_start": 36315,
+          "char_end": 36317
+        },
+        {
+          "sentence_id": 531,
+          "paragraph_id": 2,
+          "char_start": 36691,
+          "char_end": 36693
+        },
+        {
+          "sentence_id": 836,
+          "paragraph_id": 5,
+          "char_start": 57721,
+          "char_end": 57723
+        },
+        {
+          "sentence_id": 887,
+          "paragraph_id": 5,
+          "char_start": 61325,
+          "char_end": 61327
+        },
+        {
+          "sentence_id": 891,
+          "paragraph_id": 5,
+          "char_start": 61741,
+          "char_end": 61743
+        },
+        {
+          "sentence_id": 895,
+          "paragraph_id": 5,
+          "char_start": 62015,
+          "char_end": 62017
+        },
+        {
+          "sentence_id": 899,
+          "paragraph_id": 5,
+          "char_start": 62369,
+          "char_end": 62371
+        },
+        {
+          "sentence_id": 899,
+          "paragraph_id": 5,
+          "char_start": 62398,
+          "char_end": 62400
+        },
+        {
+          "sentence_id": 903,
+          "paragraph_id": 5,
+          "char_start": 62790,
+          "char_end": 62792
+        },
+        {
+          "sentence_id": 903,
+          "paragraph_id": 5,
+          "char_start": 62820,
+          "char_end": 62822
+        },
+        {
+          "sentence_id": 903,
+          "paragraph_id": 5,
+          "char_start": 62889,
+          "char_end": 62891
+        },
+        {
+          "sentence_id": 903,
+          "paragraph_id": 5,
+          "char_start": 62920,
+          "char_end": 62922
+        },
+        {
+          "sentence_id": 1020,
+          "paragraph_id": 7,
+          "char_start": 71011,
+          "char_end": 71013
+        },
+        {
+          "sentence_id": 1022,
+          "paragraph_id": 7,
+          "char_start": 71120,
+          "char_end": 71122
+        },
+        {
+          "sentence_id": 1025,
+          "paragraph_id": 7,
+          "char_start": 71256,
+          "char_end": 71258
+        },
+        {
+          "sentence_id": 1067,
+          "paragraph_id": 8,
+          "char_start": 73868,
+          "char_end": 73870
+        },
+        {
+          "sentence_id": 1105,
+          "paragraph_id": 8,
+          "char_start": 75711,
+          "char_end": 75713
+        },
+        {
+          "sentence_id": 1126,
+          "paragraph_id": 9,
+          "char_start": 76763,
+          "char_end": 76765
+        },
+        {
+          "sentence_id": 1219,
+          "paragraph_id": 13,
+          "char_start": 82975,
+          "char_end": 82977
+        },
+        {
+          "sentence_id": 1243,
+          "paragraph_id": 13,
+          "char_start": 84064,
+          "char_end": 84066
+        },
+        {
+          "sentence_id": 1244,
+          "paragraph_id": 13,
+          "char_start": 84151,
+          "char_end": 84153
+        },
+        {
+          "sentence_id": 1269,
+          "paragraph_id": 15,
+          "char_start": 85964,
+          "char_end": 85966
+        },
+        {
+          "sentence_id": 1502,
+          "paragraph_id": 16,
+          "char_start": 98106,
+          "char_end": 98108
+        },
+        {
+          "sentence_id": 1531,
+          "paragraph_id": 16,
+          "char_start": 99550,
+          "char_end": 99552
+        },
+        {
+          "sentence_id": 1531,
+          "paragraph_id": 16,
+          "char_start": 99577,
+          "char_end": 99579
+        },
+        {
+          "sentence_id": 1602,
+          "paragraph_id": 17,
+          "char_start": 103564,
+          "char_end": 103566
+        },
+        {
+          "sentence_id": 1634,
+          "paragraph_id": 17,
+          "char_start": 105901,
+          "char_end": 105903
+        },
+        {
+          "sentence_id": 1645,
+          "paragraph_id": 17,
+          "char_start": 106451,
+          "char_end": 106453
+        },
+        {
+          "sentence_id": 1685,
+          "paragraph_id": 19,
+          "char_start": 108557,
+          "char_end": 108559
+        },
+        {
+          "sentence_id": 1716,
+          "paragraph_id": 21,
+          "char_start": 110999,
+          "char_end": 111001
+        },
+        {
+          "sentence_id": 1738,
+          "paragraph_id": 23,
+          "char_start": 112969,
+          "char_end": 112971
+        },
+        {
+          "sentence_id": 1739,
+          "paragraph_id": 23,
+          "char_start": 113008,
+          "char_end": 113010
+        },
+        {
+          "sentence_id": 1739,
+          "paragraph_id": 23,
+          "char_start": 113055,
+          "char_end": 113057
+        },
+        {
+          "sentence_id": 1741,
+          "paragraph_id": 23,
+          "char_start": 113136,
+          "char_end": 113138
+        },
+        {
+          "sentence_id": 1742,
+          "paragraph_id": 23,
+          "char_start": 113264,
+          "char_end": 113266
+        },
+        {
+          "sentence_id": 1744,
+          "paragraph_id": 23,
+          "char_start": 113381,
+          "char_end": 113383
+        },
+        {
+          "sentence_id": 1746,
+          "paragraph_id": 23,
+          "char_start": 113526,
+          "char_end": 113528
+        },
+        {
+          "sentence_id": 1748,
+          "paragraph_id": 23,
+          "char_start": 113644,
+          "char_end": 113646
+        },
+        {
+          "sentence_id": 1749,
+          "paragraph_id": 23,
+          "char_start": 113684,
+          "char_end": 113686
+        },
+        {
+          "sentence_id": 1757,
+          "paragraph_id": 23,
+          "char_start": 114226,
+          "char_end": 114228
+        },
+        {
+          "sentence_id": 1759,
+          "paragraph_id": 23,
+          "char_start": 114349,
+          "char_end": 114351
+        },
+        {
+          "sentence_id": 1769,
+          "paragraph_id": 23,
+          "char_start": 114817,
+          "char_end": 114819
+        },
+        {
+          "sentence_id": 1772,
+          "paragraph_id": 23,
+          "char_start": 115005,
+          "char_end": 115007
+        },
+        {
+          "sentence_id": 1772,
+          "paragraph_id": 23,
+          "char_start": 115017,
+          "char_end": 115019
+        },
+        {
+          "sentence_id": 1776,
+          "paragraph_id": 23,
+          "char_start": 115256,
+          "char_end": 115258
+        },
+        {
+          "sentence_id": 1804,
+          "paragraph_id": 23,
+          "char_start": 116671,
+          "char_end": 116673
+        },
+        {
+          "sentence_id": 1892,
+          "paragraph_id": 24,
+          "char_start": 121528,
+          "char_end": 121530
+        }
+      ]
+    },
+    {
+      "text": "NVIDIA",
+      "label": "ORG",
+      "count": 54,
+      "occurrences": [
+        {
+          "sentence_id": 0,
+          "paragraph_id": 0,
+          "char_start": 60,
+          "char_end": 66
+        },
+        {
+          "sentence_id": 1,
+          "paragraph_id": 0,
+          "char_start": 158,
+          "char_end": 164
+        },
+        {
+          "sentence_id": 4,
+          "paragraph_id": 0,
+          "char_start": 460,
+          "char_end": 466
+        },
+        {
+          "sentence_id": 5,
+          "paragraph_id": 0,
+          "char_start": 606,
+          "char_end": 612
+        },
+        {
+          "sentence_id": 94,
+          "paragraph_id": 1,
+          "char_start": 6978,
+          "char_end": 6984
+        },
+        {
+          "sentence_id": 97,
+          "paragraph_id": 1,
+          "char_start": 7288,
+          "char_end": 7294
+        },
+        {
+          "sentence_id": 195,
+          "paragraph_id": 1,
+          "char_start": 14082,
+          "char_end": 14088
+        },
+        {
+          "sentence_id": 219,
+          "paragraph_id": 1,
+          "char_start": 15752,
+          "char_end": 15758
+        },
+        {
+          "sentence_id": 336,
+          "paragraph_id": 2,
+          "char_start": 23592,
+          "char_end": 23598
+        },
+        {
+          "sentence_id": 361,
+          "paragraph_id": 2,
+          "char_start": 25428,
+          "char_end": 25434
+        },
+        {
+          "sentence_id": 493,
+          "paragraph_id": 2,
+          "char_start": 33914,
+          "char_end": 33920
+        },
+        {
+          "sentence_id": 560,
+          "paragraph_id": 2,
+          "char_start": 38947,
+          "char_end": 38953
+        },
+        {
+          "sentence_id": 787,
+          "paragraph_id": 4,
+          "char_start": 54858,
+          "char_end": 54864
+        },
+        {
+          "sentence_id": 805,
+          "paragraph_id": 4,
+          "char_start": 55890,
+          "char_end": 55896
+        },
+        {
+          "sentence_id": 812,
+          "paragraph_id": 4,
+          "char_start": 56298,
+          "char_end": 56304
+        },
+        {
+          "sentence_id": 877,
+          "paragraph_id": 5,
+          "char_start": 60443,
+          "char_end": 60449
+        },
+        {
+          "sentence_id": 891,
+          "paragraph_id": 5,
+          "char_start": 61617,
+          "char_end": 61623
+        },
+        {
+          "sentence_id": 954,
+          "paragraph_id": 6,
+          "char_start": 66978,
+          "char_end": 66984
+        },
+        {
+          "sentence_id": 960,
+          "paragraph_id": 6,
+          "char_start": 67321,
+          "char_end": 67327
+        },
+        {
+          "sentence_id": 960,
+          "paragraph_id": 6,
+          "char_start": 67334,
+          "char_end": 67340
+        },
+        {
+          "sentence_id": 970,
+          "paragraph_id": 6,
+          "char_start": 67745,
+          "char_end": 67751
+        },
+        {
+          "sentence_id": 971,
+          "paragraph_id": 6,
+          "char_start": 67826,
+          "char_end": 67832
+        },
+        {
+          "sentence_id": 1003,
+          "paragraph_id": 6,
+          "char_start": 69762,
+          "char_end": 69768
+        },
+        {
+          "sentence_id": 1022,
+          "paragraph_id": 7,
+          "char_start": 71082,
+          "char_end": 71088
+        },
+        {
+          "sentence_id": 1026,
+          "paragraph_id": 7,
+          "char_start": 71307,
+          "char_end": 71313
+        },
+        {
+          "sentence_id": 1052,
+          "paragraph_id": 7,
+          "char_start": 72896,
+          "char_end": 72902
+        },
+        {
+          "sentence_id": 1054,
+          "paragraph_id": 7,
+          "char_start": 72992,
+          "char_end": 72998
+        },
+        {
+          "sentence_id": 1108,
+          "paragraph_id": 8,
+          "char_start": 75890,
+          "char_end": 75896
+        },
+        {
+          "sentence_id": 1112,
+          "paragraph_id": 9,
+          "char_start": 76040,
+          "char_end": 76046
+        },
+        {
+          "sentence_id": 1184,
+          "paragraph_id": 13,
+          "char_start": 80106,
+          "char_end": 80112
+        },
+        {
+          "sentence_id": 1184,
+          "paragraph_id": 13,
+          "char_start": 80126,
+          "char_end": 80132
+        },
+        {
+          "sentence_id": 1184,
+          "paragraph_id": 13,
+          "char_start": 80138,
+          "char_end": 80144
+        },
+        {
+          "sentence_id": 1186,
+          "paragraph_id": 13,
+          "char_start": 80331,
+          "char_end": 80337
+        },
+        {
+          "sentence_id": 1191,
+          "paragraph_id": 13,
+          "char_start": 80616,
+          "char_end": 80622
+        },
+        {
+          "sentence_id": 1197,
+          "paragraph_id": 13,
+          "char_start": 80959,
+          "char_end": 80965
+        },
+        {
+          "sentence_id": 1197,
+          "paragraph_id": 13,
+          "char_start": 80973,
+          "char_end": 80979
+        },
+        {
+          "sentence_id": 1204,
+          "paragraph_id": 13,
+          "char_start": 81654,
+          "char_end": 81660
+        },
+        {
+          "sentence_id": 1207,
+          "paragraph_id": 13,
+          "char_start": 81796,
+          "char_end": 81802
+        },
+        {
+          "sentence_id": 1260,
+          "paragraph_id": 15,
+          "char_start": 85289,
+          "char_end": 85295
+        },
+        {
+          "sentence_id": 1275,
+          "paragraph_id": 15,
+          "char_start": 86170,
+          "char_end": 86176
+        },
+        {
+          "sentence_id": 1277,
+          "paragraph_id": 15,
+          "char_start": 86339,
+          "char_end": 86345
+        },
+        {
+          "sentence_id": 1308,
+          "paragraph_id": 15,
+          "char_start": 88059,
+          "char_end": 88065
+        },
+        {
+          "sentence_id": 1361,
+          "paragraph_id": 15,
+          "char_start": 90362,
+          "char_end": 90368
+        },
+        {
+          "sentence_id": 1478,
+          "paragraph_id": 16,
+          "char_start": 96900,
+          "char_end": 96906
+        },
+        {
+          "sentence_id": 1482,
+          "paragraph_id": 16,
+          "char_start": 97060,
+          "char_end": 97066
+        },
+        {
+          "sentence_id": 1483,
+          "paragraph_id": 16,
+          "char_start": 97151,
+          "char_end": 97157
+        },
+        {
+          "sentence_id": 1485,
+          "paragraph_id": 16,
+          "char_start": 97318,
+          "char_end": 97324
+        },
+        {
+          "sentence_id": 1554,
+          "paragraph_id": 16,
+          "char_start": 100848,
+          "char_end": 100854
+        },
+        {
+          "sentence_id": 1662,
+          "paragraph_id": 17,
+          "char_start": 107286,
+          "char_end": 107292
+        },
+        {
+          "sentence_id": 1896,
+          "paragraph_id": 24,
+          "char_start": 121678,
+          "char_end": 121684
+        },
+        {
+          "sentence_id": 1910,
+          "paragraph_id": 25,
+          "char_start": 122211,
+          "char_end": 122217
+        },
+        {
+          "sentence_id": 1937,
+          "paragraph_id": 25,
+          "char_start": 124155,
+          "char_end": 124161
+        },
+        {
+          "sentence_id": 1940,
+          "paragraph_id": 25,
+          "char_start": 124323,
+          "char_end": 124329
+        },
+        {
+          "sentence_id": 1944,
+          "paragraph_id": 25,
+          "char_start": 124511,
+          "char_end": 124517
+        }
+      ]
+    },
+    {
+      "text": "CUDA",
+      "label": "ORG",
+      "count": 31,
+      "occurrences": [
+        {
+          "sentence_id": 128,
+          "paragraph_id": 1,
+          "char_start": 9731,
+          "char_end": 9735
+        },
+        {
+          "sentence_id": 129,
+          "paragraph_id": 1,
+          "char_start": 9737,
+          "char_end": 9741
+        },
+        {
+          "sentence_id": 131,
+          "paragraph_id": 1,
+          "char_start": 9785,
+          "char_end": 9789
+        },
+        {
+          "sentence_id": 136,
+          "paragraph_id": 1,
+          "char_start": 10219,
+          "char_end": 10223
+        },
+        {
+          "sentence_id": 144,
+          "paragraph_id": 1,
+          "char_start": 10653,
+          "char_end": 10657
+        },
+        {
+          "sentence_id": 152,
+          "paragraph_id": 1,
+          "char_start": 10964,
+          "char_end": 10968
+        },
+        {
+          "sentence_id": 154,
+          "paragraph_id": 1,
+          "char_start": 11127,
+          "char_end": 11131
+        },
+        {
+          "sentence_id": 172,
+          "paragraph_id": 1,
+          "char_start": 12321,
+          "char_end": 12325
+        },
+        {
+          "sentence_id": 179,
+          "paragraph_id": 1,
+          "char_start": 12793,
+          "char_end": 12797
+        },
+        {
+          "sentence_id": 182,
+          "paragraph_id": 1,
+          "char_start": 13057,
+          "char_end": 13061
+        },
+        {
+          "sentence_id": 187,
+          "paragraph_id": 1,
+          "char_start": 13422,
+          "char_end": 13426
+        },
+        {
+          "sentence_id": 192,
+          "paragraph_id": 1,
+          "char_start": 13771,
+          "char_end": 13775
+        },
+        {
+          "sentence_id": 194,
+          "paragraph_id": 1,
+          "char_start": 14047,
+          "char_end": 14051
+        },
+        {
+          "sentence_id": 195,
+          "paragraph_id": 1,
+          "char_start": 14155,
+          "char_end": 14159
+        },
+        {
+          "sentence_id": 196,
+          "paragraph_id": 1,
+          "char_start": 14219,
+          "char_end": 14223
+        },
+        {
+          "sentence_id": 209,
+          "paragraph_id": 1,
+          "char_start": 15004,
+          "char_end": 15008
+        },
+        {
+          "sentence_id": 403,
+          "paragraph_id": 2,
+          "char_start": 27955,
+          "char_end": 27959
+        },
+        {
+          "sentence_id": 408,
+          "paragraph_id": 2,
+          "char_start": 28299,
+          "char_end": 28303
+        },
+        {
+          "sentence_id": 409,
+          "paragraph_id": 2,
+          "char_start": 28387,
+          "char_end": 28391
+        },
+        {
+          "sentence_id": 976,
+          "paragraph_id": 6,
+          "char_start": 68112,
+          "char_end": 68116
+        },
+        {
+          "sentence_id": 985,
+          "paragraph_id": 6,
+          "char_start": 68558,
+          "char_end": 68562
+        },
+        {
+          "sentence_id": 986,
+          "paragraph_id": 6,
+          "char_start": 68606,
+          "char_end": 68610
+        },
+        {
+          "sentence_id": 988,
+          "paragraph_id": 6,
+          "char_start": 68732,
+          "char_end": 68736
+        },
+        {
+          "sentence_id": 994,
+          "paragraph_id": 6,
+          "char_start": 69328,
+          "char_end": 69332
+        },
+        {
+          "sentence_id": 997,
+          "paragraph_id": 6,
+          "char_start": 69447,
+          "char_end": 69451
+        },
+        {
+          "sentence_id": 1000,
+          "paragraph_id": 6,
+          "char_start": 69667,
+          "char_end": 69671
+        },
+        {
+          "sentence_id": 1003,
+          "paragraph_id": 6,
+          "char_start": 69786,
+          "char_end": 69790
+        },
+        {
+          "sentence_id": 1005,
+          "paragraph_id": 7,
+          "char_start": 70033,
+          "char_end": 70037
+        },
+        {
+          "sentence_id": 1006,
+          "paragraph_id": 7,
+          "char_start": 70060,
+          "char_end": 70064
+        },
+        {
+          "sentence_id": 1020,
+          "paragraph_id": 7,
+          "char_start": 70965,
+          "char_end": 70969
+        },
+        {
+          "sentence_id": 1485,
+          "paragraph_id": 16,
+          "char_start": 97283,
+          "char_end": 97287
+        }
+      ]
+    },
+    {
+      "text": "TSMC",
+      "label": "ORG",
+      "count": 12,
+      "occurrences": [
+        {
+          "sentence_id": 525,
+          "paragraph_id": 2,
+          "char_start": 36360,
+          "char_end": 36364
+        },
+        {
+          "sentence_id": 562,
+          "paragraph_id": 2,
+          "char_start": 39091,
+          "char_end": 39095
+        },
+        {
+          "sentence_id": 621,
+          "paragraph_id": 2,
+          "char_start": 42954,
+          "char_end": 42958
+        },
+        {
+          "sentence_id": 811,
+          "paragraph_id": 4,
+          "char_start": 56226,
+          "char_end": 56230
+        },
+        {
+          "sentence_id": 909,
+          "paragraph_id": 5,
+          "char_start": 63330,
+          "char_end": 63334
+        },
+        {
+          "sentence_id": 910,
+          "paragraph_id": 5,
+          "char_start": 63354,
+          "char_end": 63358
+        },
+        {
+          "sentence_id": 912,
+          "paragraph_id": 5,
+          "char_start": 63523,
+          "char_end": 63527
+        },
+        {
+          "sentence_id": 913,
+          "paragraph_id": 5,
+          "char_start": 63739,
+          "char_end": 63743
+        },
+        {
+          "sentence_id": 946,
+          "paragraph_id": 6,
+          "char_start": 66350,
+          "char_end": 66354
+        },
+        {
+          "sentence_id": 946,
+          "paragraph_id": 6,
+          "char_start": 66402,
+          "char_end": 66406
+        },
+        {
+          "sentence_id": 951,
+          "paragraph_id": 6,
+          "char_start": 66610,
+          "char_end": 66614
+        },
+        {
+          "sentence_id": 960,
+          "paragraph_id": 6,
+          "char_start": 67345,
+          "char_end": 67349
+        }
+      ]
+    },
+    {
+      "text": "GPU",
+      "label": "ORG",
+      "count": 11,
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "paragraph_id": 0,
+          "char_start": 664,
+          "char_end": 667
+        },
+        {
+          "sentence_id": 5,
+          "paragraph_id": 0,
+          "char_start": 749,
+          "char_end": 752
+        },
+        {
+          "sentence_id": 9,
+          "paragraph_id": 0,
+          "char_start": 1209,
+          "char_end": 1212
+        },
+        {
+          "sentence_id": 26,
+          "paragraph_id": 1,
+          "char_start": 2426,
+          "char_end": 2429
+        },
+        {
+          "sentence_id": 96,
+          "paragraph_id": 1,
+          "char_start": 7160,
+          "char_end": 7163
+        },
+        {
+          "sentence_id": 126,
+          "paragraph_id": 1,
+          "char_start": 9386,
+          "char_end": 9389
+        },
+        {
+          "sentence_id": 126,
+          "paragraph_id": 1,
+          "char_start": 9606,
+          "char_end": 9609
+        },
+        {
+          "sentence_id": 188,
+          "paragraph_id": 1,
+          "char_start": 13455,
+          "char_end": 13458
+        },
+        {
+          "sentence_id": 412,
+          "paragraph_id": 2,
+          "char_start": 28752,
+          "char_end": 28755
+        },
+        {
+          "sentence_id": 1023,
+          "paragraph_id": 7,
+          "char_start": 71173,
+          "char_end": 71176
+        },
+        {
+          "sentence_id": 1566,
+          "paragraph_id": 16,
+          "char_start": 101612,
+          "char_end": 101615
+        }
+      ]
+    },
+    {
+      "text": "Geforce",
+      "label": "ORG",
+      "count": 11,
+      "occurrences": [
+        {
+          "sentence_id": 131,
+          "paragraph_id": 1,
+          "char_start": 9793,
+          "char_end": 9800
+        },
+        {
+          "sentence_id": 136,
+          "paragraph_id": 1,
+          "char_start": 10227,
+          "char_end": 10234
+        },
+        {
+          "sentence_id": 178,
+          "paragraph_id": 1,
+          "char_start": 12652,
+          "char_end": 12659
+        },
+        {
+          "sentence_id": 179,
+          "paragraph_id": 1,
+          "char_start": 12732,
+          "char_end": 12739
+        },
+        {
+          "sentence_id": 179,
+          "paragraph_id": 1,
+          "char_start": 12801,
+          "char_end": 12808
+        },
+        {
+          "sentence_id": 194,
+          "paragraph_id": 1,
+          "char_start": 14055,
+          "char_end": 14062
+        },
+        {
+          "sentence_id": 195,
+          "paragraph_id": 1,
+          "char_start": 14107,
+          "char_end": 14114
+        },
+        {
+          "sentence_id": 195,
+          "paragraph_id": 1,
+          "char_start": 14137,
+          "char_end": 14144
+        },
+        {
+          "sentence_id": 196,
+          "paragraph_id": 1,
+          "char_start": 14227,
+          "char_end": 14234
+        },
+        {
+          "sentence_id": 209,
+          "paragraph_id": 1,
+          "char_start": 14970,
+          "char_end": 14977
+        },
+        {
+          "sentence_id": 1479,
+          "paragraph_id": 16,
+          "char_start": 96960,
+          "char_end": 96967
+        }
+      ]
+    },
+    {
+      "text": "China",
+      "label": "LOC",
+      "count": 9,
+      "occurrences": [
+        {
+          "sentence_id": 818,
+          "paragraph_id": 4,
+          "char_start": 56577,
+          "char_end": 56582
+        },
+        {
+          "sentence_id": 819,
+          "paragraph_id": 4,
+          "char_start": 56615,
+          "char_end": 56620
+        },
+        {
+          "sentence_id": 820,
+          "paragraph_id": 4,
+          "char_start": 56721,
+          "char_end": 56726
+        },
+        {
+          "sentence_id": 825,
+          "paragraph_id": 4,
+          "char_start": 57091,
+          "char_end": 57096
+        },
+        {
+          "sentence_id": 827,
+          "paragraph_id": 4,
+          "char_start": 57173,
+          "char_end": 57178
+        },
+        {
+          "sentence_id": 833,
+          "paragraph_id": 5,
+          "char_start": 57512,
+          "char_end": 57517
+        },
+        {
+          "sentence_id": 877,
+          "paragraph_id": 5,
+          "char_start": 60329,
+          "char_end": 60334
+        },
+        {
+          "sentence_id": 1619,
+          "paragraph_id": 17,
+          "char_start": 104566,
+          "char_end": 104571
+        },
+        {
+          "sentence_id": 1780,
+          "paragraph_id": 23,
+          "char_start": 115665,
+          "char_end": 115670
+        }
+      ]
+    },
+    {
+      "text": "Lex",
+      "label": "PER",
+      "count": 8,
+      "occurrences": [
+        {
+          "sentence_id": 635,
+          "paragraph_id": 2,
+          "char_start": 43635,
+          "char_end": 43638
+        },
+        {
+          "sentence_id": 796,
+          "paragraph_id": 4,
+          "char_start": 55220,
+          "char_end": 55223
+        },
+        {
+          "sentence_id": 1307,
+          "paragraph_id": 15,
+          "char_start": 87947,
+          "char_end": 87950
+        },
+        {
+          "sentence_id": 1320,
+          "paragraph_id": 15,
+          "char_start": 88327,
+          "char_end": 88330
+        },
+        {
+          "sentence_id": 1349,
+          "paragraph_id": 15,
+          "char_start": 89750,
+          "char_end": 89753
+        },
+        {
+          "sentence_id": 1700,
+          "paragraph_id": 19,
+          "char_start": 109692,
+          "char_end": 109695
+        },
+        {
+          "sentence_id": 2012,
+          "paragraph_id": 26,
+          "char_start": 127995,
+          "char_end": 127998
+        },
+        {
+          "sentence_id": 2023,
+          "paragraph_id": 26,
+          "char_start": 128548,
+          "char_end": 128551
+        }
+      ]
+    },
+    {
+      "text": "Jensen",
+      "label": "PER",
+      "count": 7,
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "paragraph_id": 0,
+          "char_start": 262,
+          "char_end": 268
+        },
+        {
+          "sentence_id": 264,
+          "paragraph_id": 2,
+          "char_start": 18721,
+          "char_end": 18727
+        },
+        {
+          "sentence_id": 1198,
+          "paragraph_id": 13,
+          "char_start": 81081,
+          "char_end": 81087
+        },
+        {
+          "sentence_id": 1200,
+          "paragraph_id": 13,
+          "char_start": 81335,
+          "char_end": 81341
+        },
+        {
+          "sentence_id": 1787,
+          "paragraph_id": 23,
+          "char_start": 115948,
+          "char_end": 115954
+        },
+        {
+          "sentence_id": 2006,
+          "paragraph_id": 26,
+          "char_start": 127603,
+          "char_end": 127609
+        },
+        {
+          "sentence_id": 2022,
+          "paragraph_id": 26,
+          "char_start": 128527,
+          "char_end": 128533
+        }
+      ]
+    },
+    {
+      "text": "Taiwan",
+      "label": "LOC",
+      "count": 6,
+      "occurrences": [
+        {
+          "sentence_id": 909,
+          "paragraph_id": 5,
+          "char_start": 63288,
+          "char_end": 63294
+        },
+        {
+          "sentence_id": 1780,
+          "paragraph_id": 23,
+          "char_start": 115675,
+          "char_end": 115681
+        },
+        {
+          "sentence_id": 1786,
+          "paragraph_id": 23,
+          "char_start": 115913,
+          "char_end": 115919
+        },
+        {
+          "sentence_id": 1787,
+          "paragraph_id": 23,
+          "char_start": 115981,
+          "char_end": 115987
+        },
+        {
+          "sentence_id": 1793,
+          "paragraph_id": 23,
+          "char_start": 116101,
+          "char_end": 116107
+        },
+        {
+          "sentence_id": 2011,
+          "paragraph_id": 26,
+          "char_start": 127934,
+          "char_end": 127940
+        }
+      ]
+    },
+    {
+      "text": "GTC",
+      "label": "ORG",
+      "count": 5,
+      "occurrences": [
+        {
+          "sentence_id": 271,
+          "paragraph_id": 2,
+          "char_start": 19404,
+          "char_end": 19407
+        },
+        {
+          "sentence_id": 288,
+          "paragraph_id": 2,
+          "char_start": 20767,
+          "char_end": 20770
+        },
+        {
+          "sentence_id": 468,
+          "paragraph_id": 2,
+          "char_start": 32213,
+          "char_end": 32216
+        },
+        {
+          "sentence_id": 470,
+          "paragraph_id": 2,
+          "char_start": 32277,
+          "char_end": 32280
+        },
+        {
+          "sentence_id": 1212,
+          "paragraph_id": 13,
+          "char_start": 82310,
+          "char_end": 82313
+        }
+      ]
+    },
+    {
+      "text": "Jensen Huang",
+      "label": "PER",
+      "count": 4,
+      "occurrences": [
+        {
+          "sentence_id": 0,
+          "paragraph_id": 0,
+          "char_start": 39,
+          "char_end": 51
+        },
+        {
+          "sentence_id": 3,
+          "paragraph_id": 0,
+          "char_start": 429,
+          "char_end": 441
+        },
+        {
+          "sentence_id": 1107,
+          "paragraph_id": 8,
+          "char_start": 75863,
+          "char_end": 75875
+        },
+        {
+          "sentence_id": 2024,
+          "paragraph_id": 26,
+          "char_start": 128605,
+          "char_end": 128617
+        }
+      ]
+    },
+    {
+      "text": "CPU",
+      "label": "ORG",
+      "count": 4,
+      "occurrences": [
+        {
+          "sentence_id": 5,
+          "paragraph_id": 0,
+          "char_start": 754,
+          "char_end": 757
+        },
+        {
+          "sentence_id": 26,
+          "paragraph_id": 1,
+          "char_start": 2404,
+          "char_end": 2407
+        },
+        {
+          "sentence_id": 406,
+          "paragraph_id": 2,
+          "char_start": 28168,
+          "char_end": 28171
+        },
+        {
+          "sentence_id": 417,
+          "paragraph_id": 2,
+          "char_start": 29062,
+          "char_end": 29065
+        }
+      ]
+    },
+    {
+      "text": "Claude",
+      "label": "PER",
+      "count": 4,
+      "occurrences": [
+        {
+          "sentence_id": 422,
+          "paragraph_id": 2,
+          "char_start": 29535,
+          "char_end": 29541
+        },
+        {
+          "sentence_id": 472,
+          "paragraph_id": 2,
+          "char_start": 32440,
+          "char_end": 32446
+        },
+        {
+          "sentence_id": 479,
+          "paragraph_id": 2,
+          "char_start": 33059,
+          "char_end": 33065
+        },
+        {
+          "sentence_id": 1236,
+          "paragraph_id": 13,
+          "char_start": 83653,
+          "char_end": 83659
+        }
+      ]
+    },
+    {
+      "text": "Elon",
+      "label": "ORG",
+      "count": 4,
+      "occurrences": [
+        {
+          "sentence_id": 701,
+          "paragraph_id": 3,
+          "char_start": 48432,
+          "char_end": 48436
+        },
+        {
+          "sentence_id": 707,
+          "paragraph_id": 3,
+          "char_start": 48908,
+          "char_end": 48912
+        },
+        {
+          "sentence_id": 746,
+          "paragraph_id": 3,
+          "char_start": 51695,
+          "char_end": 51699
+        },
+        {
+          "sentence_id": 1045,
+          "paragraph_id": 7,
+          "char_start": 72604,
+          "char_end": 72608
+        }
+      ]
+    },
+    {
+      "text": "AGI",
+      "label": "ORG",
+      "count": 4,
+      "occurrences": [
+        {
+          "sentence_id": 1585,
+          "paragraph_id": 16,
+          "char_start": 102666,
+          "char_end": 102669
+        },
+        {
+          "sentence_id": 1586,
+          "paragraph_id": 17,
+          "char_start": 102718,
+          "char_end": 102721
+        },
+        {
+          "sentence_id": 1588,
+          "paragraph_id": 17,
+          "char_start": 102823,
+          "char_end": 102826
+        },
+        {
+          "sentence_id": 1601,
+          "paragraph_id": 17,
+          "char_start": 103509,
+          "char_end": 103512
+        }
+      ]
+    },
+    {
+      "text": "AI Revolution",
+      "label": "MISC",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 1,
+          "paragraph_id": 0,
+          "char_start": 188,
+          "char_end": 205
+        },
+        {
+          "sentence_id": 890,
+          "paragraph_id": 5,
+          "char_start": 61598,
+          "char_end": 61615
+        },
+        {
+          "sentence_id": 894,
+          "paragraph_id": 5,
+          "char_start": 61930,
+          "char_end": 61947
+        }
+      ]
+    },
+    {
+      "text": "Codex",
+      "label": "ORG",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 422,
+          "paragraph_id": 2,
+          "char_start": 29548,
+          "char_end": 29553
+        },
+        {
+          "sentence_id": 479,
+          "paragraph_id": 2,
+          "char_start": 33075,
+          "char_end": 33080
+        },
+        {
+          "sentence_id": 1236,
+          "paragraph_id": 13,
+          "char_start": 83668,
+          "char_end": 83673
+        }
+      ]
+    },
+    {
+      "text": "Earth",
+      "label": "LOC",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 1061,
+          "paragraph_id": 8,
+          "char_start": 73376,
+          "char_end": 73381
+        },
+        {
+          "sentence_id": 1419,
+          "paragraph_id": 15,
+          "char_start": 93617,
+          "char_end": 93622
+        },
+        {
+          "sentence_id": 1420,
+          "paragraph_id": 15,
+          "char_start": 93661,
+          "char_end": 93666
+        }
+      ]
+    },
+    {
+      "text": "United States",
+      "label": "LOC",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 1260,
+          "paragraph_id": 15,
+          "char_start": 85327,
+          "char_end": 85340
+        },
+        {
+          "sentence_id": 1267,
+          "paragraph_id": 15,
+          "char_start": 85767,
+          "char_end": 85784
+        },
+        {
+          "sentence_id": 1269,
+          "paragraph_id": 15,
+          "char_start": 85878,
+          "char_end": 85895
+        }
+      ]
+    },
+    {
+      "text": "DLSS 5",
+      "label": "MISC",
+      "count": 3,
+      "occurrences": [
+        {
+          "sentence_id": 1494,
+          "paragraph_id": 16,
+          "char_start": 97771,
+          "char_end": 97777
+        },
+        {
+          "sentence_id": 1507,
+          "paragraph_id": 16,
+          "char_start": 98280,
+          "char_end": 98286
+        },
+        {
+          "sentence_id": 1509,
+          "paragraph_id": 16,
+          "char_start": 98341,
+          "char_end": 98347
+        }
+      ]
+    },
+    {
+      "text": "IEEE",
+      "label": "ORG",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 124,
+          "paragraph_id": 1,
+          "char_start": 9092,
+          "char_end": 9096
+        },
+        {
+          "sentence_id": 126,
+          "paragraph_id": 1,
+          "char_start": 9474,
+          "char_end": 9478
+        }
+      ]
+    },
+    {
+      "text": "Nvlink 72",
+      "label": "MISC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 411,
+          "paragraph_id": 2,
+          "char_start": 28585,
+          "char_end": 28594
+        },
+        {
+          "sentence_id": 418,
+          "paragraph_id": 2,
+          "char_start": 29101,
+          "char_end": 29110
+        }
+      ]
+    },
+    {
+      "text": "LLM",
+      "label": "ORG",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 414,
+          "paragraph_id": 2,
+          "char_start": 28931,
+          "char_end": 28934
+        },
+        {
+          "sentence_id": 432,
+          "paragraph_id": 2,
+          "char_start": 30000,
+          "char_end": 30003
+        }
+      ]
+    },
+    {
+      "text": "Vera Rubin",
+      "label": "PER",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 415,
+          "paragraph_id": 2,
+          "char_start": 28989,
+          "char_end": 28999
+        },
+        {
+          "sentence_id": 418,
+          "paragraph_id": 2,
+          "char_start": 29086,
+          "char_end": 29096
+        }
+      ]
+    },
+    {
+      "text": "Moe",
+      "label": "ORG",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 421,
+          "paragraph_id": 2,
+          "char_start": 29369,
+          "char_end": 29372
+        },
+        {
+          "sentence_id": 875,
+          "paragraph_id": 5,
+          "char_start": 60264,
+          "char_end": 60267
+        }
+      ]
+    },
+    {
+      "text": "ASML",
+      "label": "MISC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 525,
+          "paragraph_id": 2,
+          "char_start": 36324,
+          "char_end": 36328
+        },
+        {
+          "sentence_id": 562,
+          "paragraph_id": 2,
+          "char_start": 39102,
+          "char_end": 39106
+        }
+      ]
+    },
+    {
+      "text": "HBM",
+      "label": "ORG",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 549,
+          "paragraph_id": 2,
+          "char_start": 38079,
+          "char_end": 38082
+        },
+        {
+          "sentence_id": 550,
+          "paragraph_id": 2,
+          "char_start": 38343,
+          "char_end": 38346
+        }
+      ]
+    },
+    {
+      "text": "Vera Rubin",
+      "label": "ORG",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 577,
+          "paragraph_id": 2,
+          "char_start": 39863,
+          "char_end": 39873
+        },
+        {
+          "sentence_id": 786,
+          "paragraph_id": 4,
+          "char_start": 54669,
+          "char_end": 54679
+        }
+      ]
+    },
+    {
+      "text": "ASML",
+      "label": "ORG",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 620,
+          "paragraph_id": 2,
+          "char_start": 42869,
+          "char_end": 42873
+        },
+        {
+          "sentence_id": 812,
+          "paragraph_id": 4,
+          "char_start": 56273,
+          "char_end": 56277
+        }
+      ]
+    },
+    {
+      "text": "Nemotron 3",
+      "label": "ORG",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 880,
+          "paragraph_id": 5,
+          "char_start": 60692,
+          "char_end": 60702
+        },
+        {
+          "sentence_id": 904,
+          "paragraph_id": 5,
+          "char_start": 63015,
+          "char_end": 63025
+        }
+      ]
+    },
+    {
+      "text": "Lilly",
+      "label": "ORG",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 901,
+          "paragraph_id": 5,
+          "char_start": 62626,
+          "char_end": 62631
+        },
+        {
+          "sentence_id": 1013,
+          "paragraph_id": 7,
+          "char_start": 70551,
+          "char_end": 70556
+        }
+      ]
+    },
+    {
+      "text": "Denny",
+      "label": "PER",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 1472,
+          "paragraph_id": 16,
+          "char_start": 96686,
+          "char_end": 96691
+        },
+        {
+          "sentence_id": 1475,
+          "paragraph_id": 16,
+          "char_start": 96783,
+          "char_end": 96788
+        }
+      ]
+    },
+    {
+      "text": "Excel",
+      "label": "MISC",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 1775,
+          "paragraph_id": 23,
+          "char_start": 115166,
+          "char_end": 115171
+        },
+        {
+          "sentence_id": 1775,
+          "paragraph_id": 23,
+          "char_start": 115206,
+          "char_end": 115211
+        }
+      ]
+    },
+    {
+      "text": "Intelligence",
+      "label": "ORG",
+      "count": 2,
+      "occurrences": [
+        {
+          "sentence_id": 1835,
+          "paragraph_id": 23,
+          "char_start": 118573,
+          "char_end": 118585
+        },
+        {
+          "sentence_id": 1840,
+          "paragraph_id": 23,
+          "char_start": 118847,
+          "char_end": 118859
+        }
+      ]
+    },
+    {
+      "text": "Lex Fridman",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2,
+          "paragraph_id": 0,
+          "char_start": 379,
+          "char_end": 390
+        }
+      ]
+    },
+    {
+      "text": "AI",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 4,
+          "paragraph_id": 0,
+          "char_start": 485,
+          "char_end": 487
+        }
+      ]
+    },
+    {
+      "text": "Amdahl",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 18,
+          "paragraph_id": 0,
+          "char_start": 1805,
+          "char_end": 1811
+        }
+      ]
+    },
+    {
+      "text": "Moore",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 31,
+          "paragraph_id": 1,
+          "char_start": 2758,
+          "char_end": 2763
+        }
+      ]
+    },
+    {
+      "text": "Dennard",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 31,
+          "paragraph_id": 1,
+          "char_start": 2804,
+          "char_end": 2811
+        }
+      ]
+    },
+    {
+      "text": "Nvlink",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 34,
+          "paragraph_id": 1,
+          "char_start": 3016,
+          "char_end": 3022
+        }
+      ]
+    },
+    {
+      "text": "Opencl",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 172,
+          "paragraph_id": 1,
+          "char_start": 12336,
+          "char_end": 12342
+        }
+      ]
+    },
+    {
+      "text": "Mellanox",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 254,
+          "paragraph_id": 2,
+          "char_start": 18118,
+          "char_end": 18126
+        }
+      ]
+    },
+    {
+      "text": "OEM",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 287,
+          "paragraph_id": 2,
+          "char_start": 20651,
+          "char_end": 20654
+        }
+      ]
+    },
+    {
+      "text": "Ilya Sutskever",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 306,
+          "paragraph_id": 2,
+          "char_start": 21937,
+          "char_end": 21951
+        }
+      ]
+    },
+    {
+      "text": "Ilya",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 306,
+          "paragraph_id": 2,
+          "char_start": 21953,
+          "char_end": 21957
+        }
+      ]
+    },
+    {
+      "text": "Grace Blackwell",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 414,
+          "paragraph_id": 2,
+          "char_start": 28847,
+          "char_end": 28862
+        }
+      ]
+    },
+    {
+      "text": "Vera",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 417,
+          "paragraph_id": 2,
+          "char_start": 29073,
+          "char_end": 29077
+        }
+      ]
+    },
+    {
+      "text": "Rock",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 419,
+          "paragraph_id": 2,
+          "char_start": 29172,
+          "char_end": 29176
+        }
+      ]
+    },
+    {
+      "text": "GPT",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 472,
+          "paragraph_id": 2,
+          "char_start": 32451,
+          "char_end": 32454
+        }
+      ]
+    },
+    {
+      "text": "Peter",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 483,
+          "paragraph_id": 2,
+          "char_start": 33189,
+          "char_end": 33194
+        }
+      ]
+    },
+    {
+      "text": "Openshell",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 491,
+          "paragraph_id": 2,
+          "char_start": 33847,
+          "char_end": 33856
+        }
+      ]
+    },
+    {
+      "text": "Agentic",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 498,
+          "paragraph_id": 2,
+          "char_start": 34057,
+          "char_end": 34064
+        }
+      ]
+    },
+    {
+      "text": "Moore",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 509,
+          "paragraph_id": 2,
+          "char_start": 35172,
+          "char_end": 35177
+        }
+      ]
+    },
+    {
+      "text": "SK Hynix",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 525,
+          "paragraph_id": 2,
+          "char_start": 36405,
+          "char_end": 36413
+        }
+      ]
+    },
+    {
+      "text": "DDR",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 547,
+          "paragraph_id": 2,
+          "char_start": 37946,
+          "char_end": 37949
+        }
+      ]
+    },
+    {
+      "text": "Caterpillar",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 566,
+          "paragraph_id": 2,
+          "char_start": 39184,
+          "char_end": 39195
+        }
+      ]
+    },
+    {
+      "text": "DGX",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 585,
+          "paragraph_id": 2,
+          "char_start": 40362,
+          "char_end": 40365
+        }
+      ]
+    },
+    {
+      "text": "Nvlink-72",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 602,
+          "paragraph_id": 2,
+          "char_start": 41682,
+          "char_end": 41691
+        }
+      ]
+    },
+    {
+      "text": "Memphis",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 701,
+          "paragraph_id": 3,
+          "char_start": 48465,
+          "char_end": 48472
+        }
+      ]
+    },
+    {
+      "text": "Colossus",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 701,
+          "paragraph_id": 3,
+          "char_start": 48486,
+          "char_end": 48494
+        }
+      ]
+    },
+    {
+      "text": "Show",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 722,
+          "paragraph_id": 3,
+          "char_start": 49834,
+          "char_end": 49838
+        }
+      ]
+    },
+    {
+      "text": "NVIDIA Extreme Systems",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 746,
+          "paragraph_id": 3,
+          "char_start": 51625,
+          "char_end": 51651
+        }
+      ]
+    },
+    {
+      "text": "Rubin",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 788,
+          "paragraph_id": 4,
+          "char_start": 54883,
+          "char_end": 54888
+        }
+      ]
+    },
+    {
+      "text": "NVL",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 795,
+          "paragraph_id": 4,
+          "char_start": 55105,
+          "char_end": 55108
+        }
+      ]
+    },
+    {
+      "text": "Olympics",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 811,
+          "paragraph_id": 4,
+          "char_start": 56187,
+          "char_end": 56195
+        }
+      ]
+    },
+    {
+      "text": "Chinese",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 824,
+          "paragraph_id": 4,
+          "char_start": 57044,
+          "char_end": 57051
+        }
+      ]
+    },
+    {
+      "text": "EV",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 835,
+          "paragraph_id": 5,
+          "char_start": 57669,
+          "char_end": 57671
+        }
+      ]
+    },
+    {
+      "text": "Nemotron 3 Super",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 874,
+          "paragraph_id": 5,
+          "char_start": 60139,
+          "char_end": 60155
+        }
+      ]
+    },
+    {
+      "text": "Minimax",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 877,
+          "paragraph_id": 5,
+          "char_start": 60353,
+          "char_end": 60360
+        }
+      ]
+    },
+    {
+      "text": "Wafer",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 922,
+          "paragraph_id": 6,
+          "char_start": 64455,
+          "char_end": 64460
+        }
+      ]
+    },
+    {
+      "text": "Morris Chang",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 946,
+          "paragraph_id": 6,
+          "char_start": 66356,
+          "char_end": 66368
+        }
+      ]
+    },
+    {
+      "text": "Morris",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 952,
+          "paragraph_id": 6,
+          "char_start": 66679,
+          "char_end": 66685
+        }
+      ]
+    },
+    {
+      "text": "Google Cloud",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1010,
+          "paragraph_id": 7,
+          "char_start": 70372,
+          "char_end": 70384
+        }
+      ]
+    },
+    {
+      "text": "Amazon",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1010,
+          "paragraph_id": 7,
+          "char_start": 70397,
+          "char_end": 70403
+        }
+      ]
+    },
+    {
+      "text": "Azure",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1010,
+          "paragraph_id": 7,
+          "char_start": 70414,
+          "char_end": 70419
+        }
+      ]
+    },
+    {
+      "text": "AWS",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1011,
+          "paragraph_id": 7,
+          "char_start": 70448,
+          "char_end": 70451
+        }
+      ]
+    },
+    {
+      "text": "Coreweave",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1012,
+          "paragraph_id": 7,
+          "char_start": 70502,
+          "char_end": 70511
+        }
+      ]
+    },
+    {
+      "text": "Nscale",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1012,
+          "paragraph_id": 7,
+          "char_start": 70516,
+          "char_end": 70522
+        }
+      ]
+    },
+    {
+      "text": "Ampere",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1027,
+          "paragraph_id": 7,
+          "char_start": 71485,
+          "char_end": 71491
+        }
+      ]
+    },
+    {
+      "text": "Shopify",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1105,
+          "paragraph_id": 8,
+          "char_start": 75629,
+          "char_end": 75636
+        }
+      ]
+    },
+    {
+      "text": "LMNT",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1105,
+          "paragraph_id": 8,
+          "char_start": 75663,
+          "char_end": 75667
+        }
+      ]
+    },
+    {
+      "text": "Iphones",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1157,
+          "paragraph_id": 13,
+          "char_start": 78739,
+          "char_end": 78746
+        }
+      ]
+    },
+    {
+      "text": "Iphone",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1220,
+          "paragraph_id": 13,
+          "char_start": 83141,
+          "char_end": 83147
+        }
+      ]
+    },
+    {
+      "text": "Jim Cramer",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1275,
+          "paragraph_id": 15,
+          "char_start": 86201,
+          "char_end": 86211
+        }
+      ]
+    },
+    {
+      "text": "Call Of Duty",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1483,
+          "paragraph_id": 16,
+          "char_start": 97210,
+          "char_end": 97222
+        }
+      ]
+    },
+    {
+      "text": "Fortnite",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1484,
+          "paragraph_id": 16,
+          "char_start": 97244,
+          "char_end": 97252
+        }
+      ]
+    },
+    {
+      "text": "Blender",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1485,
+          "paragraph_id": 16,
+          "char_start": 97340,
+          "char_end": 97347
+        }
+      ]
+    },
+    {
+      "text": "Dassault",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1486,
+          "paragraph_id": 16,
+          "char_start": 97353,
+          "char_end": 97361
+        }
+      ]
+    },
+    {
+      "text": "Autodesk",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1486,
+          "paragraph_id": 16,
+          "char_start": 97366,
+          "char_end": 97374
+        }
+      ]
+    },
+    {
+      "text": "DLSS",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1530,
+          "paragraph_id": 16,
+          "char_start": 99436,
+          "char_end": 99440
+        }
+      ]
+    },
+    {
+      "text": "DLSS",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1531,
+          "paragraph_id": 16,
+          "char_start": 99460,
+          "char_end": 99464
+        }
+      ]
+    },
+    {
+      "text": "Virtua Fighter",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1563,
+          "paragraph_id": 16,
+          "char_start": 101463,
+          "char_end": 101477
+        }
+      ]
+    },
+    {
+      "text": "Skyrim",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1569,
+          "paragraph_id": 16,
+          "char_start": 101730,
+          "char_end": 101736
+        }
+      ]
+    },
+    {
+      "text": "Skyrim",
+      "label": "LOC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1576,
+          "paragraph_id": 16,
+          "char_start": 102208,
+          "char_end": 102214
+        }
+      ]
+    },
+    {
+      "text": "Claw",
+      "label": "MISC",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1606,
+          "paragraph_id": 17,
+          "char_start": 103741,
+          "char_end": 103745
+        }
+      ]
+    },
+    {
+      "text": "Building NVIDIA",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1625,
+          "paragraph_id": 17,
+          "char_start": 105169,
+          "char_end": 105184
+        }
+      ]
+    },
+    {
+      "text": "Radiologists",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1646,
+          "paragraph_id": 17,
+          "char_start": 106478,
+          "char_end": 106490
+        }
+      ]
+    },
+    {
+      "text": "COMPUTEX",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1796,
+          "paragraph_id": 23,
+          "char_start": 116259,
+          "char_end": 116267
+        }
+      ]
+    },
+    {
+      "text": "NVIDIA GTC Taiwan",
+      "label": "ORG",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 1797,
+          "paragraph_id": 23,
+          "char_start": 116269,
+          "char_end": 116286
+        }
+      ]
+    },
+    {
+      "text": "Alan Kay",
+      "label": "PER",
+      "count": 1,
+      "occurrences": [
+        {
+          "sentence_id": 2026,
+          "paragraph_id": 26,
+          "char_start": 128827,
+          "char_end": 128835
+        }
+      ]
+    }
+  ],
+  "video_id": "vif8NQcjVf0",
+  "video_title": "Jensen Huang: NVIDIA - The $4 Trillion Company & the AI Revolution | Lex Fridman Podcast #494"
+}

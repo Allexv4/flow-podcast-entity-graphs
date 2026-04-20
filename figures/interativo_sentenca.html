@@ -1,0 +1,708 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script type="text/javascript">
+function neighbourhoodHighlight(params) {
+  // console.log("in nieghbourhoodhighlight");
+  allNodes = nodes.get({ returnType: "Object" });
+  // originalNodes = JSON.parse(JSON.stringify(allNodes));
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    highlightActive = true;
+    var i, j;
+    var selectedNode = params.nodes[0];
+    var degrees = 2;
+
+    // mark all nodes as hard to read.
+    for (let nodeId in allNodes) {
+      // nodeColors[nodeId] = allNodes[nodeId].color;
+      allNodes[nodeId].color = "rgba(200,200,200,0.5)";
+      if (allNodes[nodeId].hiddenLabel === undefined) {
+        allNodes[nodeId].hiddenLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+    var connectedNodes = network.getConnectedNodes(selectedNode);
+    var allConnectedNodes = [];
+
+    // get the second degree nodes
+    for (i = 1; i < degrees; i++) {
+      for (j = 0; j < connectedNodes.length; j++) {
+        allConnectedNodes = allConnectedNodes.concat(
+          network.getConnectedNodes(connectedNodes[j])
+        );
+      }
+    }
+
+    // all second degree nodes get a different color and their label back
+    for (i = 0; i < allConnectedNodes.length; i++) {
+      // allNodes[allConnectedNodes[i]].color = "pink";
+      allNodes[allConnectedNodes[i]].color = "rgba(150,150,150,0.75)";
+      if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[allConnectedNodes[i]].label =
+          allNodes[allConnectedNodes[i]].hiddenLabel;
+        allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // all first degree nodes get their own color and their label back
+    for (i = 0; i < connectedNodes.length; i++) {
+      // allNodes[connectedNodes[i]].color = undefined;
+      allNodes[connectedNodes[i]].color = nodeColors[connectedNodes[i]];
+      if (allNodes[connectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[connectedNodes[i]].label =
+          allNodes[connectedNodes[i]].hiddenLabel;
+        allNodes[connectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // the main node gets its own color and its label back.
+    // allNodes[selectedNode].color = undefined;
+    allNodes[selectedNode].color = nodeColors[selectedNode];
+    if (allNodes[selectedNode].hiddenLabel !== undefined) {
+      allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
+      allNodes[selectedNode].hiddenLabel = undefined;
+    }
+  } else if (highlightActive === true) {
+    // console.log("highlightActive was true");
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      // allNodes[nodeId].color = "purple";
+      allNodes[nodeId].color = nodeColors[nodeId];
+      // delete allNodes[nodeId].color;
+      if (allNodes[nodeId].hiddenLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
+        allNodes[nodeId].hiddenLabel = undefined;
+      }
+    }
+    highlightActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    // console.log("Nothing was selected");
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        // allNodes[nodeId].color = {};
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function filterHighlight(params) {
+  allNodes = nodes.get({ returnType: "Object" });
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    filterActive = true;
+    let selectedNodes = params.nodes;
+
+    // hiding all nodes and saving the label
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = true;
+      if (allNodes[nodeId].savedLabel === undefined) {
+        allNodes[nodeId].savedLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+
+    for (let i=0; i < selectedNodes.length; i++) {
+      allNodes[selectedNodes[i]].hidden = false;
+      if (allNodes[selectedNodes[i]].savedLabel !== undefined) {
+        allNodes[selectedNodes[i]].label = allNodes[selectedNodes[i]].savedLabel;
+        allNodes[selectedNodes[i]].savedLabel = undefined;
+      }
+    }
+
+  } else if (filterActive === true) {
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = false;
+      if (allNodes[nodeId].savedLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].savedLabel;
+        allNodes[nodeId].savedLabel = undefined;
+      }
+    }
+    filterActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function selectNode(nodes) {
+  network.selectNodes(nodes);
+  neighbourhoodHighlight({ nodes: nodes });
+  return nodes;
+}
+
+function selectNodes(nodes) {
+  network.selectNodes(nodes);
+  filterHighlight({nodes: nodes});
+  return nodes;
+}
+
+function highlightFilter(filter) {
+  let selectedNodes = []
+  let selectedProp = filter['property']
+  if (filter['item'] === 'node') {
+    let allNodes = nodes.get({ returnType: "Object" });
+    for (let nodeId in allNodes) {
+      if (allNodes[nodeId][selectedProp] && filter['value'].includes((allNodes[nodeId][selectedProp]).toString())) {
+        selectedNodes.push(nodeId)
+      }
+    }
+  }
+  else if (filter['item'] === 'edge'){
+    let allEdges = edges.get({returnType: 'object'});
+    // check if the selected property exists for selected edge and select the nodes connected to the edge
+    for (let edge in allEdges) {
+      if (allEdges[edge][selectedProp] && filter['value'].includes((allEdges[edge][selectedProp]).toString())) {
+        selectedNodes.push(allEdges[edge]['from'])
+        selectedNodes.push(allEdges[edge]['to'])
+      }
+    }
+  }
+  selectNodes(selectedNodes)
+}
+</script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+                <link href="https://cdn.jsdelivr.net/npm/tom-select@2.3.1/dist/css/tom-select.css" rel="stylesheet">
+                <script src="https://cdn.jsdelivr.net/npm/tom-select@2.3.1/dist/js/tom-select.complete.min.js"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 100vh;
+                 background-color: #0f0f23;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+    <style>
+      #legend-panel {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.35s ease, opacity 0.35s ease, padding 0.25s ease;
+        opacity: 0;
+        padding: 0 20px;
+      }
+      #legend-panel.open {
+        max-height: 300px;
+        opacity: 1;
+        padding: 14px 20px;
+      }
+      #legend-toggle {
+        cursor: pointer;
+        user-select: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 16px;
+        border-radius: 10px;
+        background: rgba(15,15,35,0.92);
+        border: 1px solid rgba(255,255,255,0.18);
+        color: #e0e0e0;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        backdrop-filter: blur(8px);
+        box-shadow: 0 4px 18px rgba(0,0,0,0.45);
+        transition: background 0.2s;
+      }
+      #legend-toggle:hover { background: rgba(30,30,60,0.95); }
+      #legend-arrow { transition: transform 0.3s; font-size: 11px; }
+      #legend-arrow.open { transform: rotate(180deg); }
+    </style>
+
+    <div id="graph-legend" style="
+        position: fixed; bottom: 20px; left: 14px; z-index: 9999;
+        font-family: 'Segoe UI', sans-serif; color: #fff;
+    ">
+      <!-- Cabeçalho clicável -->
+      <div id="legend-toggle" onclick="toggleLegend()">
+        <span style="font-size:15px;">📊</span>
+        <span id="legend-title-short">Legenda</span>
+        <span id="legend-arrow">▲</span>
+      </div>
+
+      <!-- Conteúdo expansível -->
+      <div id="legend-panel" style="
+          background: rgba(15,15,35,0.92);
+          border: 1px solid rgba(255,255,255,0.15);
+          border-top: none;
+          border-radius: 0 0 10px 10px;
+          box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+          backdrop-filter: blur(8px);
+      ">
+        <div style="font-size:13px; font-weight:700; margin-bottom:10px; color:#c8d6e5; line-height:1.4;">
+            Grafo Interativo — Sentença
+        </div>
+        <div style="display:flex; flex-direction:column; gap:8px;">
+            <span style="display:flex;align-items:center;gap:8px;">
+                <span style="width:13px;height:13px;border-radius:50%;background:#4A90D9;flex-shrink:0;"></span>
+                <span style="font-size:12px;">Pessoas (PER)</span>
+            </span>
+            <span style="display:flex;align-items:center;gap:8px;">
+                <span style="width:13px;height:13px;border-radius:50%;background:#E74C3C;flex-shrink:0;"></span>
+                <span style="font-size:12px;">Organizações (ORG)</span>
+            </span>
+            <span style="display:flex;align-items:center;gap:8px;">
+                <span style="width:13px;height:13px;border-radius:50%;background:#2ECC71;flex-shrink:0;"></span>
+                <span style="font-size:12px;">Locais (LOC)</span>
+            </span>
+            <span style="display:flex;align-items:center;gap:8px;">
+                <span style="width:13px;height:13px;border-radius:50%;background:#95A5A6;flex-shrink:0;"></span>
+                <span style="font-size:12px;">Outros (MISC)</span>
+            </span>
+        </div>
+        <div style="font-size:11px; margin-top:10px; color:#777; border-top:1px solid rgba(255,255,255,0.08); padding-top:8px;">
+            Tamanho do nó = grau de conexões
+        </div>
+      </div><!-- /legend-panel -->
+    </div><!-- /graph-legend -->
+
+    <script>
+      function toggleLegend() {
+        var panel = document.getElementById('legend-panel');
+        var arrow = document.getElementById('legend-arrow');
+        panel.classList.toggle('open');
+        arrow.classList.toggle('open');
+      }
+    </script>
+    
+        <div class="card" style="width: 100%">
+            
+                <div id="select-menu" class="card-header">
+                    <div class="row no-gutters">
+                        <div class="col-10 pb-2">
+                            <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="selectNode([value]);"
+                            id="select-node"
+                            placeholder="Select node..."
+                            >
+                                <option selected>Select a Node by ID</option>
+                                
+                                    <option value="AI">AI</option>
+                                
+                                    <option value="GPU">GPU</option>
+                                
+                                    <option value="ASML">ASML</option>
+                                
+                                    <option value="SK Hynix">SK Hynix</option>
+                                
+                                    <option value="TSMC">TSMC</option>
+                                
+                                    <option value="NVIDIA">NVIDIA</option>
+                                
+                                    <option value="CUDA">CUDA</option>
+                                
+                                    <option value="LMNT">LMNT</option>
+                                
+                                    <option value="Shopify">Shopify</option>
+                                
+                                    <option value="United States">United States</option>
+                                
+                                    <option value="DLSS">DLSS</option>
+                                
+                                    <option value="Jensen Huang">Jensen Huang</option>
+                                
+                                    <option value="AI Revolution">AI Revolution</option>
+                                
+                                    <option value="Jensen">Jensen</option>
+                                
+                                    <option value="CPU">CPU</option>
+                                
+                                    <option value="Geforce">Geforce</option>
+                                
+                                    <option value="China">China</option>
+                                
+                                    <option value="Minimax">Minimax</option>
+                                
+                                    <option value="Jim Cramer">Jim Cramer</option>
+                                
+                                    <option value="Call Of Duty">Call Of Duty</option>
+                                
+                                    <option value="Blender">Blender</option>
+                                
+                                    <option value="Opencl">Opencl</option>
+                                
+                                    <option value="Olympics">Olympics</option>
+                                
+                                    <option value="Taiwan">Taiwan</option>
+                                
+                                    <option value="Morris Chang">Morris Chang</option>
+                                
+                                    <option value="IEEE">IEEE</option>
+                                
+                                    <option value="Vera">Vera</option>
+                                
+                                    <option value="Claude">Claude</option>
+                                
+                                    <option value="Codex">Codex</option>
+                                
+                                    <option value="GPT">GPT</option>
+                                
+                                    <option value="Colossus">Colossus</option>
+                                
+                                    <option value="Elon">Elon</option>
+                                
+                                    <option value="Memphis">Memphis</option>
+                                
+                                    <option value="NVIDIA Extreme Systems">NVIDIA Extreme Systems</option>
+                                
+                                    <option value="Nvlink 72">Nvlink 72</option>
+                                
+                                    <option value="Vera Rubin">Vera Rubin</option>
+                                
+                                    <option value="Grace Blackwell">Grace Blackwell</option>
+                                
+                                    <option value="LLM">LLM</option>
+                                
+                                    <option value="Dennard">Dennard</option>
+                                
+                                    <option value="Moore">Moore</option>
+                                
+                                    <option value="Ilya">Ilya</option>
+                                
+                                    <option value="Ilya Sutskever">Ilya Sutskever</option>
+                                
+                                    <option value="Amazon">Amazon</option>
+                                
+                                    <option value="Azure">Azure</option>
+                                
+                                    <option value="Google Cloud">Google Cloud</option>
+                                
+                                    <option value="Coreweave">Coreweave</option>
+                                
+                                    <option value="Nscale">Nscale</option>
+                                
+                                    <option value="Autodesk">Autodesk</option>
+                                
+                                    <option value="Dassault">Dassault</option>
+                                
+                            </select>
+                        </div>
+                        <div class="col-2 pb-2">
+                            <button type="button" class="btn btn-primary btn-block" onclick="neighbourhoodHighlight({nodes: []});">Reset Selection</button>
+                        </div>
+                    </div>
+                </div>
+            
+            
+              <div id="filter-menu" class="card-header">
+                <div class="row no-gutters">
+                  <div class="col-3 pb-2">
+                    <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="updateFilter(value, 'item')"
+                            id="select-item"
+                        >
+                        <option value="">Select a network item</option>
+                        <option value="edge">edge</option>
+                        <option value="node">node</option>
+                    </select>
+                  </div>
+                  <div class="col-3 pb-2">
+                    <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="updateFilter(value, 'property')"
+                            id="select-property"
+                        >
+                        <option value="">Select a property...</option>
+                    </select>
+                  </div>
+                  <div class="col-3 pb-2">
+                    <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            id="select-value"
+                        >
+                        <option value="">Select value(s)...</option>
+                    </select>
+                  </div>
+                  <div class="col-1 pb-2">
+                    <button type="button" class="btn btn-primary btn-block" onclick="highlightFilter(filter);">Filter</button>
+                  </div>
+                  <div class="col-2 pb-2">
+                    <button type="button" class="btn btn-primary btn-block" onclick="clearFilter(true)">Reset Selection</button>
+                  </div>
+                </div>
+              </div>
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+                  new TomSelect("#select-node",{
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      }
+                  });
+              
+
+              
+                  // explicitly using onItemAdd and this function as we need to save multiple values
+                  let updateValueFilter = function() {
+                      return function () {
+                      filter['value'].push(arguments[0])
+                      }
+                  }
+
+                  let valueControl = new TomSelect("#select-value",{
+                      maxItems: null,
+                      valueField: 'id',
+                      labelField: 'title',
+                      searchField: 'title',
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      },
+                      onItemAdd: updateValueFilter()
+                  });
+
+                  let addValues = function() {
+                      return function () {
+                          // clear the current value options and add the selected attribute values
+                          // tom-select handles duplicates
+                          let selectedProperty = arguments[0];
+                          valueControl.clear();
+                          valueControl.clearOptions();
+                          filter['value'] = []
+                          if (filter['item'] === 'node') {
+                              for (let each in allNodes) {
+                                  valueControl.addOption({
+                                      id:allNodes[each][selectedProperty],
+                                      title:allNodes[each][selectedProperty]
+                                  })
+                              }
+                          }
+                          else if (filter['item'] === 'edge') {
+                              for (let each in allEdges) {
+                                  valueControl.addOption({
+                                      id:allEdges[each][selectedProperty],
+                                      title:allEdges[each][selectedProperty]
+                                  })
+                              }
+                          }
+                      }
+                  };
+
+                  let propControl = new TomSelect("#select-property",{
+                      valueField: 'id',
+                      labelField: 'title',
+                      searchField: 'title',
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      },
+                      onItemAdd: addValues()
+                  });
+
+                  let addProperties = function() {
+                      return function () {
+                          // loops through the selected network item and adds the attributes to dropdown
+                          // tom-select handles duplicates
+                          clearFilter(false)
+                          if (arguments[0] === 'edge') {
+                              for (let each in allEdges) {
+                                  if (allEdges.hasOwnProperty(each)) {
+                                      for (let eachProp in allEdges[each]) {
+                                          if (allEdges[each].hasOwnProperty(eachProp)) {
+                                              propControl.addOption({id: eachProp, title: eachProp})
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+                          else if (arguments[0] === 'node') {
+                              for (let each in allNodes) {
+                                  if (allNodes.hasOwnProperty(each)) {
+                                      for (let eachProp in allNodes[each]) {
+                                          if (allNodes[each].hasOwnProperty(eachProp)
+                                              && (eachProp !== 'hidden' && eachProp !== 'savedLabel'
+                                                  && eachProp !== 'hiddenLabel')) {
+                                              propControl.addOption({id: eachProp, title: eachProp})
+
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+                      }
+                  };
+
+                  let itemControl = new TomSelect("#select-item",{
+                      create: false,
+                      sortField:{
+                          field: "text",
+                          direction: "asc"
+                      },
+                      onItemAdd: addProperties()
+                  });
+
+                  function clearFilter(reset) {
+                      // utility function to clear all the selected filter options
+                      // if reset is set to true, the existing filter will be removed
+                      // else, only the dropdown options are cleared
+                      propControl.clear();
+                      propControl.clearOptions();
+                      valueControl.clear();
+                      valueControl.clearOptions();
+                      filter = {
+                          item : '',
+                          property : '',
+                          value : []
+                      }
+                      if (reset) {
+                          itemControl.clear();
+                          filterHighlight({nodes: []})
+                      }
+                  }
+
+                  function updateFilter(value, key) {
+                      // key could be 'item' or 'property' and value is as selected in dropdown
+                      filter[key] = value
+                  }
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#2ECC71", "font": {"color": "#ffffff"}, "id": "AI", "label": "AI", "shape": "dot", "size": 39.25, "title": "\u003cb\u003eAI\u003c/b\u003e\u003cbr\u003eTipo: Locais (LOC)\u003cbr\u003eGrau (conex\u00f5es): 10"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "GPU", "label": "GPU", "shape": "dot", "size": 20.5, "title": "\u003cb\u003eGPU\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 4"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "ASML", "label": "ASML", "shape": "dot", "size": 20.5, "title": "\u003cb\u003eASML\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 4"}, {"color": "#4A90D9", "font": {"color": "#ffffff"}, "id": "SK Hynix", "label": "SK Hynix", "shape": "dot", "size": 17.375, "title": "\u003cb\u003eSK Hynix\u003c/b\u003e\u003cbr\u003eTipo: Pessoas (PER)\u003cbr\u003eGrau (conex\u00f5es): 3"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "TSMC", "label": "TSMC", "shape": "dot", "size": 29.875, "title": "\u003cb\u003eTSMC\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 7"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "NVIDIA", "label": "NVIDIA", "shape": "dot", "size": 58.0, "title": "\u003cb\u003eNVIDIA\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 16"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "CUDA", "label": "CUDA", "shape": "dot", "size": 23.625, "title": "\u003cb\u003eCUDA\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 5"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "LMNT", "label": "LMNT", "shape": "dot", "size": 14.25, "title": "\u003cb\u003eLMNT\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 2"}, {"color": "#95A5A6", "font": {"color": "#ffffff"}, "id": "Shopify", "label": "Shopify", "shape": "dot", "size": 14.25, "title": "\u003cb\u003eShopify\u003c/b\u003e\u003cbr\u003eTipo: Outros (MISC)\u003cbr\u003eGrau (conex\u00f5es): 2"}, {"color": "#2ECC71", "font": {"color": "#ffffff"}, "id": "United States", "label": "United States", "shape": "dot", "size": 14.25, "title": "\u003cb\u003eUnited States\u003c/b\u003e\u003cbr\u003eTipo: Locais (LOC)\u003cbr\u003eGrau (conex\u00f5es): 2"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "DLSS", "label": "DLSS", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eDLSS\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#4A90D9", "font": {"color": "#ffffff"}, "id": "Jensen Huang", "label": "Jensen Huang", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eJensen Huang\u003c/b\u003e\u003cbr\u003eTipo: Pessoas (PER)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#95A5A6", "font": {"color": "#ffffff"}, "id": "AI Revolution", "label": "AI Revolution", "shape": "dot", "size": 14.25, "title": "\u003cb\u003eAI Revolution\u003c/b\u003e\u003cbr\u003eTipo: Outros (MISC)\u003cbr\u003eGrau (conex\u00f5es): 2"}, {"color": "#4A90D9", "font": {"color": "#ffffff"}, "id": "Jensen", "label": "Jensen", "shape": "dot", "size": 17.375, "title": "\u003cb\u003eJensen\u003c/b\u003e\u003cbr\u003eTipo: Pessoas (PER)\u003cbr\u003eGrau (conex\u00f5es): 3"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "CPU", "label": "CPU", "shape": "dot", "size": 17.375, "title": "\u003cb\u003eCPU\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 3"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "Geforce", "label": "Geforce", "shape": "dot", "size": 14.25, "title": "\u003cb\u003eGeforce\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 2"}, {"color": "#2ECC71", "font": {"color": "#ffffff"}, "id": "China", "label": "China", "shape": "dot", "size": 17.375, "title": "\u003cb\u003eChina\u003c/b\u003e\u003cbr\u003eTipo: Locais (LOC)\u003cbr\u003eGrau (conex\u00f5es): 3"}, {"color": "#4A90D9", "font": {"color": "#ffffff"}, "id": "Minimax", "label": "Minimax", "shape": "dot", "size": 14.25, "title": "\u003cb\u003eMinimax\u003c/b\u003e\u003cbr\u003eTipo: Pessoas (PER)\u003cbr\u003eGrau (conex\u00f5es): 2"}, {"color": "#4A90D9", "font": {"color": "#ffffff"}, "id": "Jim Cramer", "label": "Jim Cramer", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eJim Cramer\u003c/b\u003e\u003cbr\u003eTipo: Pessoas (PER)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "Call Of Duty", "label": "Call Of Duty", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eCall Of Duty\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "Blender", "label": "Blender", "shape": "dot", "size": 14.25, "title": "\u003cb\u003eBlender\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 2"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "Opencl", "label": "Opencl", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eOpencl\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#95A5A6", "font": {"color": "#ffffff"}, "id": "Olympics", "label": "Olympics", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eOlympics\u003c/b\u003e\u003cbr\u003eTipo: Outros (MISC)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#2ECC71", "font": {"color": "#ffffff"}, "id": "Taiwan", "label": "Taiwan", "shape": "dot", "size": 17.375, "title": "\u003cb\u003eTaiwan\u003c/b\u003e\u003cbr\u003eTipo: Locais (LOC)\u003cbr\u003eGrau (conex\u00f5es): 3"}, {"color": "#4A90D9", "font": {"color": "#ffffff"}, "id": "Morris Chang", "label": "Morris Chang", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eMorris Chang\u003c/b\u003e\u003cbr\u003eTipo: Pessoas (PER)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "IEEE", "label": "IEEE", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eIEEE\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "Vera", "label": "Vera", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eVera\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#4A90D9", "font": {"color": "#ffffff"}, "id": "Claude", "label": "Claude", "shape": "dot", "size": 14.25, "title": "\u003cb\u003eClaude\u003c/b\u003e\u003cbr\u003eTipo: Pessoas (PER)\u003cbr\u003eGrau (conex\u00f5es): 2"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "Codex", "label": "Codex", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eCodex\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "GPT", "label": "GPT", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eGPT\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "Colossus", "label": "Colossus", "shape": "dot", "size": 14.25, "title": "\u003cb\u003eColossus\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 2"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "Elon", "label": "Elon", "shape": "dot", "size": 17.375, "title": "\u003cb\u003eElon\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 3"}, {"color": "#2ECC71", "font": {"color": "#ffffff"}, "id": "Memphis", "label": "Memphis", "shape": "dot", "size": 14.25, "title": "\u003cb\u003eMemphis\u003c/b\u003e\u003cbr\u003eTipo: Locais (LOC)\u003cbr\u003eGrau (conex\u00f5es): 2"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "NVIDIA Extreme Systems", "label": "NVIDIA Extreme Systems", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eNVIDIA Extreme Systems\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#95A5A6", "font": {"color": "#ffffff"}, "id": "Nvlink 72", "label": "Nvlink 72", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eNvlink 72\u003c/b\u003e\u003cbr\u003eTipo: Outros (MISC)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "Vera Rubin", "label": "Vera Rubin", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eVera Rubin\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#4A90D9", "font": {"color": "#ffffff"}, "id": "Grace Blackwell", "label": "Grace Blackwell", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eGrace Blackwell\u003c/b\u003e\u003cbr\u003eTipo: Pessoas (PER)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "LLM", "label": "LLM", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eLLM\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#95A5A6", "font": {"color": "#ffffff"}, "id": "Dennard", "label": "Dennard", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eDennard\u003c/b\u003e\u003cbr\u003eTipo: Outros (MISC)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#4A90D9", "font": {"color": "#ffffff"}, "id": "Moore", "label": "Moore", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eMoore\u003c/b\u003e\u003cbr\u003eTipo: Pessoas (PER)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#4A90D9", "font": {"color": "#ffffff"}, "id": "Ilya", "label": "Ilya", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eIlya\u003c/b\u003e\u003cbr\u003eTipo: Pessoas (PER)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#4A90D9", "font": {"color": "#ffffff"}, "id": "Ilya Sutskever", "label": "Ilya Sutskever", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eIlya Sutskever\u003c/b\u003e\u003cbr\u003eTipo: Pessoas (PER)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "Amazon", "label": "Amazon", "shape": "dot", "size": 14.25, "title": "\u003cb\u003eAmazon\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 2"}, {"color": "#2ECC71", "font": {"color": "#ffffff"}, "id": "Azure", "label": "Azure", "shape": "dot", "size": 14.25, "title": "\u003cb\u003eAzure\u003c/b\u003e\u003cbr\u003eTipo: Locais (LOC)\u003cbr\u003eGrau (conex\u00f5es): 2"}, {"color": "#95A5A6", "font": {"color": "#ffffff"}, "id": "Google Cloud", "label": "Google Cloud", "shape": "dot", "size": 14.25, "title": "\u003cb\u003eGoogle Cloud\u003c/b\u003e\u003cbr\u003eTipo: Outros (MISC)\u003cbr\u003eGrau (conex\u00f5es): 2"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "Coreweave", "label": "Coreweave", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eCoreweave\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "Nscale", "label": "Nscale", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eNscale\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "Autodesk", "label": "Autodesk", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eAutodesk\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 1"}, {"color": "#E74C3C", "font": {"color": "#ffffff"}, "id": "Dassault", "label": "Dassault", "shape": "dot", "size": 11.125, "title": "\u003cb\u003eDassault\u003c/b\u003e\u003cbr\u003eTipo: Organiza\u00e7\u00f5es (ORG)\u003cbr\u003eGrau (conex\u00f5es): 1"}]);
+                  edges = new vis.DataSet([{"color": "rgba(255,255,255,0.15)", "from": "AI", "title": "Co-ocorr\u00eancias: 1", "to": "GPU", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "AI", "title": "Co-ocorr\u00eancias: 1", "to": "ASML", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "AI", "title": "Co-ocorr\u00eancias: 1", "to": "SK Hynix", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "AI", "title": "Co-ocorr\u00eancias: 1", "to": "TSMC", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "AI", "title": "Co-ocorr\u00eancias: 3", "to": "NVIDIA", "value": 2.857142857142857}, {"color": "rgba(255,255,255,0.15)", "from": "AI", "title": "Co-ocorr\u00eancias: 1", "to": "CUDA", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "AI", "title": "Co-ocorr\u00eancias: 1", "to": "LMNT", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "AI", "title": "Co-ocorr\u00eancias: 1", "to": "Shopify", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "AI", "title": "Co-ocorr\u00eancias: 1", "to": "United States", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "AI", "title": "Co-ocorr\u00eancias: 1", "to": "DLSS", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "GPU", "title": "Co-ocorr\u00eancias: 2", "to": "CPU", "value": 2.071428571428571}, {"color": "rgba(255,255,255,0.15)", "from": "GPU", "title": "Co-ocorr\u00eancias: 1", "to": "NVIDIA", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "GPU", "title": "Co-ocorr\u00eancias: 1", "to": "IEEE", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "ASML", "title": "Co-ocorr\u00eancias: 1", "to": "SK Hynix", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "ASML", "title": "Co-ocorr\u00eancias: 2", "to": "TSMC", "value": 2.071428571428571}, {"color": "rgba(255,255,255,0.15)", "from": "ASML", "title": "Co-ocorr\u00eancias: 1", "to": "NVIDIA", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "SK Hynix", "title": "Co-ocorr\u00eancias: 1", "to": "TSMC", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "TSMC", "title": "Co-ocorr\u00eancias: 1", "to": "NVIDIA", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "TSMC", "title": "Co-ocorr\u00eancias: 1", "to": "Olympics", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "TSMC", "title": "Co-ocorr\u00eancias: 1", "to": "Taiwan", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "TSMC", "title": "Co-ocorr\u00eancias: 1", "to": "Morris Chang", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "NVIDIA", "title": "Co-ocorr\u00eancias: 1", "to": "Jensen Huang", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "NVIDIA", "title": "Co-ocorr\u00eancias: 1", "to": "AI Revolution", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "NVIDIA", "title": "Co-ocorr\u00eancias: 1", "to": "Jensen", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "NVIDIA", "title": "Co-ocorr\u00eancias: 1", "to": "CPU", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "NVIDIA", "title": "Co-ocorr\u00eancias: 3", "to": "CUDA", "value": 2.857142857142857}, {"color": "rgba(255,255,255,0.15)", "from": "NVIDIA", "title": "Co-ocorr\u00eancias: 1", "to": "Geforce", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "NVIDIA", "title": "Co-ocorr\u00eancias: 1", "to": "China", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "NVIDIA", "title": "Co-ocorr\u00eancias: 1", "to": "Minimax", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "NVIDIA", "title": "Co-ocorr\u00eancias: 1", "to": "United States", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "NVIDIA", "title": "Co-ocorr\u00eancias: 1", "to": "Jim Cramer", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "NVIDIA", "title": "Co-ocorr\u00eancias: 1", "to": "Call Of Duty", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "NVIDIA", "title": "Co-ocorr\u00eancias: 1", "to": "Blender", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "CUDA", "title": "Co-ocorr\u00eancias: 7", "to": "Geforce", "value": 6.0}, {"color": "rgba(255,255,255,0.15)", "from": "CUDA", "title": "Co-ocorr\u00eancias: 1", "to": "Blender", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "CUDA", "title": "Co-ocorr\u00eancias: 1", "to": "Opencl", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "LMNT", "title": "Co-ocorr\u00eancias: 1", "to": "Shopify", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "AI Revolution", "title": "Co-ocorr\u00eancias: 1", "to": "Jensen", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "Jensen", "title": "Co-ocorr\u00eancias: 1", "to": "Taiwan", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "CPU", "title": "Co-ocorr\u00eancias: 1", "to": "Vera", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "China", "title": "Co-ocorr\u00eancias: 1", "to": "Minimax", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "China", "title": "Co-ocorr\u00eancias: 1", "to": "Taiwan", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "Claude", "title": "Co-ocorr\u00eancias: 3", "to": "Codex", "value": 2.857142857142857}, {"color": "rgba(255,255,255,0.15)", "from": "Claude", "title": "Co-ocorr\u00eancias: 1", "to": "GPT", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "Colossus", "title": "Co-ocorr\u00eancias: 1", "to": "Elon", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "Colossus", "title": "Co-ocorr\u00eancias: 1", "to": "Memphis", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "Elon", "title": "Co-ocorr\u00eancias: 1", "to": "Memphis", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "Elon", "title": "Co-ocorr\u00eancias: 1", "to": "NVIDIA Extreme Systems", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "Nvlink 72", "title": "Co-ocorr\u00eancias: 1", "to": "Vera Rubin", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "Grace Blackwell", "title": "Co-ocorr\u00eancias: 1", "to": "LLM", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "Dennard", "title": "Co-ocorr\u00eancias: 1", "to": "Moore", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "Ilya", "title": "Co-ocorr\u00eancias: 1", "to": "Ilya Sutskever", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "Amazon", "title": "Co-ocorr\u00eancias: 1", "to": "Azure", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "Amazon", "title": "Co-ocorr\u00eancias: 1", "to": "Google Cloud", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "Azure", "title": "Co-ocorr\u00eancias: 1", "to": "Google Cloud", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "Coreweave", "title": "Co-ocorr\u00eancias: 1", "to": "Nscale", "value": 1.2857142857142856}, {"color": "rgba(255,255,255,0.15)", "from": "Autodesk", "title": "Co-ocorr\u00eancias: 1", "to": "Dassault", "value": 1.2857142857142856}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"forceAtlas2Based": {"gravitationalConstant": -80, "centralGravity": 0.015, "springLength": 120, "springConstant": 0.06, "avoidOverlap": 0.6}, "minVelocity": 0.75, "solver": "forceAtlas2Based", "stabilization": {"enabled": true, "iterations": 200, "updateInterval": 50, "onlyDynamicEdges": false, "fit": true}, "timestep": 0.5}, "layout": {"improvedLayout": false}, "interaction": {"hover": true, "tooltipDelay": 100, "navigationButtons": true, "keyboard": true}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+                    network.on("selectNode", neighbourhoodHighlight);
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

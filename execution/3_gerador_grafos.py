@@ -89,7 +89,7 @@ def build_graph_by_paragraph(all_data):
     return _build_graph_by_grouping(all_data, "paragraph_id")
 
 
-def build_graph_by_k_chars(all_data, k=500):
+def build_graph_by_k_chars(all_data, k=4000):
     G = nx.Graph()
     edge_w = defaultdict(int)
     node_freq = defaultdict(int)

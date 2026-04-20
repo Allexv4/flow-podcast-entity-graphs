@@ -2,7 +2,7 @@
 =============================================================================
 Script 2: Extrator de Entidades Nomeadas (NER)
 =============================================================================
-Utiliza spaCy com o modelo pt_core_news_lg para extrair e classificar
+Utiliza spaCy com modelo adequado ao idioma para extrair e classificar
 entidades nomeadas das transcrições processadas.
 
 Uso:
@@ -36,8 +36,30 @@ CONFIG_PATH = ROOT_DIR / "config" / "videos.yaml"
 PROCESSED_DIR = ROOT_DIR / "data" / "processed"
 NER_OUTPUT_DIR = ROOT_DIR / "data" / "ner_output"
 
-# Modelo spaCy para português
-SPACY_MODEL = "pt_core_news_lg"
+# Mapeamento de modelo spaCy por idioma
+SPACY_MODELS = {
+    "pt": "pt_core_news_lg",
+    "en": "en_core_web_lg",
+}
+
+# Mapeamento de labels do spaCy para labels do projeto
+# O spaCy inglês usa labels diferentes do português
+LABEL_MAP = {
+    # Português (pt_core_news_lg)
+    "PER": "PER",
+    "ORG": "ORG",
+    "LOC": "LOC",
+    "MISC": "MISC",
+    # Inglês (en_core_web_lg)
+    "PERSON": "PER",
+    "GPE": "LOC",        # Geopolitical entities (countries, cities, states)
+    "NORP": "MISC",      # Nationalities, religious/political groups
+    "FAC": "LOC",        # Facilities (buildings, airports, highways)
+    "EVENT": "MISC",     # Named events (wars, sports events)
+    "WORK_OF_ART": "MISC",
+    "LAW": "MISC",
+    "PRODUCT": "MISC",   # Products (vehicles, weapons, food, NOT services)
+}
 
 
 def load_config() -> dict:
@@ -56,7 +78,7 @@ def load_text(filepath: Path) -> str:
     return "".join(content_lines).strip()
 
 
-def normalize_entity(text: str) -> str:
+def normalize_entity(text: str, language: str = "en") -> str:
     """
     Normaliza o texto de uma entidade para evitar duplicatas.
 
@@ -66,14 +88,21 @@ def normalize_entity(text: str) -> str:
     """
     text = text.strip()
 
-    # Remover artigos/preposições iniciais comuns em português
-    prefixes = [
-        "o ", "a ", "os ", "as ",
-        "um ", "uma ", "uns ", "umas ",
-        "do ", "da ", "dos ", "das ",
-        "no ", "na ", "nos ", "nas ",
-        "ao ", "à ", "aos ", "às ",
-    ]
+    if language == "pt":
+        # Remover artigos/preposições iniciais comuns em português
+        prefixes = [
+            "o ", "a ", "os ", "as ",
+            "um ", "uma ", "uns ", "umas ",
+            "do ", "da ", "dos ", "das ",
+            "no ", "na ", "nos ", "nas ",
+            "ao ", "à ", "aos ", "às ",
+        ]
+    else:
+        # Remover artigos iniciais em inglês
+        prefixes = [
+            "the ", "a ", "an ",
+        ]
+
     text_lower = text.lower()
     for prefix in prefixes:
         if text_lower.startswith(prefix) and len(text) > len(prefix) + 1:
@@ -88,7 +117,7 @@ def normalize_entity(text: str) -> str:
     normalized_words = []
     for word in words:
         if word.isupper() and len(word) >= 2:
-            normalized_words.append(word)  # Preservar siglas (ex: UFRN, IBM)
+            normalized_words.append(word)  # Preservar siglas (ex: NVIDIA, IBM, AI)
         else:
             normalized_words.append(word.title())
     
@@ -114,10 +143,10 @@ def is_valid_entity(text: str, label: str, min_length: int = 2) -> bool:
     if re.match(r"^[\W\d]+$", text):
         return False
 
-    # Ruídos comuns em transcrições do YouTube
+    # Ruídos comuns em transcrições do YouTube (multilíngue)
     noise_patterns = [
-        r"^\[.*\]$",        # [Música], [Risos], etc.
-        r"^(hum|uhm|ah|eh|né|tá|aí|ué|ahn)$",
+        r"^\[.*\]$",         # [Música], [Music], [Risos], etc.
+        r"^(hum|uhm|ah|eh|né|tá|aí|ué|ahn|um|uh|oh|yeah|like|okay|ok|right)$",
     ]
     for pattern in noise_patterns:
         if re.match(pattern, text, re.IGNORECASE):
@@ -157,6 +186,7 @@ def extract_entities(nlp, text: str, config: dict) -> dict:
     """
     min_length = config.get("project", {}).get("min_entity_length", 2)
     allowed_labels = set(config.get("project", {}).get("ner_labels", ["PER", "ORG", "LOC", "MISC"]))
+    language = config.get("project", {}).get("language", "en")
 
     # Segmentar texto
     sentences, paragraphs = segment_text(text)
@@ -216,18 +246,21 @@ def extract_entities(nlp, text: str, config: dict) -> dict:
 
     for ent in all_entities_raw:
         raw_text = ent["text"]
-        label = ent["label"]
+        raw_label = ent["label"]
+
+        # Mapear label do spaCy para label do projeto
+        mapped_label = LABEL_MAP.get(raw_label, None)
 
         # Filtrar labels não desejadas
-        if label not in allowed_labels:
+        if mapped_label is None or mapped_label not in allowed_labels:
             continue
 
         # Validar entidade
-        if not is_valid_entity(raw_text, label, min_length):
+        if not is_valid_entity(raw_text, mapped_label, min_length):
             continue
 
         # Normalizar
-        normalized = normalize_entity(raw_text)
+        normalized = normalize_entity(raw_text, language)
         if not normalized or len(normalized) < min_length:
             continue
 
@@ -248,9 +281,9 @@ def extract_entities(nlp, text: str, config: dict) -> dict:
                 break
 
         # Adicionar ao mapa
-        key = (normalized, label)
+        key = (normalized, mapped_label)
         entity_map[key]["text"] = normalized
-        entity_map[key]["label"] = label
+        entity_map[key]["label"] = mapped_label
         entity_map[key]["count"] += 1
         entity_map[key]["occurrences"].append({
             "sentence_id": sentence_id,
@@ -281,15 +314,19 @@ def main():
     # Carregar configuração
     config = load_config()
     videos = config.get("videos", [])
+    language = config.get("project", {}).get("language", "en")
+
+    # Selecionar modelo spaCy baseado no idioma
+    spacy_model = SPACY_MODELS.get(language, "en_core_web_lg")
 
     # Carregar modelo spaCy
-    print(f"\n🔧 Carregando modelo spaCy: {SPACY_MODEL}")
+    print(f"\n🔧 Carregando modelo spaCy: {spacy_model} (idioma: {language})")
     try:
-        nlp = spacy.load(SPACY_MODEL)
+        nlp = spacy.load(spacy_model)
         print(f"  ✓ Modelo carregado com sucesso")
     except OSError:
-        print(f"  ✗ Modelo '{SPACY_MODEL}' não encontrado!")
-        print(f"  → Execute: python -m spacy download {SPACY_MODEL}")
+        print(f"  ✗ Modelo '{spacy_model}' não encontrado!")
+        print(f"  → Execute: python -m spacy download {spacy_model}")
         sys.exit(1)
 
     # Desativar componentes desnecessários para performance
